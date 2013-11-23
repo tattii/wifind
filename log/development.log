@@ -1,0 +1,956 @@
+[Mon Oct 28 02:23:59 2013] [info] Listening at "http://*:3000".
+[Mon Oct 28 02:24:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 28 02:24:10 2013] [debug] GET "/".
+[Mon Oct 28 02:24:10 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Mon Oct 28 02:24:10 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Oct 28 02:24:10 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Oct 28 02:24:10 2013] [debug] 200 OK (0.012323s, 81.149/s).
+[Mon Oct 28 02:24:29 2013] [debug] GET "/example".
+[Mon Oct 28 02:24:29 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 02:24:29 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 02:24:29 2013] [debug] Rendering inline template.
+[Mon Oct 28 02:24:29 2013] [debug] Rendering inline template.
+[Mon Oct 28 02:24:29 2013] [debug] 404 Not Found (0.020499s, 48.783/s).
+[Mon Oct 28 05:14:56 2013] [info] Listening at "http://*:3000".
+[Mon Oct 28 05:15:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 28 05:15:09 2013] [debug] GET "/".
+[Mon Oct 28 05:15:09 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Mon Oct 28 05:15:09 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Oct 28 05:15:09 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Oct 28 05:15:09 2013] [debug] 200 OK (0.014131s, 70.766/s).
+[Mon Oct 28 05:15:15 2013] [debug] GET "/spot".
+[Mon Oct 28 05:15:15 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:15:15 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:15:15 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:15:15 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:15:15 2013] [debug] 404 Not Found (0.025473s, 39.257/s).
+[Mon Oct 28 05:15:20 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:15:20 2013] [error] syntax error at /Users/tattii/Workspace/wifind/wifind/script/../lib/Wifind/Spot.pm line 4, near "sub spot "
+syntax error at /Users/tattii/Workspace/wifind/wifind/script/../lib/Wifind/Spot.pm line 8, near "}"
+Compilation failed in require at (eval 249) line 1.
+
+[Mon Oct 28 05:15:20 2013] [debug] Template "exception.development.html.ep" not found.
+[Mon Oct 28 05:15:20 2013] [debug] Template "exception.html.ep" not found.
+[Mon Oct 28 05:15:20 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:15:20 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:15:20 2013] [debug] 500 Internal Server Error (0.035099s, 28.491/s).
+[Mon Oct 28 05:18:25 2013] [info] Listening at "http://*:3000".
+[Mon Oct 28 05:18:31 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 28 05:18:31 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:18:31 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:18:31 2013] [debug] Template "spot/spot.html.ep" not found.
+[Mon Oct 28 05:18:31 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:18:31 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:18:31 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:18:31 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:18:31 2013] [debug] 404 Not Found (0.021447s, 46.627/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:19:20 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:19:20 2013] [debug] Rendering template "spot/spot.html.ep".
+[Mon Oct 28 05:19:20 2013] [debug] 200 OK (0.015572s, 64.218/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.019847s, 50.385/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.004900s, 204.082/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.004818s, 207.555/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.004988s, 200.481/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.005226s, 191.351/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.005399s, 185.219/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.007094s, 140.964/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.006035s, 165.700/s).
+[Mon Oct 28 05:19:20 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:20 2013] [debug] 404 Not Found (0.017883s, 55.919/s).
+[Mon Oct 28 05:19:46 2013] [debug] GET "/".
+[Mon Oct 28 05:19:46 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Mon Oct 28 05:19:46 2013] [debug] Rendering template "example/welcome.html.ep".
+[Mon Oct 28 05:19:46 2013] [debug] Rendering template "layouts/default.html.ep".
+[Mon Oct 28 05:19:46 2013] [debug] 200 OK (0.012947s, 77.238/s).
+[Mon Oct 28 05:19:52 2013] [debug] GET "/spot".
+[Mon Oct 28 05:19:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:52 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:52 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:52 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:52 2013] [debug] 404 Not Found (0.007283s, 137.306/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/id".
+[Mon Oct 28 05:19:57 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:19:57 2013] [debug] 200 OK (0.001536s, 651.042/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.008247s, 121.256/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.006268s, 159.541/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.006476s, 154.416/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.005967s, 167.588/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.005265s, 189.934/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.005114s, 195.542/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.006791s, 147.254/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.006700s, 149.254/s).
+[Mon Oct 28 05:19:57 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:19:57 2013] [debug] 404 Not Found (0.008475s, 117.994/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:23:19 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:23:19 2013] [debug] 200 OK (0.000927s, 1078.749/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.009932s, 100.685/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.009535s, 104.877/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.006758s, 147.973/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.005411s, 184.809/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.006368s, 157.035/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.006503s, 153.775/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.009720s, 102.881/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.008293s, 120.584/s).
+[Mon Oct 28 05:23:19 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:19 2013] [debug] 404 Not Found (0.006666s, 150.015/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:23:22 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:23:22 2013] [debug] 200 OK (0.000995s, 1005.025/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.004923s, 203.128/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.005026s, 198.965/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.004960s, 201.613/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.005330s, 187.617/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.005153s, 194.062/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.005018s, 199.283/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.009422s, 106.135/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.008574s, 116.632/s).
+[Mon Oct 28 05:23:22 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:22 2013] [debug] 404 Not Found (0.005459s, 183.184/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/id".
+[Mon Oct 28 05:23:41 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:23:41 2013] [debug] 200 OK (0.001070s, 934.579/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] 404 Not Found (0.005767s, 173.400/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] 404 Not Found (0.005709s, 175.162/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] 404 Not Found (0.005032s, 198.728/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] 404 Not Found (0.005070s, 197.239/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] 404 Not Found (0.005132s, 194.856/s).
+[Mon Oct 28 05:23:41 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:41 2013] [debug] 404 Not Found (0.005547s, 180.278/s).
+[Mon Oct 28 05:23:42 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:23:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:42 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:42 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:42 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:42 2013] [debug] 404 Not Found (0.007069s, 141.463/s).
+[Mon Oct 28 05:23:42 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:23:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:42 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:42 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:42 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:42 2013] [debug] 404 Not Found (0.008692s, 115.048/s).
+[Mon Oct 28 05:23:42 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:23:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:23:42 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:23:42 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:42 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:23:42 2013] [debug] 404 Not Found (0.008208s, 121.832/s).
+[Mon Oct 28 05:24:03 2013] [debug] GET "/img".
+[Mon Oct 28 05:24:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:24:03 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:24:03 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:03 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:03 2013] [debug] 404 Not Found (0.005676s, 176.180/s).
+[Mon Oct 28 05:24:03 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Mon Oct 28 05:24:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:24:03 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:24:03 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:03 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:03 2013] [debug] 404 Not Found (0.010602s, 94.322/s).
+[Mon Oct 28 05:24:07 2013] [debug] GET "/img/".
+[Mon Oct 28 05:24:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:24:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:24:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:07 2013] [debug] 404 Not Found (0.006755s, 148.038/s).
+[Mon Oct 28 05:24:07 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Mon Oct 28 05:24:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:24:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:24:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:24:07 2013] [debug] 404 Not Found (0.013706s, 72.961/s).
+[Mon Oct 28 05:25:59 2013] [debug] GET "/img/".
+[Mon Oct 28 05:25:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:25:59 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:25:59 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:25:59 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:25:59 2013] [debug] 404 Not Found (0.005592s, 178.827/s).
+[Mon Oct 28 05:26:00 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Mon Oct 28 05:26:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:00 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:00 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:00 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:00 2013] [debug] 404 Not Found (0.018546s, 53.920/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:26:05 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:26:05 2013] [debug] 200 OK (0.001407s, 710.732/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.009271s, 107.863/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.005332s, 187.547/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.007401s, 135.117/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.005245s, 190.658/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.005221s, 191.534/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.007368s, 135.722/s).
+[Mon Oct 28 05:26:05 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:05 2013] [debug] 404 Not Found (0.005918s, 168.976/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:26:07 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:26:07 2013] [debug] 200 OK (0.000941s, 1062.699/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.011449s, 87.344/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.007101s, 140.825/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.005903s, 169.405/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.004780s, 209.205/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.005610s, 178.253/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.007581s, 131.909/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.007792s, 128.337/s).
+[Mon Oct 28 05:26:07 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:07 2013] [debug] 404 Not Found (0.007766s, 128.766/s).
+[Mon Oct 28 05:26:08 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:26:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:08 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:08 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:08 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:08 2013] [debug] 404 Not Found (0.011150s, 89.686/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:26:24 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:26:24 2013] [debug] 200 OK (0.001509s, 662.691/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/css/common.css".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.008063s, 124.023/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/lib/uikit-1.0.1/js/uikit.min.js".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.006268s, 159.541/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/css/spot.css".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.006130s, 163.132/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.005131s, 194.894/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.005418s, 184.570/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.011062s, 90.400/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/img/freemobile.png".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.008492s, 117.758/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/img/icon.jpg".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.008055s, 124.146/s).
+[Mon Oct 28 05:26:24 2013] [debug] GET "/spot/img/freemobile_marker.png".
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:24 2013] [debug] 404 Not Found (0.018098s, 55.255/s).
+[Mon Oct 28 05:26:34 2013] [info] Listening at "http://*:3000".
+[Mon Oct 28 05:26:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 28 05:26:37 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:26:37 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:26:37 2013] [debug] Rendering template "spot/spot.html.ep".
+[Mon Oct 28 05:26:37 2013] [debug] 200 OK (0.017811s, 56.145/s).
+[Mon Oct 28 05:26:37 2013] [debug] GET "/spot/i/img/icon.jpg".
+[Mon Oct 28 05:26:37 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:37 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:37 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:26:37 2013] [debug] Rendering inline template.
+[Mon Oct 28 05:26:37 2013] [debug] 404 Not Found (0.031786s, 31.460/s).
+[Mon Oct 28 05:26:37 2013] [debug] GET "/spot/i/img/icon.jpg".
+[Mon Oct 28 05:26:37 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:37 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:37 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:37 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:37 2013] [debug] 404 Not Found (0.007757s, 128.916/s).
+[Mon Oct 28 05:26:55 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:26:55 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:26:55 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 05:26:55 2013] [debug] 200 OK (0.001227s, 814.996/s).
+[Mon Oct 28 05:26:55 2013] [debug] GET "/spot/i/img/icon.jpg".
+[Mon Oct 28 05:26:55 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:55 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:55 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:55 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:55 2013] [debug] 404 Not Found (0.006564s, 152.346/s).
+[Mon Oct 28 05:26:56 2013] [debug] GET "/spot/i/img/icon.jpg".
+[Mon Oct 28 05:26:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Mon Oct 28 05:26:56 2013] [debug] Template "not_found.html.ep" not found.
+[Mon Oct 28 05:26:56 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:56 2013] [debug] Rendering cached inline template.
+[Mon Oct 28 05:26:56 2013] [debug] 404 Not Found (0.006465s, 154.679/s).
+[Mon Oct 28 05:27:03 2013] [info] Listening at "http://*:3000".
+[Mon Oct 28 05:27:05 2013] [debug] Your secret passphrase needs to be changed!!!
+[Mon Oct 28 05:27:05 2013] [debug] GET "/spot/13".
+[Mon Oct 28 05:27:05 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 05:27:05 2013] [debug] Rendering template "spot/spot.html.ep".
+[Mon Oct 28 05:27:05 2013] [debug] 200 OK (0.016833s, 59.407/s).
+[Mon Oct 28 06:58:57 2013] [debug] GET "/spot/13".
+[Mon Oct 28 06:58:57 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 06:58:57 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 06:58:57 2013] [debug] 200 OK (0.001435s, 696.864/s).
+[Mon Oct 28 06:58:59 2013] [debug] GET "/spot/13".
+[Mon Oct 28 06:58:59 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 06:58:59 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 06:58:59 2013] [debug] 200 OK (0.000907s, 1102.536/s).
+[Mon Oct 28 17:06:38 2013] [debug] GET "/spot/13".
+[Mon Oct 28 17:06:38 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Mon Oct 28 17:06:38 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Mon Oct 28 17:06:38 2013] [debug] 200 OK (0.001079s, 926.784/s).
+[Tue Oct 29 04:31:04 2013] [debug] GET "/".
+[Tue Oct 29 04:31:04 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Tue Oct 29 04:31:04 2013] [debug] Rendering template "example/welcome.html.ep".
+[Tue Oct 29 04:31:04 2013] [debug] Rendering template "layouts/default.html.ep".
+[Tue Oct 29 04:31:04 2013] [debug] 200 OK (0.077802s, 12.853/s).
+[Tue Oct 29 04:31:08 2013] [debug] GET "/spot".
+[Tue Oct 29 04:31:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 29 04:31:08 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 29 04:31:08 2013] [debug] Rendering inline template.
+[Tue Oct 29 04:31:08 2013] [debug] Rendering inline template.
+[Tue Oct 29 04:31:08 2013] [debug] 404 Not Found (0.086246s, 11.595/s).
+[Tue Oct 29 04:31:12 2013] [debug] GET "/spot/".
+[Tue Oct 29 04:31:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Tue Oct 29 04:31:12 2013] [debug] Template "not_found.html.ep" not found.
+[Tue Oct 29 04:31:12 2013] [debug] Rendering cached inline template.
+[Tue Oct 29 04:31:12 2013] [debug] Rendering cached inline template.
+[Tue Oct 29 04:31:12 2013] [debug] 404 Not Found (0.027756s, 36.028/s).
+[Tue Oct 29 04:31:16 2013] [debug] GET "/spot/1".
+[Tue Oct 29 04:31:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Tue Oct 29 04:31:16 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Tue Oct 29 04:31:16 2013] [debug] 200 OK (0.005669s, 176.398/s).
+[Thu Nov  7 22:53:41 2013] [info] Listening at "http://*:3000".
+[Thu Nov  7 22:53:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Nov  7 22:53:56 2013] [debug] GET "/".
+[Thu Nov  7 22:53:56 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Thu Nov  7 22:53:56 2013] [debug] Rendering template "example/welcome.html.ep".
+[Thu Nov  7 22:53:56 2013] [debug] Rendering template "layouts/default.html.ep".
+[Thu Nov  7 22:53:56 2013] [debug] 200 OK (0.014092s, 70.962/s).
+[Thu Nov  7 22:54:04 2013] [debug] GET "/spot".
+[Thu Nov  7 22:54:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Thu Nov  7 22:54:04 2013] [debug] Template "not_found.html.ep" not found.
+[Thu Nov  7 22:54:04 2013] [debug] Rendering inline template.
+[Thu Nov  7 22:54:04 2013] [debug] Rendering inline template.
+[Thu Nov  7 22:54:04 2013] [debug] 404 Not Found (0.021405s, 46.718/s).
+[Thu Nov  7 22:54:09 2013] [debug] GET "/spot/1".
+[Thu Nov  7 22:54:09 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Nov  7 22:54:09 2013] [debug] Rendering template "spot/spot.html.ep".
+[Thu Nov  7 22:54:09 2013] [debug] 200 OK (0.012350s, 80.972/s).
+[Thu Nov  7 22:54:47 2013] [debug] GET "/spot/1".
+[Thu Nov  7 22:54:47 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Nov  7 22:54:47 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Thu Nov  7 22:54:47 2013] [debug] 200 OK (0.000925s, 1081.081/s).
+[Fri Nov  8 00:13:11 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:13:11 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:13:11 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 00:13:11 2013] [debug] 200 OK (0.000864s, 1157.407/s).
+[Fri Nov  8 00:13:18 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:13:18 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:13:18 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 00:13:18 2013] [debug] 200 OK (0.001282s, 780.031/s).
+[Fri Nov  8 00:41:44 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:41:44 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:41:44 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 00:41:44 2013] [debug] 200 OK (0.001020s, 980.392/s).
+[Fri Nov  8 00:41:47 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:41:47 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:41:47 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 00:41:47 2013] [debug] 200 OK (0.000902s, 1108.647/s).
+[Fri Nov  8 00:42:01 2013] [info] Listening at "http://*:3000".
+[Fri Nov  8 00:42:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov  8 00:42:03 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:42:03 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:42:03 2013] [error] Undefined subroutine &Wifind::Model::Spot::getSpotData called at /Users/tattii/Workspace/wifind/wifind/script/../lib/Wifind/Spot.pm line 8.
+
+[Fri Nov  8 00:42:03 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  8 00:42:03 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  8 00:42:03 2013] [debug] Rendering inline template.
+[Fri Nov  8 00:42:03 2013] [debug] Rendering inline template.
+[Fri Nov  8 00:42:03 2013] [debug] 500 Internal Server Error (0.039539s, 25.291/s).
+[Fri Nov  8 00:42:10 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:42:10 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:42:10 2013] [error] Undefined subroutine &Wifind::Model::Spot::getSpotData called at /Users/tattii/Workspace/wifind/wifind/script/../lib/Wifind/Spot.pm line 8.
+
+[Fri Nov  8 00:42:10 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  8 00:42:10 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  8 00:42:10 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 00:42:10 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 00:42:10 2013] [debug] 500 Internal Server Error (0.010222s, 97.828/s).
+[Fri Nov  8 00:42:56 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:42:56 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:42:56 2013] [error] Undefined subroutine &Wifind::Model::Spot::getSpotData called at /Users/tattii/Workspace/wifind/wifind/script/../lib/Wifind/Spot.pm line 8.
+
+[Fri Nov  8 00:42:56 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  8 00:42:56 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  8 00:42:56 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 00:42:56 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 00:42:56 2013] [debug] 500 Internal Server Error (0.009635s, 103.788/s).
+[Fri Nov  8 00:43:00 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:43:00 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:43:00 2013] [error] Undefined subroutine &Wifind::Model::Spot::getSpotData called at /Users/tattii/Workspace/wifind/wifind/script/../lib/Wifind/Spot.pm line 8.
+
+[Fri Nov  8 00:43:00 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  8 00:43:00 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  8 00:43:00 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 00:43:00 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 00:43:00 2013] [debug] 500 Internal Server Error (0.008708s, 114.837/s).
+[Fri Nov  8 00:43:06 2013] [info] Listening at "http://*:3000".
+[Fri Nov  8 00:43:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov  8 00:43:08 2013] [debug] GET "/spot/1".
+[Fri Nov  8 00:43:09 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 00:43:09 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Nov  8 00:43:09 2013] [error] Global symbol "$spot" requires explicit package name at template spot/spot.html.ep line 14.
+9: 		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+10: 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+11: 		<script src="/lib/uikit-1.0.1/js/uikit.min.js"></script>
+12: 	</head>
+13: 
+14: %= $spot
+15: 
+16: 	<body>
+17: 		<nav class="navbar">
+18: 			<ul class="uk-navbar-nav">
+19: 				<li><a href="#" class="uk-navbar-brand" id="nav-brand">WiFind</a></li>
+
+[Fri Nov  8 00:43:09 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov  8 00:43:09 2013] [debug] Template "exception.html.ep" not found.
+[Fri Nov  8 00:43:09 2013] [debug] Rendering inline template.
+[Fri Nov  8 00:43:09 2013] [debug] Rendering inline template.
+[Fri Nov  8 00:43:09 2013] [debug] 500 Internal Server Error (0.472265s, 2.117/s).
+[Fri Nov  8 05:21:42 2013] [info] Listening at "http://*:3000".
+[Fri Nov  8 05:21:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov  8 05:21:47 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:21:47 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:21:47 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Nov  8 05:21:47 2013] [debug] 200 OK (0.541494s, 1.847/s).
+[Fri Nov  8 05:22:26 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:22:26 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:22:26 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:22:26 2013] [debug] 200 OK (0.002517s, 397.298/s).
+[Fri Nov  8 05:22:32 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:22:32 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:22:32 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:22:32 2013] [debug] 200 OK (0.002686s, 372.301/s).
+[Fri Nov  8 05:58:40 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:58:40 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:58:40 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:58:40 2013] [debug] 200 OK (0.004806s, 208.073/s).
+[Fri Nov  8 05:58:42 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:58:42 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:58:42 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:58:42 2013] [debug] 200 OK (0.002811s, 355.745/s).
+[Fri Nov  8 05:58:45 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:58:45 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:58:45 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:58:45 2013] [debug] 200 OK (0.002481s, 403.063/s).
+[Fri Nov  8 05:58:46 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:58:46 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:58:46 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:58:46 2013] [debug] 200 OK (0.002383s, 419.639/s).
+[Fri Nov  8 05:59:07 2013] [info] Listening at "http://*:3000".
+[Fri Nov  8 05:59:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov  8 05:59:11 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:59:11 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:59:12 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Nov  8 05:59:12 2013] [debug] 200 OK (0.509811s, 1.962/s).
+[Fri Nov  8 05:59:14 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:59:14 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:59:14 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:59:14 2013] [debug] 200 OK (0.002988s, 334.672/s).
+[Fri Nov  8 05:59:21 2013] [debug] GET "/spot/1".
+[Fri Nov  8 05:59:21 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 05:59:21 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 05:59:21 2013] [debug] 200 OK (0.003167s, 315.756/s).
+[Fri Nov  8 06:00:27 2013] [info] Listening at "http://*:3000".
+[Fri Nov  8 06:00:29 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov  8 06:00:29 2013] [debug] GET "/spot/1".
+[Fri Nov  8 06:00:30 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:00:30 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Nov  8 06:00:30 2013] [debug] 200 OK (0.433792s, 2.305/s).
+[Fri Nov  8 06:01:01 2013] [debug] GET "/spot/f753ee3bac4ff51c".
+[Fri Nov  8 06:01:01 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:01:01 2013] [debug] Template "HASH(0x7fd8cc2b3cd0).html.ep" not found.
+[Fri Nov  8 06:01:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 06:01:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 06:01:01 2013] [debug] Rendering inline template.
+[Fri Nov  8 06:01:01 2013] [debug] Rendering inline template.
+[Fri Nov  8 06:01:01 2013] [debug] 404 Not Found (0.030113s, 33.208/s).
+[Fri Nov  8 06:01:48 2013] [debug] GET "/spot/f753ee3bac4ff51c".
+[Fri Nov  8 06:01:48 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:01:48 2013] [debug] Template "HASH(0x7fd8cc2cec30).html.ep" not found.
+[Fri Nov  8 06:01:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 06:01:48 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 06:01:48 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 06:01:48 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 06:01:48 2013] [debug] 404 Not Found (0.009273s, 107.840/s).
+[Fri Nov  8 06:07:26 2013] [debug] GET "/spot/f".
+[Fri Nov  8 06:07:26 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:26 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:26 2013] [debug] 200 OK (0.003923s, 254.907/s).
+[Fri Nov  8 06:07:31 2013] [debug] GET "/spot/23".
+[Fri Nov  8 06:07:31 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:31 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:31 2013] [debug] 200 OK (0.002992s, 334.225/s).
+[Fri Nov  8 06:07:36 2013] [debug] GET "/spot/2352115".
+[Fri Nov  8 06:07:36 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:36 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:36 2013] [debug] 200 OK (0.002925s, 341.880/s).
+[Fri Nov  8 06:07:39 2013] [debug] GET "/spot/2352115531".
+[Fri Nov  8 06:07:39 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:39 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:39 2013] [debug] 200 OK (0.002632s, 379.939/s).
+[Fri Nov  8 06:07:43 2013] [debug] GET "/spot/2352115531d".
+[Fri Nov  8 06:07:43 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:43 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:43 2013] [debug] 200 OK (0.003673s, 272.257/s).
+[Fri Nov  8 06:07:47 2013] [debug] GET "/spot/2352115531dgwetbw".
+[Fri Nov  8 06:07:47 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:47 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:47 2013] [debug] 200 OK (0.003430s, 291.545/s).
+[Fri Nov  8 06:07:51 2013] [debug] GET "/spot/2352115531dgwetbwbsdg".
+[Fri Nov  8 06:07:51 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:51 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:51 2013] [debug] 200 OK (0.003328s, 300.481/s).
+[Fri Nov  8 06:07:55 2013] [debug] GET "/spot/2352115531dgwetbwbsdgbsdgbdg".
+[Fri Nov  8 06:07:55 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:07:55 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:07:55 2013] [debug] 200 OK (0.003874s, 258.131/s).
+[Fri Nov  8 06:08:03 2013] [debug] GET "/spot/f753ee3bac4ff51c".
+[Fri Nov  8 06:08:03 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:08:03 2013] [debug] Template "HASH(0x7fd8cc2cea38).html.ep" not found.
+[Fri Nov  8 06:08:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 06:08:03 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 06:08:03 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 06:08:03 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 06:08:03 2013] [debug] 404 Not Found (0.008962s, 111.582/s).
+[Fri Nov  8 06:08:11 2013] [debug] GET "/spot/753ee3bac4ff51c".
+[Fri Nov  8 06:08:11 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:08:11 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 06:08:11 2013] [debug] 200 OK (0.003693s, 270.783/s).
+[Fri Nov  8 06:08:18 2013] [debug] GET "/spot/f753ee3bac4ff51c".
+[Fri Nov  8 06:08:18 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 06:08:18 2013] [debug] Template "HASH(0x7fd8cc2d01b0).html.ep" not found.
+[Fri Nov  8 06:08:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 06:08:18 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 06:08:18 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 06:08:18 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 06:08:18 2013] [debug] 404 Not Found (0.008653s, 115.567/s).
+[Fri Nov  8 17:40:33 2013] [debug] GET "/spot/4ad6582a3acc95b0".
+[Fri Nov  8 17:40:33 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:40:33 2013] [debug] Template "HASH(0x7fd8cda86c00).html.ep" not found.
+[Fri Nov  8 17:40:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:40:33 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:40:33 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:33 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:33 2013] [debug] 404 Not Found (0.052962s, 18.881/s).
+[Fri Nov  8 17:40:36 2013] [debug] GET "/spot/4ad6582a3acc95b0".
+[Fri Nov  8 17:40:36 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:40:36 2013] [debug] Template "HASH(0x7fd8cc12c778).html.ep" not found.
+[Fri Nov  8 17:40:36 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:40:36 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:40:36 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:36 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:36 2013] [debug] 404 Not Found (0.007128s, 140.292/s).
+[Fri Nov  8 17:40:40 2013] [debug] GET "/spot/4ad6582a3acc95b0".
+[Fri Nov  8 17:40:40 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:40:40 2013] [debug] Template "HASH(0x7fd8cdaabe70).html.ep" not found.
+[Fri Nov  8 17:40:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:40:40 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:40:40 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:40 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:40 2013] [debug] 404 Not Found (0.010717s, 93.310/s).
+[Fri Nov  8 17:40:50 2013] [debug] GET "/spot/4ad6582a3ac".
+[Fri Nov  8 17:40:50 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:40:50 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 17:40:50 2013] [debug] 200 OK (0.004447s, 224.871/s).
+[Fri Nov  8 17:40:57 2013] [debug] GET "/spot/4ad6582a3acc95b0".
+[Fri Nov  8 17:40:57 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:40:57 2013] [debug] Template "HASH(0x7fd8cc2b2610).html.ep" not found.
+[Fri Nov  8 17:40:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:40:57 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:40:57 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:57 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:40:57 2013] [debug] 404 Not Found (0.008610s, 116.144/s).
+[Fri Nov  8 17:41:00 2013] [debug] GET "/spot/4ad6582a3acc95b".
+[Fri Nov  8 17:41:00 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:41:00 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 17:41:00 2013] [debug] 200 OK (0.003220s, 310.559/s).
+[Fri Nov  8 17:41:05 2013] [debug] GET "/spot/4ad6582a3acc95b0".
+[Fri Nov  8 17:41:05 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:41:05 2013] [debug] Template "HASH(0x7fd8cda86c90).html.ep" not found.
+[Fri Nov  8 17:41:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:41:05 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:41:05 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:41:05 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:41:05 2013] [debug] 404 Not Found (0.006916s, 144.592/s).
+[Fri Nov  8 17:41:08 2013] [debug] GET "/spot/4ad6582a3acc95b".
+[Fri Nov  8 17:41:08 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:41:08 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 17:41:08 2013] [debug] 200 OK (0.003187s, 313.775/s).
+[Fri Nov  8 17:41:49 2013] [debug] GET "/spot/48cd10d7b1b9d635".
+[Fri Nov  8 17:41:49 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:41:49 2013] [debug] Template "HASH(0x7fd8cdaa1860).html.ep" not found.
+[Fri Nov  8 17:41:49 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:41:49 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:41:49 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:41:49 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:41:49 2013] [debug] 404 Not Found (0.010523s, 95.030/s).
+[Fri Nov  8 17:41:53 2013] [debug] GET "/spot/48cd10d7b1b9d63".
+[Fri Nov  8 17:41:53 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:41:53 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 17:41:53 2013] [debug] 200 OK (0.003658s, 273.373/s).
+[Fri Nov  8 17:41:56 2013] [debug] GET "/spot/48cd10d7b1b9d635".
+[Fri Nov  8 17:41:56 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:41:56 2013] [debug] Template "HASH(0x7fd8cc12f3b8).html.ep" not found.
+[Fri Nov  8 17:41:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:41:56 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:41:56 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:41:56 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:41:57 2013] [debug] 404 Not Found (0.007034s, 142.167/s).
+[Fri Nov  8 17:42:12 2013] [debug] GET "/spot/48cd10d7b1b9d6".
+[Fri Nov  8 17:42:12 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:42:12 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 17:42:12 2013] [debug] 200 OK (0.003493s, 286.287/s).
+[Fri Nov  8 17:42:16 2013] [debug] GET "/spot/a48cd10d7b1b9d6".
+[Fri Nov  8 17:42:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:42:16 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Nov  8 17:42:16 2013] [debug] 200 OK (0.002791s, 358.295/s).
+[Fri Nov  8 17:45:43 2013] [debug] GET "/spot/48cd10d7b1b9d635/".
+[Fri Nov  8 17:45:43 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:45:43 2013] [debug] Template "HASH(0x7fd8cdaa1110).html.ep" not found.
+[Fri Nov  8 17:45:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:45:43 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:45:43 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:45:43 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:45:43 2013] [debug] 404 Not Found (0.009304s, 107.481/s).
+[Fri Nov  8 17:45:49 2013] [debug] GET "/spot/48cd10d7b1b9d635".
+[Fri Nov  8 17:45:49 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:45:49 2013] [debug] Template "HASH(0x7fd8cdab3bb0).html.ep" not found.
+[Fri Nov  8 17:45:49 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:45:49 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:45:49 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:45:49 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:45:49 2013] [debug] 404 Not Found (0.008865s, 112.803/s).
+[Fri Nov  8 17:58:00 2013] [info] Listening at "http://*:3000".
+[Fri Nov  8 17:58:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov  8 17:58:02 2013] [debug] GET "/spot/48cd10d7b1b9d635".
+[Fri Nov  8 17:58:02 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:58:02 2013] [debug] Template "HASH(0x7fd8bb1bb4b8).html.ep" not found.
+[Fri Nov  8 17:58:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:58:02 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:58:02 2013] [debug] Rendering inline template.
+[Fri Nov  8 17:58:02 2013] [debug] Rendering inline template.
+[Fri Nov  8 17:58:02 2013] [debug] 404 Not Found (0.418733s, 2.388/s).
+[Fri Nov  8 17:58:05 2013] [debug] GET "/spot/48cd10d7b1b9d635".
+[Fri Nov  8 17:58:05 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:58:05 2013] [debug] Template "HASH(0x7fd8bb1c8090).html.ep" not found.
+[Fri Nov  8 17:58:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:58:05 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:58:05 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:58:05 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:58:05 2013] [debug] 404 Not Found (0.006757s, 147.995/s).
+[Fri Nov  8 17:58:10 2013] [debug] GET "/spot/48cd10d7b1b9d635".
+[Fri Nov  8 17:58:10 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Nov  8 17:58:10 2013] [debug] Template "HASH(0x7fd8bb1c5f18).html.ep" not found.
+[Fri Nov  8 17:58:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov  8 17:58:10 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Nov  8 17:58:10 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:58:10 2013] [debug] Rendering cached inline template.
+[Fri Nov  8 17:58:10 2013] [debug] 404 Not Found (0.007465s, 133.958/s).

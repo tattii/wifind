@@ -1,0 +1,190 @@
+body {
+	background: #eee; 
+}
+
+.navbar {
+	position: fixed;
+}
+
+#container {
+	position: relative;
+	padding-top: 41px;
+	max-width: 900px;
+	margin: auto;
+	text-align: left;
+}
+
+.box {
+	background: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+a {
+	color: #444;
+	text-decoration: none;
+}
+a:hover {
+	color: #777;
+}
+
+
+/* header ----------------------------*/
+#header {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#header img {
+	float: left;
+	margin: 20px;
+}
+#header-title {
+	float: left;
+	margin: 20px;
+}
+#title-detail span {
+	margin-left: .2em;
+}
+#title-detail-url {
+	margin-right: 1em;
+}
+
+
+/* frame ----------------------------*/
+
+#wrapper {
+	width: 100%;
+	margin-top: 15px;
+	position: relative;
+}
+
+#main-wrapper {
+	float: left;
+	width: 100%;
+	margin-right: -300px;
+}
+
+#main {
+	margin-right: 315px;
+}
+
+#side {
+	float: left;
+	width: 300px;
+}
+
+#map {
+	width: 300px;
+	height: 300px;
+}
+
+
+/* wifi-detail ----------------------*/
+#wifi-detail {
+	padding: 20px 30px;
+}
+#wifi-detail i {
+	margin-right: .6em;
+}
+#wifi-detail-table {
+	margin-left: 15px;
+}
+#wifi-detail-table th {
+	width: 30px;
+}
+
+
+/* tips -----------------------------*/
+#tips {
+	margin-top: 15px;
+	padding-top: 15px;
+}
+#tips h2 {
+	margin-left: 20px;
+	font-size: 20px;
+}
+#tips h2 i {
+	margin-right: .4em;
+}
+#tip-list {
+	padding: 0;
+	list-style: none;
+}
+
+.tip {
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #ccc;
+}
+.tip img {
+	width: 32px;
+	height: 32px;
+	margin: 10px 15px;
+	float: left;
+}
+.tip-main {
+	float: left;
+}
+.tip small {
+	font-size: 12px;
+	color: #999;
+	padding-left: 1em;
+}
+
+
+
+/* tip-form -------------------------*/
+#tip-form {
+	margin-top: 15px;
+	padding: 15px 10px;
+}
+#tip-form img {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 0 10px;
+}
+#tip-text {
+	float: left;
+	width: 80%;
+}
+#tip-button {
+	float: left;
+}
+#tip-text input {
+	width: 100%;
+}
+
+
+#wifi-share {
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+}
+#wifi-share input {
+	margin-top: -6px;
+}
+
+
+
+
+/* footer ---------------------------*/
+#footer {
+	border-top: 1px solid #ccc;
+	text-align: center;
+	padding-top: 10px;
+	margin: 25px 0;
+}
+
+
+
+/* */
+.box-sizing {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+

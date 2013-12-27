@@ -954,3 +954,2183 @@ Compilation failed in require at (eval 249) line 1.
 [Fri Nov  8 17:58:10 2013] [debug] Rendering cached inline template.
 [Fri Nov  8 17:58:10 2013] [debug] Rendering cached inline template.
 [Fri Nov  8 17:58:10 2013] [debug] 404 Not Found (0.007465s, 133.958/s).
+[Thu Dec 26 10:49:13 2013] [info] Listening at "http://*:3000".
+[Thu Dec 26 10:49:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Thu Dec 26 10:49:39 2013] [debug] GET "/".
+[Thu Dec 26 10:49:39 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Thu Dec 26 10:49:39 2013] [debug] Rendering template "example/welcome.html.ep".
+[Thu Dec 26 10:49:39 2013] [debug] Rendering template "layouts/default.html.ep".
+[Thu Dec 26 10:49:39 2013] [debug] 200 OK (0.015845s, 63.111/s).
+[Thu Dec 26 10:49:49 2013] [debug] GET "/spot/1".
+[Thu Dec 26 10:49:51 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Dec 26 10:49:51 2013] [debug] Rendering template "spot/spot.html.ep".
+[Thu Dec 26 10:49:51 2013] [debug] 200 OK (1.719447s, 0.582/s).
+[Thu Dec 26 10:50:26 2013] [debug] GET "/spot/4e19767bbf19ed1f".
+[Thu Dec 26 10:50:26 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Dec 26 10:50:26 2013] [debug] Template "HASH(0x2d14fe0).html.ep" not found.
+[Thu Dec 26 10:50:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Thu Dec 26 10:50:26 2013] [debug] Template "not_found.html.ep" not found.
+[Thu Dec 26 10:50:26 2013] [debug] Rendering inline template.
+[Thu Dec 26 10:50:26 2013] [debug] Rendering inline template.
+[Thu Dec 26 10:50:26 2013] [debug] 404 Not Found (0.032290s, 30.969/s).
+[Thu Dec 26 10:55:18 2013] [debug] GET "/spot/4e19767bbf19ed1f".
+[Thu Dec 26 10:55:18 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Dec 26 10:55:18 2013] [debug] Template "HASH(0x3d0d438).html.ep" not found.
+[Thu Dec 26 10:55:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Thu Dec 26 10:55:18 2013] [debug] Template "not_found.html.ep" not found.
+[Thu Dec 26 10:55:18 2013] [debug] Rendering cached inline template.
+[Thu Dec 26 10:55:18 2013] [debug] Rendering cached inline template.
+[Thu Dec 26 10:55:18 2013] [debug] 404 Not Found (0.011861s, 84.310/s).
+[Thu Dec 26 10:55:21 2013] [debug] GET "/spot/4e19767bbf19ed1f".
+[Thu Dec 26 10:55:21 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Dec 26 10:55:21 2013] [debug] Template "HASH(0x3d0d7b0).html.ep" not found.
+[Thu Dec 26 10:55:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Thu Dec 26 10:55:21 2013] [debug] Template "not_found.html.ep" not found.
+[Thu Dec 26 10:55:21 2013] [debug] Rendering cached inline template.
+[Thu Dec 26 10:55:21 2013] [debug] Rendering cached inline template.
+[Thu Dec 26 10:55:21 2013] [debug] 404 Not Found (0.012867s, 77.718/s).
+[Thu Dec 26 10:55:23 2013] [debug] GET "/spot/4e19767bbf19ed1f".
+[Thu Dec 26 10:55:23 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Thu Dec 26 10:55:23 2013] [debug] Template "HASH(0x2d25070).html.ep" not found.
+[Thu Dec 26 10:55:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Thu Dec 26 10:55:23 2013] [debug] Template "not_found.html.ep" not found.
+[Thu Dec 26 10:55:23 2013] [debug] Rendering cached inline template.
+[Thu Dec 26 10:55:23 2013] [debug] Rendering cached inline template.
+[Thu Dec 26 10:55:23 2013] [debug] 404 Not Found (0.015429s, 64.813/s).
+[Fri Dec 27 10:02:51 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 10:03:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:03:00 2013] [debug] GET "/spot/4e19767bbf19ed1f".
+[Fri Dec 27 10:03:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 10:03:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 10:03:00 2013] [debug] Rendering inline template.
+[Fri Dec 27 10:03:00 2013] [debug] Rendering inline template.
+[Fri Dec 27 10:03:00 2013] [debug] 404 Not Found (0.026314s, 38.003/s).
+[Fri Dec 27 10:09:18 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:09:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 10:09:18 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 10:09:18 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 10:09:18 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 10:09:18 2013] [debug] 404 Not Found (0.009236s, 108.272/s).
+[Fri Dec 27 10:09:25 2013] [debug] GET "/spot/".
+[Fri Dec 27 10:09:26 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:09:26 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:09:26 2013] [debug] 200 OK (1.578775s, 0.633/s).
+[Fri Dec 27 10:12:02 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 10:12:07 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:12:07 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:12:09 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:12:09 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:12:09 2013] [debug] 200 OK (1.895502s, 0.528/s).
+[Fri Dec 27 10:12:21 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:12:21 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:12:21 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 10:12:21 2013] [debug] 200 OK (0.004346s, 230.097/s).
+[Fri Dec 27 10:29:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:29:52 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:29:54 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:29:54 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:29:54 2013] [debug] 200 OK (1.794302s, 0.557/s).
+[Fri Dec 27 10:32:13 2013] [debug] GET "/spot/4e19767bbf19ed".
+[Fri Dec 27 10:32:13 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:32:13 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 10:32:13 2013] [debug] 200 OK (0.004368s, 228.938/s).
+[Fri Dec 27 10:32:16 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:32:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:32:16 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 10:32:16 2013] [debug] 200 OK (0.003353s, 298.240/s).
+[Fri Dec 27 10:32:26 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:32:26 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:32:26 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 10:32:26 2013] [debug] 200 OK (0.003514s, 284.576/s).
+[Fri Dec 27 10:34:01 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:34:01 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:34:04 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:34:04 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:34:04 2013] [debug] 200 OK (2.342217s, 0.427/s).
+[Fri Dec 27 10:34:17 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 10:34:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:34:20 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:34:22 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:34:22 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:34:22 2013] [debug] 200 OK (1.629694s, 0.614/s).
+[Fri Dec 27 10:41:43 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 10:41:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:41:46 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:41:47 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:41:48 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:41:48 2013] [debug] 200 OK (1.708791s, 0.585/s).
+[Fri Dec 27 10:41:50 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:41:50 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:41:50 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 10:41:50 2013] [debug] 200 OK (0.003495s, 286.123/s).
+[Fri Dec 27 10:45:47 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 10:45:50 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 10:45:50 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 10:45:51 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 10:45:51 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 10:45:51 2013] [debug] 200 OK (1.786512s, 0.560/s).
+[Fri Dec 27 11:26:10 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:26:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:26:14 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 11:26:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:26:16 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:26:16 2013] [error] Global symbol "$spot" requires explicit package name at template spot/spot.html.ep line 5.
+1: <!DOCTYPE html>
+2: <html>
+3: 	<head>
+4: 		<meta charset="utf-8">
+5: 		<title>WiFind | <%= $spot->{name} %></title>
+6: 		<meta name="viewport" content="width=device-width">
+7: 		<link rel="stylesheet" href="/web/lib/uikit-1.0.1/css/uikit.almost-flat.min.css" />
+8: 		<link rel="stylesheet" href="/web/css/common.css" />
+9: 		<link rel="stylesheet" href="/web/css/spot.css" />
+10: 		<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+[Fri Dec 27 11:26:16 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 11:26:16 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 11:26:16 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:26:16 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:26:16 2013] [debug] 500 Internal Server Error (1.880966s, 0.532/s).
+[Fri Dec 27 11:27:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:27:06 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 11:27:08 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:27:08 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:27:08 2013] [debug] Template "navbar.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] 200 OK (1.667600s, 0.600/s).
+[Fri Dec 27 11:27:08 2013] [debug] GET "/web/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:27:08 2013] [debug] 404 Not Found (0.024167s, 41.379/s).
+[Fri Dec 27 11:27:08 2013] [debug] GET "/web/css/common.css".
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] 404 Not Found (0.010486s, 95.365/s).
+[Fri Dec 27 11:27:08 2013] [debug] GET "/web/css/spot.css".
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] 404 Not Found (0.009433s, 106.011/s).
+[Fri Dec 27 11:27:08 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] 404 Not Found (0.008866s, 112.790/s).
+[Fri Dec 27 11:27:08 2013] [debug] GET "/web/lib/uikit-1.0.1/js/uikit.min.js".
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] 404 Not Found (0.071825s, 13.923/s).
+[Fri Dec 27 11:27:08 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:08 2013] [debug] 404 Not Found (0.009068s, 110.278/s).
+[Fri Dec 27 11:27:09 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:27:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:09 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:09 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:09 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:09 2013] [debug] 404 Not Found (0.009088s, 110.035/s).
+[Fri Dec 27 11:27:09 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:27:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:09 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:09 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:09 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:09 2013] [debug] 404 Not Found (0.008797s, 113.675/s).
+[Fri Dec 27 11:27:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:27:40 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 11:27:42 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:27:42 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:27:42 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:27:42 2013] [debug] 200 OK (1.705502s, 0.586/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.023002s, 43.474/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/css/spot.css".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.008807s, 113.546/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/css/common.css".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.063806s, 15.673/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/lib/uikit-1.0.1/js/uikit.min.js".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.008906s, 112.284/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.008810s, 113.507/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.009240s, 108.225/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.009092s, 109.987/s).
+[Fri Dec 27 11:27:42 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:27:42 2013] [debug] 404 Not Found (0.008713s, 114.771/s).
+[Fri Dec 27 11:32:53 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:32:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:32:59 2013] [debug] GET "/spot/4e19767bbf19ed1".
+[Fri Dec 27 11:33:00 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:33:00 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:33:00 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:33:00 2013] [debug] 200 OK (1.688883s, 0.592/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.025739s, 38.852/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/css/common.css".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.009690s, 103.199/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/css/spot.css".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.008978s, 111.383/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/lib/uikit-1.0.1/js/uikit.min.js".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.063135s, 15.839/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.009961s, 100.392/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.009434s, 106.000/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.009806s, 101.978/s).
+[Fri Dec 27 11:33:01 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:33:01 2013] [debug] 404 Not Found (0.013387s, 74.699/s).
+[Fri Dec 27 11:34:07 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:34:07 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:34:07 2013] [debug] Template "HASH(0x1d6dbc0).html.ep" not found.
+[Fri Dec 27 11:34:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:07 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:07 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:34:07 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:34:07 2013] [debug] 404 Not Found (0.028063s, 35.634/s).
+[Fri Dec 27 11:34:10 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:34:10 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:34:10 2013] [debug] Template "HASH(0x1d656f0).html.ep" not found.
+[Fri Dec 27 11:34:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:10 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:10 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:10 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:10 2013] [debug] 404 Not Found (0.016552s, 60.416/s).
+[Fri Dec 27 11:34:16 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:34:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:34:16 2013] [debug] Template "HASH(0x2d6f350).html.ep" not found.
+[Fri Dec 27 11:34:16 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:16 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:16 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:16 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:16 2013] [debug] 404 Not Found (0.019142s, 52.241/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:34:19 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 11:34:19 2013] [debug] 200 OK (0.004528s, 220.848/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/web/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] 404 Not Found (0.010018s, 99.820/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/web/lib/uikit-1.0.1/js/uikit.min.js".
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] 404 Not Found (0.009332s, 107.158/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/web/css/spot.css".
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] 404 Not Found (0.037634s, 26.572/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/web/css/common.css".
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] 404 Not Found (0.009499s, 105.274/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] 404 Not Found (0.009830s, 101.729/s).
+[Fri Dec 27 11:34:19 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:19 2013] [debug] 404 Not Found (0.048716s, 20.527/s).
+[Fri Dec 27 11:34:23 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:34:23 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:34:23 2013] [debug] Template "HASH(0x2d6f5a8).html.ep" not found.
+[Fri Dec 27 11:34:23 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:23 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:23 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:23 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:23 2013] [debug] 404 Not Found (0.012524s, 79.847/s).
+[Fri Dec 27 11:34:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:34:46 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:34:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:46 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:46 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:34:46 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:34:46 2013] [debug] 404 Not Found (0.026272s, 38.063/s).
+[Fri Dec 27 11:34:48 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:34:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:34:48 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:34:48 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:48 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:34:48 2013] [debug] 404 Not Found (0.009157s, 109.206/s).
+[Fri Dec 27 11:34:57 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:35:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:35:00 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:35:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:00 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:35:00 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:35:00 2013] [debug] 404 Not Found (0.027054s, 36.963/s).
+[Fri Dec 27 11:35:02 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:35:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:02 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:02 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:02 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:02 2013] [debug] 404 Not Found (0.013468s, 74.250/s).
+[Fri Dec 27 11:35:14 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:35:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:14 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:14 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:14 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:14 2013] [debug] 404 Not Found (0.008990s, 111.235/s).
+[Fri Dec 27 11:35:18 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:35:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:18 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:18 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:18 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:18 2013] [debug] 404 Not Found (0.009786s, 102.187/s).
+[Fri Dec 27 11:35:25 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:35:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:25 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:25 2013] [debug] 404 Not Found (0.009300s, 107.527/s).
+[Fri Dec 27 11:35:29 2013] [debug] GET "/spot/8500c7a99978ba".
+[Fri Dec 27 11:35:29 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:29 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:29 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:29 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:29 2013] [debug] 404 Not Found (0.009437s, 105.966/s).
+[Fri Dec 27 11:35:31 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:35:31 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:35:31 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:35:31 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:31 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:35:31 2013] [debug] 404 Not Found (0.009114s, 109.721/s).
+[Fri Dec 27 11:36:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:36:35 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:36:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:36:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:36:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:36:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:36:35 2013] [debug] 404 Not Found (0.027185s, 36.785/s).
+[Fri Dec 27 11:36:52 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:36:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:36:52 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:36:52 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:36:52 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:36:52 2013] [debug] 404 Not Found (0.014360s, 69.638/s).
+[Fri Dec 27 11:37:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:37:03 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:37:05 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:37:05 2013] [debug] Template "HASH(0x44cd3a8).html.ep" not found.
+[Fri Dec 27 11:37:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:37:05 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:37:05 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:37:05 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:37:05 2013] [debug] 404 Not Found (1.963252s, 0.509/s).
+[Fri Dec 27 11:37:08 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:37:08 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:37:08 2013] [debug] Template "HASH(0x2799e18).html.ep" not found.
+[Fri Dec 27 11:37:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:37:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:37:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:37:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:37:08 2013] [debug] 404 Not Found (0.012435s, 80.418/s).
+[Fri Dec 27 11:37:17 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:37:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:37:20 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:37:21 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:37:21 2013] [debug] Template "HASH(0x369e370).html.ep" not found.
+[Fri Dec 27 11:37:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:37:21 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:37:21 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:37:21 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:37:21 2013] [debug] 404 Not Found (1.668495s, 0.599/s).
+[Fri Dec 27 11:38:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:38:23 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:38:25 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:38:25 2013] [debug] Template "HASH(0x369e7f8).html.ep" not found.
+[Fri Dec 27 11:38:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:38:25 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:38:25 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:38:25 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:38:25 2013] [debug] 404 Not Found (1.806793s, 0.553/s).
+[Fri Dec 27 11:38:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:38:35 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:38:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:38:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:38:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:38:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:38:35 2013] [debug] 404 Not Found (0.027905s, 35.836/s).
+[Fri Dec 27 11:38:38 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:38:38 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:38:38 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:38:38 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:38:38 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:38:38 2013] [debug] 404 Not Found (0.009043s, 110.583/s).
+[Fri Dec 27 11:38:46 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:38:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:38:47 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:38:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:38:47 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:38:47 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:38:47 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:38:47 2013] [debug] 404 Not Found (0.104199s, 9.597/s).
+[Fri Dec 27 11:38:51 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:38:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:38:51 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:38:51 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:38:51 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:38:51 2013] [debug] 404 Not Found (0.015034s, 66.516/s).
+[Fri Dec 27 11:39:27 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:39:27 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:39:27 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:39:27 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:39:27 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:39:27 2013] [debug] 404 Not Found (0.009150s, 109.290/s).
+[Fri Dec 27 11:39:34 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:39:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:39:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:39:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:39:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:39:34 2013] [debug] 404 Not Found (0.010087s, 99.138/s).
+[Fri Dec 27 11:39:42 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:39:44 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:39:44 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:39:44 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:39:44 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:39:44 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:39:44 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:39:44 2013] [debug] 404 Not Found (0.027685s, 36.121/s).
+[Fri Dec 27 11:40:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:40:06 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:40:08 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:40:08 2013] [debug] Template "HASH(0x3056a78).html.ep" not found.
+[Fri Dec 27 11:40:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:40:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:40:08 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:40:08 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:40:08 2013] [debug] 404 Not Found (1.869481s, 0.535/s).
+[Fri Dec 27 11:41:30 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:41:30 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:41:32 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:41:32 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:41:32 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:41:32 2013] [debug] 200 OK (1.805135s, 0.554/s).
+[Fri Dec 27 11:41:33 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:41:33 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 11:41:33 2013] [debug] 200 OK (0.004798s, 208.420/s).
+[Fri Dec 27 11:41:33 2013] [debug] GET "/web/lib/uikit-1.0.1/css/uikit.almost-flat.min.css".
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:41:33 2013] [debug] 404 Not Found (0.024474s, 40.860/s).
+[Fri Dec 27 11:41:33 2013] [debug] GET "/web/css/common.css".
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] 404 Not Found (0.008806s, 113.559/s).
+[Fri Dec 27 11:41:33 2013] [debug] GET "/web/css/spot.css".
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] 404 Not Found (0.009350s, 106.952/s).
+[Fri Dec 27 11:41:33 2013] [debug] GET "/web/lib/uikit-1.0.1/js/uikit.min.js".
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] 404 Not Found (0.008736s, 114.469/s).
+[Fri Dec 27 11:41:33 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:33 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] 404 Not Found (0.067786s, 14.752/s).
+[Fri Dec 27 11:41:34 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:41:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] 404 Not Found (0.008956s, 111.657/s).
+[Fri Dec 27 11:41:34 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:41:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] 404 Not Found (0.008995s, 111.173/s).
+[Fri Dec 27 11:41:34 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:41:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:41:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:41:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:41:34 2013] [debug] 404 Not Found (0.008347s, 119.804/s).
+[Fri Dec 27 11:46:05 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:46:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:46:06 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:46:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:46:06 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:46:06 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:46:06 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:46:06 2013] [debug] 404 Not Found (0.026498s, 37.739/s).
+[Fri Dec 27 11:46:11 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:46:11 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:46:11 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:46:11 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:46:11 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:46:11 2013] [debug] 404 Not Found (0.010480s, 95.420/s).
+[Fri Dec 27 11:46:13 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:46:13 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:46:13 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:46:13 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:46:14 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:46:14 2013] [debug] 404 Not Found (0.012733s, 78.536/s).
+[Fri Dec 27 11:47:19 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:47:19 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:47:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:19 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:19 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:47:19 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:47:19 2013] [debug] 404 Not Found (0.026968s, 37.081/s).
+[Fri Dec 27 11:47:21 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:47:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:21 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:21 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:21 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:21 2013] [debug] 404 Not Found (0.009558s, 104.624/s).
+[Fri Dec 27 11:47:23 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:47:25 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:47:25 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:47:25 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:47:25 2013] [debug] 200 OK (1.630964s, 0.613/s).
+[Fri Dec 27 11:47:25 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:47:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:25 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:25 2013] [debug] 404 Not Found (0.009861s, 101.410/s).
+[Fri Dec 27 11:47:25 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:47:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:25 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:25 2013] [debug] 404 Not Found (0.008822s, 113.353/s).
+[Fri Dec 27 11:47:46 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:47:46 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 11:47:46 2013] [debug] 200 OK (0.005162s, 193.723/s).
+[Fri Dec 27 11:47:46 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] 404 Not Found (0.009027s, 110.779/s).
+[Fri Dec 27 11:47:46 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] 404 Not Found (0.010005s, 99.950/s).
+[Fri Dec 27 11:47:46 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] 404 Not Found (0.008998s, 111.136/s).
+[Fri Dec 27 11:47:46 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:46 2013] [debug] 404 Not Found (0.009453s, 105.787/s).
+[Fri Dec 27 11:47:49 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:47:49 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:47:49 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 11:47:49 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 11:47:49 2013] [debug] 200 OK (0.004728s, 211.506/s).
+[Fri Dec 27 11:47:50 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] 404 Not Found (0.008843s, 113.084/s).
+[Fri Dec 27 11:47:50 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] 404 Not Found (0.008645s, 115.674/s).
+[Fri Dec 27 11:47:50 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] 404 Not Found (0.008899s, 112.372/s).
+[Fri Dec 27 11:47:50 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:47:50 2013] [debug] 404 Not Found (0.008531s, 117.220/s).
+[Fri Dec 27 11:48:00 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:48:00 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 11:48:00 2013] [debug] 200 OK (0.004761s, 210.040/s).
+[Fri Dec 27 11:48:00 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] 404 Not Found (0.010657s, 93.835/s).
+[Fri Dec 27 11:48:00 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] 404 Not Found (0.008746s, 114.338/s).
+[Fri Dec 27 11:48:00 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] 404 Not Found (0.014061s, 71.119/s).
+[Fri Dec 27 11:48:00 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:00 2013] [debug] 404 Not Found (0.011692s, 85.529/s).
+[Fri Dec 27 11:48:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:48:40 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:48:42 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:48:42 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:48:42 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:48:42 2013] [debug] 200 OK (1.723567s, 0.580/s).
+[Fri Dec 27 11:48:42 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:48:42 2013] [debug] 404 Not Found (0.023611s, 42.353/s).
+[Fri Dec 27 11:48:42 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:42 2013] [debug] 404 Not Found (0.008657s, 115.513/s).
+[Fri Dec 27 11:48:42 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:42 2013] [debug] 404 Not Found (0.009093s, 109.975/s).
+[Fri Dec 27 11:48:42 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:48:42 2013] [debug] 404 Not Found (0.008542s, 117.069/s).
+[Fri Dec 27 11:52:52 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:52:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:52:57 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:52:59 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:52:59 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:52:59 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:52:59 2013] [debug] 200 OK (1.768766s, 0.565/s).
+[Fri Dec 27 11:52:59 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:52:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:52:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:52:59 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:52:59 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:52:59 2013] [debug] 404 Not Found (0.027115s, 36.880/s).
+[Fri Dec 27 11:52:59 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:52:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:52:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:52:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:52:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:52:59 2013] [debug] 404 Not Found (0.033266s, 30.061/s).
+[Fri Dec 27 11:52:59 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:52:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:52:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:52:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:52:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:52:59 2013] [debug] 404 Not Found (0.009265s, 107.933/s).
+[Fri Dec 27 11:53:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:53:57 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:53:59 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:53:59 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:53:59 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:53:59 2013] [debug] 200 OK (1.672839s, 0.598/s).
+[Fri Dec 27 11:53:59 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:53:59 2013] [debug] 404 Not Found (0.023320s, 42.882/s).
+[Fri Dec 27 11:53:59 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:53:59 2013] [debug] 404 Not Found (0.008743s, 114.377/s).
+[Fri Dec 27 11:53:59 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:53:59 2013] [debug] 404 Not Found (0.009931s, 100.695/s).
+[Fri Dec 27 11:53:59 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:53:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:53:59 2013] [debug] 404 Not Found (0.008903s, 112.322/s).
+[Fri Dec 27 11:56:30 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 11:56:33 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:56:33 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:56:34 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:56:34 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:56:34 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:56:34 2013] [debug] 200 OK (1.800623s, 0.555/s).
+[Fri Dec 27 11:56:35 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:56:35 2013] [debug] 404 Not Found (0.025084s, 39.866/s).
+[Fri Dec 27 11:56:35 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:35 2013] [debug] 404 Not Found (0.009139s, 109.421/s).
+[Fri Dec 27 11:56:35 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:35 2013] [debug] 404 Not Found (0.009221s, 108.448/s).
+[Fri Dec 27 11:56:35 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:35 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:35 2013] [debug] 404 Not Found (0.009382s, 106.587/s).
+[Fri Dec 27 11:56:47 2013] [debug] GET "/spot/8".
+[Fri Dec 27 11:56:47 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:56:47 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:56:47 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:56:47 2013] [debug] 200 OK (0.048505s, 20.616/s).
+[Fri Dec 27 11:56:47 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:56:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:56:47 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:56:47 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:47 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:47 2013] [debug] 404 Not Found (0.009898s, 101.031/s).
+[Fri Dec 27 11:56:47 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:56:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:56:47 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:56:47 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:47 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:56:47 2013] [debug] 404 Not Found (0.010229s, 97.761/s).
+[Fri Dec 27 11:58:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:58:32 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:58:34 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:58:34 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:58:34 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:58:34 2013] [debug] 200 OK (1.827185s, 0.547/s).
+[Fri Dec 27 11:58:34 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:58:34 2013] [debug] 404 Not Found (0.023168s, 43.163/s).
+[Fri Dec 27 11:58:34 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:58:34 2013] [debug] 404 Not Found (0.019136s, 52.258/s).
+[Fri Dec 27 11:58:34 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:58:34 2013] [debug] 404 Not Found (0.008953s, 111.694/s).
+[Fri Dec 27 11:58:34 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:58:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:58:34 2013] [debug] 404 Not Found (0.011483s, 87.085/s).
+[Fri Dec 27 11:58:36 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 11:58:36 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:58:36 2013] [debug] 404 Not Found (0.003017s, 331.455/s).
+[Fri Dec 27 11:59:26 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:59:26 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:59:28 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:59:28 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:59:28 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:59:28 2013] [debug] 200 OK (1.652177s, 0.605/s).
+[Fri Dec 27 11:59:28 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:59:28 2013] [debug] 404 Not Found (0.023025s, 43.431/s).
+[Fri Dec 27 11:59:28 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:28 2013] [debug] 404 Not Found (0.008747s, 114.325/s).
+[Fri Dec 27 11:59:28 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:28 2013] [debug] 404 Not Found (0.008787s, 113.804/s).
+[Fri Dec 27 11:59:28 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:28 2013] [debug] 404 Not Found (0.008765s, 114.090/s).
+[Fri Dec 27 11:59:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 11:59:40 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 11:59:42 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 11:59:42 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 11:59:42 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 11:59:42 2013] [debug] 200 OK (1.639029s, 0.610/s).
+[Fri Dec 27 11:59:42 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 11:59:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:59:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:59:42 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:59:42 2013] [debug] Rendering inline template.
+[Fri Dec 27 11:59:42 2013] [debug] 404 Not Found (0.022743s, 43.970/s).
+[Fri Dec 27 11:59:42 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 11:59:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 11:59:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 11:59:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 11:59:42 2013] [debug] 404 Not Found (0.038595s, 25.910/s).
+[Fri Dec 27 12:02:55 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 12:02:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:02:57 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:02:58 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:02:58 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:02:58 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:02:58 2013] [debug] 200 OK (1.656064s, 0.604/s).
+[Fri Dec 27 12:02:58 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 12:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:02:58 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:02:58 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:02:58 2013] [debug] 404 Not Found (0.023851s, 41.927/s).
+[Fri Dec 27 12:02:58 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:02:58 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:02:58 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:02:58 2013] [debug] 404 Not Found (0.018296s, 54.657/s).
+[Fri Dec 27 12:02:59 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 12:02:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:02:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:02:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:02:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:02:59 2013] [debug] 404 Not Found (0.009090s, 110.011/s).
+[Fri Dec 27 12:02:59 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:02:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:02:59 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:02:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:02:59 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:02:59 2013] [debug] 404 Not Found (0.009087s, 110.047/s).
+[Fri Dec 27 12:03:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:03:38 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:03:39 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:03:40 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:03:40 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:03:40 2013] [debug] 200 OK (1.662915s, 0.601/s).
+[Fri Dec 27 12:03:40 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:03:40 2013] [debug] 404 Not Found (0.023385s, 42.762/s).
+[Fri Dec 27 12:03:40 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:03:40 2013] [debug] 404 Not Found (0.009115s, 109.709/s).
+[Fri Dec 27 12:03:40 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:03:40 2013] [debug] 404 Not Found (0.009092s, 109.987/s).
+[Fri Dec 27 12:03:40 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:03:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:03:40 2013] [debug] 404 Not Found (0.008849s, 113.007/s).
+[Fri Dec 27 12:04:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:04:48 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:04:50 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:04:50 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:04:50 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:04:50 2013] [debug] 200 OK (1.728000s, 0.579/s).
+[Fri Dec 27 12:04:50 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:04:50 2013] [debug] 404 Not Found (0.022465s, 44.514/s).
+[Fri Dec 27 12:04:50 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:04:50 2013] [debug] 404 Not Found (0.008804s, 113.585/s).
+[Fri Dec 27 12:04:50 2013] [debug] GET "/web/img/%5B%%20wifi.class%20%%5D.png".
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:04:50 2013] [debug] 404 Not Found (0.009301s, 107.515/s).
+[Fri Dec 27 12:04:50 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:04:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:04:50 2013] [debug] 404 Not Found (0.008798s, 113.662/s).
+[Fri Dec 27 12:13:36 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 12:13:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:13:38 2013] [debug] GET "/spot/8500c7a99978ba4".
+[Fri Dec 27 12:13:40 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:13:40 2013] [debug] 404 Not Found (1.687211s, 0.593/s).
+[Fri Dec 27 12:13:41 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:13:41 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:13:41 2013] [error] Undefined subroutine &Wifind::Spot::shortenURL called at /root/perl5/perlbrew/perls/perl-5.16.3/lib/site_perl/5.16.3/Mojolicious.pm line 157.
+
+[Fri Dec 27 12:13:41 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 12:13:41 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 12:13:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:13:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:13:41 2013] [debug] 500 Internal Server Error (0.057483s, 17.396/s).
+[Fri Dec 27 12:14:39 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:14:39 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:14:41 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:14:41 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:14:41 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:14:41 2013] [debug] 200 OK (1.752586s, 0.571/s).
+[Fri Dec 27 12:14:41 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:14:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:14:41 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:14:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:14:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:14:41 2013] [debug] 404 Not Found (0.053763s, 18.600/s).
+[Fri Dec 27 12:14:42 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:14:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:14:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:14:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:42 2013] [debug] 404 Not Found (0.009353s, 106.918/s).
+[Fri Dec 27 12:14:51 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:14:51 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:14:51 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 12:14:51 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 12:14:51 2013] [debug] 200 OK (0.005780s, 173.010/s).
+[Fri Dec 27 12:14:51 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:14:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:14:51 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:14:51 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:51 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:51 2013] [debug] 404 Not Found (0.009285s, 107.701/s).
+[Fri Dec 27 12:14:51 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:14:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:14:51 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:14:51 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:51 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:51 2013] [debug] 404 Not Found (0.009273s, 107.840/s).
+[Fri Dec 27 12:14:53 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:14:53 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:14:53 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 12:14:53 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 12:14:53 2013] [debug] 200 OK (0.005960s, 167.785/s).
+[Fri Dec 27 12:14:53 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:14:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:14:53 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:14:53 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:53 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:53 2013] [debug] 404 Not Found (0.009197s, 108.731/s).
+[Fri Dec 27 12:14:53 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:14:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:14:53 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:14:53 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:53 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:14:53 2013] [debug] 404 Not Found (0.009169s, 109.063/s).
+[Fri Dec 27 12:18:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:18:59 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:19:01 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:19:01 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:19:01 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:19:01 2013] [debug] 200 OK (1.707926s, 0.586/s).
+[Fri Dec 27 12:19:01 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:19:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:19:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:19:01 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:19:01 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:19:01 2013] [debug] 404 Not Found (0.029256s, 34.181/s).
+[Fri Dec 27 12:19:01 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:19:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:19:01 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:19:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:19:01 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 12:19:01 2013] [debug] 404 Not Found (0.013158s, 75.999/s).
+[Fri Dec 27 12:23:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:23:18 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:23:20 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:23:20 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:23:20 2013] [error] Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 106.
+Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 114.
+Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 122.
+Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 130.
+125: 									<tr>
+126: 										<th>認証</th>
+127: 										% if ( $wifi->{auth} ){
+128: 											<td><%= $wifi->{auth} %></td>
+129: 										% }else{
+130: 											<td><%= $service->{wifi}->{auth} %></td>
+131: 										% }
+132: 
+133: 									</tr>
+134: 
+135: 
+
+[Fri Dec 27 12:23:20 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 12:23:20 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 12:23:20 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:23:20 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:23:20 2013] [debug] 500 Internal Server Error (1.854382s, 0.539/s).
+[Fri Dec 27 12:24:24 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 12:24:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:24:28 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:24:29 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:24:29 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:24:30 2013] [error] Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 106.
+Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 114.
+Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 122.
+Global symbol "$service" requires explicit package name at template spot/spot.html.ep line 130.
+125: 									<tr>
+126: 										<th>認証</th>
+127: 										% if ( $wifi->{auth} ){
+128: 											<td><%= $wifi->{auth} %></td>
+129: 										% }else{
+130: 											<td><%= $service->{wifi}->{auth} %></td>
+131: 										% }
+132: 
+133: 									</tr>
+134: 
+135: 
+
+[Fri Dec 27 12:24:30 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 12:24:30 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 12:24:30 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:24:30 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:24:30 2013] [debug] 500 Internal Server Error (1.819907s, 0.549/s).
+[Fri Dec 27 12:25:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:25:56 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:25:57 2013] [error] syntax error at /var/www/wifind/wifind/script/../lib/Wifind/Spot.pm line 27, near ")
+		$self"
+Compilation failed in require at (eval 246) line 1.
+
+[Fri Dec 27 12:25:57 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 12:25:57 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 12:25:57 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:25:58 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:25:58 2013] [debug] 500 Internal Server Error (1.672508s, 0.598/s).
+[Fri Dec 27 12:26:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:26:16 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:26:18 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:26:18 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:26:18 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:26:18 2013] [debug] 200 OK (1.803660s, 0.554/s).
+[Fri Dec 27 12:26:18 2013] [debug] GET "/web/img/icon.jpg".
+[Fri Dec 27 12:26:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 12:26:18 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 12:26:18 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:26:18 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:26:18 2013] [debug] 404 Not Found (0.024247s, 41.242/s).
+[Fri Dec 27 12:42:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:42:46 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:42:48 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:42:48 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:42:48 2013] [error] Bareword "id" not allowed while "strict subs" in use at template spot/spot.html.ep line 224.
+219: 						<div id="map"></div>
+220: 					</div>
+221: 
+222: 					<div id="wifi-share" class="box">
+223: 						<div class="uk-form">
+224: 							<input type="text" placeholder="http://wifind.dip.jp/spot/<%= id %>">
+225: 							<a class="uk-icon-button uk-icon-twitter" href=""></a> 
+226: 							<a class="uk-icon-button uk-icon-facebook" href=""></a>
+227: 						</div>
+228: 					</div> 
+229: 				</div>
+
+[Fri Dec 27 12:42:48 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 12:42:48 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 12:42:48 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:42:48 2013] [debug] Rendering inline template.
+[Fri Dec 27 12:42:48 2013] [debug] 500 Internal Server Error (2.046829s, 0.489/s).
+[Fri Dec 27 12:43:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:43:08 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:43:10 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:43:10 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:43:10 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:43:10 2013] [debug] 200 OK (1.912610s, 0.523/s).
+[Fri Dec 27 12:43:50 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:43:50 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:43:52 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:43:52 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:43:52 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:43:52 2013] [debug] 200 OK (1.682677s, 0.594/s).
+[Fri Dec 27 12:43:55 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:43:55 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:43:55 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 12:43:55 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 12:43:55 2013] [debug] 200 OK (0.008854s, 112.943/s).
+[Fri Dec 27 12:44:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:44:43 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:44:45 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:44:45 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:44:45 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:44:45 2013] [debug] 200 OK (1.676626s, 0.596/s).
+[Fri Dec 27 12:45:39 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:45:39 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:45:39 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 12:45:39 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 12:45:39 2013] [debug] 200 OK (0.005994s, 166.834/s).
+[Fri Dec 27 12:45:42 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:45:42 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:45:42 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 12:45:42 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 12:45:42 2013] [debug] 200 OK (0.006557s, 152.509/s).
+[Fri Dec 27 12:46:21 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 12:46:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 12:46:23 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 12:46:25 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 12:46:25 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 12:46:25 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 12:46:25 2013] [debug] 200 OK (1.727490s, 0.579/s).
+[Fri Dec 27 13:14:41 2013] [debug] GET "/spot/8500c7a99978ba41".
+[Fri Dec 27 13:14:41 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 13:14:41 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Dec 27 13:14:41 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 13:14:41 2013] [debug] 200 OK (0.005863s, 170.561/s).
+[Fri Dec 27 13:14:45 2013] [debug] GET "/map".
+[Fri Dec 27 13:14:45 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:14:45 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:14:45 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:14:45 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:14:45 2013] [debug] 404 Not Found (0.023522s, 42.513/s).
+[Fri Dec 27 13:25:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:25:14 2013] [debug] GET "/map".
+[Fri Dec 27 13:25:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:25:14 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:25:14 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:25:14 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:25:14 2013] [debug] 404 Not Found (0.027297s, 36.634/s).
+[Fri Dec 27 13:36:17 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 13:36:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:36:18 2013] [debug] GET "/map".
+[Fri Dec 27 13:36:18 2013] [debug] Template "map.html.ep" not found.
+[Fri Dec 27 13:36:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:36:18 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:36:18 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:36:18 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:36:18 2013] [debug] 404 Not Found (0.028077s, 35.616/s).
+[Fri Dec 27 13:36:21 2013] [debug] GET "/map".
+[Fri Dec 27 13:36:21 2013] [debug] Template "map.html.ep" not found.
+[Fri Dec 27 13:36:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:36:21 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:36:21 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:36:21 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:36:21 2013] [debug] 404 Not Found (0.009650s, 103.627/s).
+[Fri Dec 27 13:36:24 2013] [debug] GET "/map".
+[Fri Dec 27 13:36:24 2013] [debug] Template "map.html.ep" not found.
+[Fri Dec 27 13:36:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:36:24 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:36:24 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:36:24 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:36:24 2013] [debug] 404 Not Found (0.009317s, 107.331/s).
+[Fri Dec 27 13:36:34 2013] [debug] GET "/map".
+[Fri Dec 27 13:36:34 2013] [debug] Template "map.html.ep" not found.
+[Fri Dec 27 13:36:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:36:34 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:36:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:36:34 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:36:34 2013] [debug] 404 Not Found (0.009515s, 105.097/s).
+[Fri Dec 27 13:37:04 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:37:04 2013] [debug] GET "/map".
+[Fri Dec 27 13:37:04 2013] [debug] Template "map.html.ep" not found.
+[Fri Dec 27 13:37:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:37:04 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:37:04 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:37:04 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:37:04 2013] [debug] 404 Not Found (0.028471s, 35.123/s).
+[Fri Dec 27 13:37:07 2013] [debug] GET "/map".
+[Fri Dec 27 13:37:07 2013] [debug] Template "map.html.ep" not found.
+[Fri Dec 27 13:37:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:37:07 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:37:07 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:37:07 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:37:07 2013] [debug] 404 Not Found (0.009623s, 103.918/s).
+[Fri Dec 27 13:37:17 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 13:37:18 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:37:18 2013] [debug] GET "/map".
+[Fri Dec 27 13:37:18 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:37:18 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 13:37:18 2013] [error] syntax error at template map/map.html.ep line 25, near "'layouts/navbar' 
+$_M "
+20: 
+21: 	<body>
+22: 		<div id="screen">
+23: 
+24: % include 'layouts/navbar'
+25: 
+26: 			<div id="container">
+27: 
+28: 				<div id="search" style="display: none;">
+29: 					<i class="uk-icon-search" id="search-icon"></i>
+30: 					<input id="search-input" type="search" placeholder="search" />
+
+[Fri Dec 27 13:37:18 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 13:37:18 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 13:37:18 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:37:18 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:37:18 2013] [debug] 500 Internal Server Error (0.073120s, 13.676/s).
+[Fri Dec 27 13:38:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:38:06 2013] [debug] GET "/map".
+[Fri Dec 27 13:38:06 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:38:06 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 13:38:06 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 13:38:06 2013] [debug] 200 OK (0.011136s, 89.799/s).
+[Fri Dec 27 13:38:16 2013] [debug] GET "/api/spot.pl".
+[Fri Dec 27 13:38:16 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:38:16 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:38:16 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:38:16 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:38:16 2013] [debug] 404 Not Found (0.024556s, 40.723/s).
+[Fri Dec 27 13:38:25 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Fri Dec 27 13:38:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:38:25 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:38:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:38:25 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:38:25 2013] [debug] 404 Not Found (0.009058s, 110.400/s).
+[Fri Dec 27 13:42:34 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 13:42:37 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:42:37 2013] [debug] GET "/map".
+[Fri Dec 27 13:42:37 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:42:37 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 13:42:37 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 13:42:37 2013] [debug] 200 OK (0.011653s, 85.815/s).
+[Fri Dec 27 13:42:41 2013] [debug] GET "/api/spot.pl".
+[Fri Dec 27 13:42:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:42:41 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:42:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:42:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:42:41 2013] [debug] 404 Not Found (0.025323s, 39.490/s).
+[Fri Dec 27 13:43:59 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:43:59 2013] [debug] GET "/map".
+[Fri Dec 27 13:43:59 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:43:59 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 13:43:59 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 13:43:59 2013] [debug] 200 OK (0.010954s, 91.291/s).
+[Fri Dec 27 13:44:02 2013] [debug] GET "/api/spot.pl".
+[Fri Dec 27 13:44:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:44:02 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:44:02 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:44:02 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:44:02 2013] [debug] 404 Not Found (0.031100s, 32.154/s).
+[Fri Dec 27 13:44:12 2013] [debug] GET "/map".
+[Fri Dec 27 13:44:12 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:44:12 2013] [debug] Rendering cached template "map/map.html.ep".
+[Fri Dec 27 13:44:12 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 13:44:12 2013] [debug] 200 OK (0.001344s, 744.048/s).
+[Fri Dec 27 13:44:12 2013] [debug] GET "/api/spot.pl".
+[Fri Dec 27 13:44:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:44:12 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:44:12 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:44:12 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:44:12 2013] [debug] 404 Not Found (0.009777s, 102.281/s).
+[Fri Dec 27 13:44:46 2013] [debug] GET "/map".
+[Fri Dec 27 13:44:46 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:44:46 2013] [debug] Rendering cached template "map/map.html.ep".
+[Fri Dec 27 13:44:46 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 13:44:46 2013] [debug] 200 OK (0.001426s, 701.262/s).
+[Fri Dec 27 13:44:50 2013] [debug] GET "/api/spot.pl".
+[Fri Dec 27 13:44:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:44:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:44:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:44:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:44:50 2013] [debug] 404 Not Found (0.009976s, 100.241/s).
+[Fri Dec 27 13:46:24 2013] [debug] GET "/map".
+[Fri Dec 27 13:46:24 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 13:46:24 2013] [debug] Rendering cached template "map/map.html.ep".
+[Fri Dec 27 13:46:24 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 13:46:24 2013] [debug] 200 OK (0.001583s, 631.712/s).
+[Fri Dec 27 13:46:28 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:46:28 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:46:28 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:46:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:46:28 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:46:28 2013] [debug] 404 Not Found (0.009474s, 105.552/s).
+[Fri Dec 27 13:46:42 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:46:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:46:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:46:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:46:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:46:42 2013] [debug] 404 Not Found (0.011893s, 84.083/s).
+[Fri Dec 27 13:48:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:48:25 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:48:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:48:25 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:48:25 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:48:25 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:48:25 2013] [debug] 404 Not Found (0.027975s, 35.746/s).
+[Fri Dec 27 13:48:27 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:48:27 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:48:27 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:48:27 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:48:27 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:48:27 2013] [debug] 404 Not Found (0.009853s, 101.492/s).
+[Fri Dec 27 13:49:59 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 13:50:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:50:06 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:50:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:50:06 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:50:06 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:50:06 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:50:06 2013] [debug] 404 Not Found (0.028789s, 34.735/s).
+[Fri Dec 27 13:50:08 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:50:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:50:08 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:50:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:50:08 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:50:08 2013] [debug] 404 Not Found (0.011810s, 84.674/s).
+[Fri Dec 27 13:50:14 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:50:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:50:14 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:50:14 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:50:14 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:50:14 2013] [debug] 404 Not Found (0.009364s, 106.792/s).
+[Fri Dec 27 13:50:41 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:50:41 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:50:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:50:41 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:50:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:50:41 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:50:41 2013] [debug] 404 Not Found (0.028096s, 35.592/s).
+[Fri Dec 27 13:50:44 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:50:44 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:50:44 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:50:44 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:50:44 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:50:44 2013] [debug] 404 Not Found (0.009539s, 104.833/s).
+[Fri Dec 27 13:51:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:51:48 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:51:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:51:48 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:51:48 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:51:48 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:51:48 2013] [debug] 404 Not Found (0.027098s, 36.903/s).
+[Fri Dec 27 13:51:50 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:51:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:51:50 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:51:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:51:50 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:51:50 2013] [debug] 404 Not Found (0.009591s, 104.264/s).
+[Fri Dec 27 13:51:52 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:51:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:51:52 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:51:52 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:51:52 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:51:52 2013] [debug] 404 Not Found (0.010077s, 99.236/s).
+[Fri Dec 27 13:52:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:52:38 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:52:38 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:52:38 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:52:38 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:52:38 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:52:38 2013] [debug] 404 Not Found (0.028163s, 35.508/s).
+[Fri Dec 27 13:52:40 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:52:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:52:40 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:52:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:52:40 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:52:40 2013] [debug] 404 Not Found (0.009434s, 106.000/s).
+[Fri Dec 27 13:52:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:52:58 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:52:58 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:52:58 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:52:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:52:58 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:52:58 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:52:59 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:52:59 2013] [debug] 404 Not Found (0.030354s, 32.945/s).
+[Fri Dec 27 13:53:06 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:53:06 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:53:06 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:53:06 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:53:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:53:06 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:53:06 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:53:06 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:53:07 2013] [debug] 404 Not Found (0.029678s, 33.695/s).
+[Fri Dec 27 13:53:09 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:53:09 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:53:09 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:53:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:53:09 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:53:09 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:53:09 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:53:09 2013] [debug] 404 Not Found (0.012171s, 82.163/s).
+[Fri Dec 27 13:53:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:53:35 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:53:35 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:53:35 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:53:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:53:35 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:53:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:53:35 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:53:35 2013] [debug] 404 Not Found (0.029149s, 34.306/s).
+[Fri Dec 27 13:53:38 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:53:38 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:53:38 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:53:38 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:53:38 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:53:38 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:53:38 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:53:38 2013] [debug] 404 Not Found (0.012801s, 78.119/s).
+[Fri Dec 27 13:53:39 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:53:39 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:53:39 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:53:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:53:39 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:53:39 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:53:39 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 13:53:39 2013] [debug] 404 Not Found (0.011830s, 84.531/s).
+[Fri Dec 27 13:53:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 13:53:47 2013] [debug] GET "/api/spot".
+[Fri Dec 27 13:53:47 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 13:53:47 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 13:53:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 13:53:47 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 13:53:47 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:53:47 2013] [debug] Rendering inline template.
+[Fri Dec 27 13:53:47 2013] [debug] 404 Not Found (0.029483s, 33.918/s).
+[Fri Dec 27 15:23:02 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:23:02 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:23:02 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:23:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:23:02 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:23:02 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:02 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:02 2013] [debug] 404 Not Found (0.019291s, 51.838/s).
+[Fri Dec 27 15:23:04 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:23:04 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:23:04 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:23:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:23:04 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:23:04 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:04 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:04 2013] [debug] 404 Not Found (0.010711s, 93.362/s).
+[Fri Dec 27 15:23:29 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:23:29 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:23:29 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:23:29 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:23:29 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:23:29 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:29 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:29 2013] [debug] 404 Not Found (0.013794s, 72.495/s).
+[Fri Dec 27 15:23:43 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:23:43 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:23:43 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:23:43 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:23:43 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:23:43 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:43 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:43 2013] [debug] 404 Not Found (0.010133s, 98.687/s).
+[Fri Dec 27 15:23:54 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:23:54 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:23:54 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:23:54 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:23:54 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:23:54 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:54 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:23:54 2013] [debug] 404 Not Found (0.010334s, 96.768/s).
+[Fri Dec 27 15:24:00 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:24:00 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:24:00 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:24:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:24:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:24:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:24:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:24:00 2013] [debug] 404 Not Found (0.010652s, 93.879/s).
+[Fri Dec 27 15:24:05 2013] [debug] GET "/api/".
+[Fri Dec 27 15:24:05 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:24:05 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:24:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:24:05 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:24:05 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:24:05 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:24:05 2013] [debug] 404 Not Found (0.010545s, 94.832/s).
+[Fri Dec 27 15:24:09 2013] [debug] GET "/api".
+[Fri Dec 27 15:24:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:24:09 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:24:09 2013] [debug] Rendering inline template.
+[Fri Dec 27 15:24:09 2013] [debug] Rendering inline template.
+[Fri Dec 27 15:24:09 2013] [debug] 404 Not Found (0.024956s, 40.071/s).
+[Fri Dec 27 15:31:08 2013] [debug] GET "/map".
+[Fri Dec 27 15:31:08 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 15:31:08 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 15:31:08 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 15:31:08 2013] [debug] 200 OK (0.009005s, 111.049/s).
+[Fri Dec 27 15:31:12 2013] [debug] GET "/api/spot".
+[Fri Dec 27 15:31:12 2013] [debug] Controller "Wifind::Api" does not exist.
+[Fri Dec 27 15:31:12 2013] [debug] Template "api/spot.html.ep" not found.
+[Fri Dec 27 15:31:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:31:12 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:31:12 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:31:12 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 15:31:12 2013] [debug] 404 Not Found (0.011911s, 83.956/s).
+[Fri Dec 27 15:38:33 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 15:38:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 15:38:36 2013] [debug] GET "/api".
+[Fri Dec 27 15:38:36 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 15:38:36 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 15:38:36 2013] [debug] Rendering inline template.
+[Fri Dec 27 15:38:36 2013] [debug] Rendering inline template.
+[Fri Dec 27 15:38:36 2013] [debug] 404 Not Found (0.026746s, 37.389/s).
+[Fri Dec 27 16:20:03 2013] [debug] GET "/api".
+[Fri Dec 27 16:20:03 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 16:20:03 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 16:20:03 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 16:20:03 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 16:20:03 2013] [debug] 404 Not Found (0.016404s, 60.961/s).
+[Fri Dec 27 16:45:26 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 16:45:29 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:45:29 2013] [debug] GET "/api".
+[Fri Dec 27 16:45:29 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 16:45:29 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 16:45:29 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:45:29 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:45:29 2013] [debug] 404 Not Found (0.029990s, 33.344/s).
+[Fri Dec 27 16:45:32 2013] [debug] GET "/api".
+[Fri Dec 27 16:45:32 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 16:45:32 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 16:45:32 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 16:45:32 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 16:45:32 2013] [debug] 404 Not Found (0.009205s, 108.637/s).
+[Fri Dec 27 16:45:44 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:45:44 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:45:44 2013] [debug] 200 OK (0.001786s, 559.910/s).
+[Fri Dec 27 16:45:48 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:45:48 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:45:48 2013] [debug] 200 OK (0.000732s, 1366.120/s).
+[Fri Dec 27 16:46:22 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:46:22 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:46:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 16:46:22 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 16:46:22 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:46:22 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:46:22 2013] [debug] 404 Not Found (0.026410s, 37.864/s).
+[Fri Dec 27 16:46:46 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:46:46 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:46:46 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:46:46 2013] [debug] 200 OK (0.002126s, 470.367/s).
+[Fri Dec 27 16:47:00 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:47:00 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:47:00 2013] [debug] 200 OK (0.000698s, 1432.665/s).
+[Fri Dec 27 16:47:02 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:47:02 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:47:02 2013] [debug] 200 OK (0.001072s, 932.836/s).
+[Fri Dec 27 16:47:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:47:23 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:47:23 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:47:23 2013] [debug] 200 OK (0.002083s, 480.077/s).
+[Fri Dec 27 16:48:02 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:48:02 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:48:02 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:48:02 2013] [debug] 200 OK (0.002263s, 441.891/s).
+[Fri Dec 27 16:48:11 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:48:11 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:48:11 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 16:48:11 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 16:48:11 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:48:11 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:48:11 2013] [debug] 404 Not Found (0.027038s, 36.985/s).
+[Fri Dec 27 16:48:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:48:20 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:48:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 16:48:20 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 16:48:20 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:48:20 2013] [debug] Rendering inline template.
+[Fri Dec 27 16:48:20 2013] [debug] 404 Not Found (0.027096s, 36.906/s).
+[Fri Dec 27 16:48:28 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:48:28 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:48:28 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:48:28 2013] [debug] 200 OK (0.002157s, 463.607/s).
+[Fri Dec 27 16:48:30 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:48:30 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:48:30 2013] [debug] 200 OK (0.000630s, 1587.302/s).
+[Fri Dec 27 16:48:54 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:48:54 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:48:54 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:48:54 2013] [debug] 200 OK (0.002120s, 471.698/s).
+[Fri Dec 27 16:54:16 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:54:16 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:54:16 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:54:16 2013] [debug] 200 OK (0.002092s, 478.011/s).
+[Fri Dec 27 16:54:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 16:54:36 2013] [debug] GET "/api/spot".
+[Fri Dec 27 16:54:36 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 16:54:36 2013] [debug] 200 OK (0.002345s, 426.439/s).
+[Fri Dec 27 17:04:05 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 17:04:08 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 17:04:08 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:09 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:09 2013] [debug] 200 OK (1.890099s, 0.529/s).
+[Fri Dec 27 17:04:14 2013] [debug] GET "/map".
+[Fri Dec 27 17:04:14 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 17:04:14 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 17:04:14 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 17:04:14 2013] [debug] 200 OK (0.013428s, 74.471/s).
+[Fri Dec 27 17:04:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:19 2013] [debug] 200 OK (0.035444s, 28.214/s).
+[Fri Dec 27 17:04:27 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:27 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:27 2013] [debug] 200 OK (0.090610s, 11.036/s).
+[Fri Dec 27 17:04:28 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:28 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:28 2013] [debug] 200 OK (0.083874s, 11.923/s).
+[Fri Dec 27 17:04:29 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:29 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:29 2013] [debug] 200 OK (0.027379s, 36.524/s).
+[Fri Dec 27 17:04:31 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:31 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:31 2013] [debug] 200 OK (0.092104s, 10.857/s).
+[Fri Dec 27 17:04:32 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:32 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:32 2013] [debug] 200 OK (0.100740s, 9.927/s).
+[Fri Dec 27 17:04:33 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:33 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:33 2013] [debug] 200 OK (0.114670s, 8.721/s).
+[Fri Dec 27 17:04:33 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:33 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:33 2013] [debug] 200 OK (0.075373s, 13.267/s).
+[Fri Dec 27 17:04:35 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:35 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:35 2013] [debug] 200 OK (0.164195s, 6.090/s).
+[Fri Dec 27 17:04:36 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:36 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:36 2013] [debug] 200 OK (0.089268s, 11.202/s).
+[Fri Dec 27 17:04:37 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:37 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:37 2013] [debug] 200 OK (0.132800s, 7.530/s).
+[Fri Dec 27 17:04:38 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:38 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:38 2013] [debug] 200 OK (0.175939s, 5.684/s).
+[Fri Dec 27 17:04:39 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:39 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:40 2013] [debug] 200 OK (0.162774s, 6.143/s).
+[Fri Dec 27 17:04:40 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:40 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:40 2013] [debug] 200 OK (0.268613s, 3.723/s).
+[Fri Dec 27 17:04:45 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:45 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:45 2013] [debug] 200 OK (0.186560s, 5.360/s).
+[Fri Dec 27 17:04:45 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:45 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:46 2013] [debug] 200 OK (0.086438s, 11.569/s).
+[Fri Dec 27 17:04:46 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:46 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:47 2013] [debug] 200 OK (0.321800s, 3.108/s).
+[Fri Dec 27 17:04:47 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:47 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:47 2013] [debug] 200 OK (0.275098s, 3.635/s).
+[Fri Dec 27 17:04:47 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:47 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:47 2013] [debug] 200 OK (0.236137s, 4.235/s).
+[Fri Dec 27 17:04:47 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:47 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:48 2013] [debug] 200 OK (0.154246s, 6.483/s).
+[Fri Dec 27 17:04:48 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:48 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:48 2013] [debug] 200 OK (0.048381s, 20.669/s).
+[Fri Dec 27 17:04:49 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:49 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:49 2013] [debug] 200 OK (0.027355s, 36.556/s).
+[Fri Dec 27 17:04:49 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:49 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:49 2013] [debug] 200 OK (0.022796s, 43.867/s).
+[Fri Dec 27 17:04:50 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:50 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:50 2013] [debug] 200 OK (0.028195s, 35.467/s).
+[Fri Dec 27 17:04:51 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:51 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:51 2013] [debug] 200 OK (0.104067s, 9.609/s).
+[Fri Dec 27 17:04:51 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:51 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:51 2013] [debug] 200 OK (0.077104s, 12.969/s).
+[Fri Dec 27 17:04:52 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:52 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:52 2013] [debug] 200 OK (0.119647s, 8.358/s).
+[Fri Dec 27 17:04:52 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:52 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:52 2013] [debug] 200 OK (0.034746s, 28.780/s).
+[Fri Dec 27 17:04:52 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:04:52 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:04:52 2013] [debug] 200 OK (0.021901s, 45.660/s).
+[Fri Dec 27 17:05:08 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:08 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:08 2013] [debug] 200 OK (0.011738s, 85.193/s).
+[Fri Dec 27 17:05:09 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:09 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:09 2013] [debug] 200 OK (0.005272s, 189.681/s).
+[Fri Dec 27 17:05:10 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:10 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:10 2013] [debug] 200 OK (0.005470s, 182.815/s).
+[Fri Dec 27 17:05:11 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:11 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:11 2013] [debug] 200 OK (0.004593s, 217.723/s).
+[Fri Dec 27 17:05:12 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:12 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:12 2013] [debug] 200 OK (0.005367s, 186.324/s).
+[Fri Dec 27 17:05:12 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:12 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:12 2013] [debug] 200 OK (0.011719s, 85.332/s).
+[Fri Dec 27 17:05:13 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:13 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:13 2013] [debug] 200 OK (0.021535s, 46.436/s).
+[Fri Dec 27 17:05:13 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:13 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:13 2013] [debug] 200 OK (0.099036s, 10.097/s).
+[Fri Dec 27 17:05:15 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:15 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:15 2013] [debug] 200 OK (0.137128s, 7.292/s).
+[Fri Dec 27 17:05:15 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:15 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:15 2013] [debug] 200 OK (0.128414s, 7.787/s).
+[Fri Dec 27 17:05:17 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:17 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:17 2013] [debug] 200 OK (0.059982s, 16.672/s).
+[Fri Dec 27 17:05:17 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:17 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:17 2013] [debug] 200 OK (0.029187s, 34.262/s).
+[Fri Dec 27 17:05:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:19 2013] [debug] 200 OK (0.087101s, 11.481/s).
+[Fri Dec 27 17:05:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:19 2013] [debug] 200 OK (0.095664s, 10.453/s).
+[Fri Dec 27 17:05:20 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:20 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:20 2013] [debug] 200 OK (0.082235s, 12.160/s).
+[Fri Dec 27 17:05:34 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:34 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:34 2013] [debug] 200 OK (0.160235s, 6.241/s).
+[Fri Dec 27 17:05:34 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:34 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:35 2013] [debug] 200 OK (0.268819s, 3.720/s).
+[Fri Dec 27 17:05:35 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:35 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:36 2013] [debug] 200 OK (0.212056s, 4.716/s).
+[Fri Dec 27 17:05:39 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:39 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:39 2013] [debug] 200 OK (0.036783s, 27.186/s).
+[Fri Dec 27 17:05:40 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:40 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:40 2013] [debug] 200 OK (0.015988s, 62.547/s).
+[Fri Dec 27 17:05:41 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:41 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:41 2013] [debug] 200 OK (0.008617s, 116.050/s).
+[Fri Dec 27 17:05:42 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:42 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:42 2013] [debug] 200 OK (0.010381s, 96.330/s).
+[Fri Dec 27 17:05:43 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:43 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:43 2013] [debug] 200 OK (0.012994s, 76.959/s).
+[Fri Dec 27 17:05:45 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:45 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:45 2013] [debug] 200 OK (0.015455s, 64.704/s).
+[Fri Dec 27 17:05:49 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:49 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:49 2013] [debug] 200 OK (0.020462s, 48.871/s).
+[Fri Dec 27 17:05:49 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:49 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:49 2013] [debug] 200 OK (0.102125s, 9.792/s).
+[Fri Dec 27 17:05:49 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:49 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:50 2013] [debug] 200 OK (0.183234s, 5.458/s).
+[Fri Dec 27 17:05:50 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:50 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:50 2013] [debug] 200 OK (0.235974s, 4.238/s).
+[Fri Dec 27 17:05:50 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:50 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:51 2013] [debug] 200 OK (0.210066s, 4.760/s).
+[Fri Dec 27 17:05:51 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:51 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:52 2013] [debug] 200 OK (0.122464s, 8.166/s).
+[Fri Dec 27 17:05:52 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:52 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:52 2013] [debug] 200 OK (0.074714s, 13.384/s).
+[Fri Dec 27 17:05:57 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:57 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:58 2013] [debug] 200 OK (0.075868s, 13.181/s).
+[Fri Dec 27 17:05:58 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:05:58 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:05:58 2013] [debug] 200 OK (0.007047s, 141.904/s).
+[Fri Dec 27 17:06:00 2013] [debug] GET "/map".
+[Fri Dec 27 17:06:00 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 17:06:00 2013] [debug] Rendering cached template "map/map.html.ep".
+[Fri Dec 27 17:06:00 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 17:06:00 2013] [debug] 200 OK (0.001587s, 630.120/s).
+[Fri Dec 27 17:06:04 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:04 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:04 2013] [debug] 200 OK (0.048245s, 20.728/s).
+[Fri Dec 27 17:06:08 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:08 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:08 2013] [debug] 200 OK (0.034067s, 29.354/s).
+[Fri Dec 27 17:06:09 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:09 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:09 2013] [debug] 200 OK (0.018758s, 53.311/s).
+[Fri Dec 27 17:06:11 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:11 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:11 2013] [debug] 200 OK (0.008325s, 120.120/s).
+[Fri Dec 27 17:06:12 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:12 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:12 2013] [debug] 200 OK (0.009243s, 108.190/s).
+[Fri Dec 27 17:06:14 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:14 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:14 2013] [debug] 200 OK (0.005103s, 195.963/s).
+[Fri Dec 27 17:06:15 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:15 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:15 2013] [debug] 200 OK (0.004656s, 214.777/s).
+[Fri Dec 27 17:06:17 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:17 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:17 2013] [debug] 200 OK (0.006214s, 160.927/s).
+[Fri Dec 27 17:06:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:19 2013] [debug] 200 OK (0.008865s, 112.803/s).
+[Fri Dec 27 17:06:20 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:20 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:21 2013] [debug] 200 OK (0.016158s, 61.889/s).
+[Fri Dec 27 17:06:21 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:06:21 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:06:21 2013] [debug] 200 OK (0.053716s, 18.616/s).
+[Fri Dec 27 17:06:38 2013] [debug] GET "/spot/c5b2049d7cf75bfc".
+[Fri Dec 27 17:06:38 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 17:06:38 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 17:06:38 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 17:06:38 2013] [debug] 200 OK (0.029658s, 33.718/s).
+[Fri Dec 27 17:07:15 2013] [debug] GET "/".
+[Fri Dec 27 17:07:15 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Fri Dec 27 17:07:15 2013] [debug] Rendering template "example/welcome.html.ep".
+[Fri Dec 27 17:07:15 2013] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 27 17:07:15 2013] [debug] 200 OK (0.004865s, 205.550/s).
+[Fri Dec 27 17:07:22 2013] [debug] GET "/map".
+[Fri Dec 27 17:07:22 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 17:07:22 2013] [debug] Rendering cached template "map/map.html.ep".
+[Fri Dec 27 17:07:22 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 17:07:22 2013] [debug] 200 OK (0.004948s, 202.102/s).
+[Fri Dec 27 17:07:25 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:25 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:25 2013] [debug] 200 OK (0.010491s, 95.320/s).
+[Fri Dec 27 17:07:29 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:29 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:30 2013] [debug] 200 OK (0.015236s, 65.634/s).
+[Fri Dec 27 17:07:37 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:37 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:37 2013] [debug] 200 OK (0.013939s, 71.741/s).
+[Fri Dec 27 17:07:39 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:39 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:39 2013] [debug] 200 OK (0.012445s, 80.354/s).
+[Fri Dec 27 17:07:40 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:40 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:40 2013] [debug] 200 OK (0.007491s, 133.494/s).
+[Fri Dec 27 17:07:41 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:41 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:41 2013] [debug] 200 OK (0.007080s, 141.243/s).
+[Fri Dec 27 17:07:43 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:43 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:43 2013] [debug] 200 OK (0.004439s, 225.276/s).
+[Fri Dec 27 17:07:46 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:46 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:46 2013] [debug] 200 OK (0.006645s, 150.489/s).
+[Fri Dec 27 17:07:47 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:47 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:47 2013] [debug] 200 OK (0.006825s, 146.520/s).
+[Fri Dec 27 17:07:48 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:07:48 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:07:48 2013] [debug] 200 OK (0.006544s, 152.812/s).
+[Fri Dec 27 17:08:14 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:14 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:14 2013] [debug] 200 OK (0.004687s, 213.356/s).
+[Fri Dec 27 17:08:14 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:14 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:14 2013] [debug] 200 OK (0.011355s, 88.067/s).
+[Fri Dec 27 17:08:15 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:15 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:15 2013] [debug] 200 OK (0.010868s, 92.013/s).
+[Fri Dec 27 17:08:15 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:15 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:15 2013] [debug] 200 OK (0.032249s, 31.009/s).
+[Fri Dec 27 17:08:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:19 2013] [debug] 200 OK (0.059280s, 16.869/s).
+[Fri Dec 27 17:08:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:19 2013] [debug] 200 OK (0.057567s, 17.371/s).
+[Fri Dec 27 17:08:19 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:20 2013] [debug] 200 OK (0.084791s, 11.794/s).
+[Fri Dec 27 17:08:20 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:20 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:20 2013] [debug] 200 OK (0.026653s, 37.519/s).
+[Fri Dec 27 17:08:23 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:23 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:23 2013] [debug] 200 OK (0.033960s, 29.446/s).
+[Fri Dec 27 17:08:25 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:25 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:25 2013] [debug] 200 OK (0.034860s, 28.686/s).
+[Fri Dec 27 17:08:27 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:08:27 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:08:27 2013] [debug] 200 OK (0.035891s, 27.862/s).
+[Fri Dec 27 17:08:32 2013] [debug] GET "/about".
+[Fri Dec 27 17:08:32 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:08:32 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:08:32 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:08:32 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:08:32 2013] [debug] 404 Not Found (0.023991s, 41.682/s).
+[Fri Dec 27 17:13:56 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 17:13:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 17:13:57 2013] [debug] GET "/about".
+[Fri Dec 27 17:13:57 2013] [debug] Template "about.html.ep" not found.
+[Fri Dec 27 17:13:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:13:57 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:13:57 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:13:57 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:13:57 2013] [debug] 404 Not Found (0.028687s, 34.859/s).
+[Fri Dec 27 17:14:00 2013] [debug] GET "/about".
+[Fri Dec 27 17:14:00 2013] [debug] Template "about.html.ep" not found.
+[Fri Dec 27 17:14:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:14:00 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:14:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:14:00 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:14:00 2013] [debug] 404 Not Found (0.009707s, 103.018/s).
+[Fri Dec 27 17:16:20 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 17:16:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 17:16:23 2013] [debug] GET "/about".
+[Fri Dec 27 17:16:23 2013] [debug] Routing to controller "Wifind::Static" and action "about".
+[Fri Dec 27 17:16:23 2013] [debug] Rendering template "static/about.html.ep".
+[Fri Dec 27 17:16:23 2013] [error] syntax error at template static/about.html.ep line 17, near "'layouts/navbar' 
+$_M "
+12: 	</head>
+13: 
+14: 
+15: 	<body>
+16: % include 'layouts/navbar'
+17: 
+18: 		<div id="container">
+19: 
+20: 			<div id="logo">
+21: 				<h1>WiFind</h1>
+22: 			</div>
+
+[Fri Dec 27 17:16:23 2013] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 27 17:16:23 2013] [debug] Template "exception.html.ep" not found.
+[Fri Dec 27 17:16:23 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:16:24 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:16:24 2013] [debug] 500 Internal Server Error (0.113820s, 8.786/s).
+[Fri Dec 27 17:16:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 17:16:52 2013] [debug] GET "/about".
+[Fri Dec 27 17:16:52 2013] [debug] Routing to controller "Wifind::Static" and action "about".
+[Fri Dec 27 17:16:52 2013] [debug] Rendering template "static/about.html.ep".
+[Fri Dec 27 17:16:52 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 17:16:52 2013] [debug] 200 OK (0.108187s, 9.243/s).
+[Fri Dec 27 17:16:57 2013] [debug] GET "/login".
+[Fri Dec 27 17:16:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:16:57 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:16:57 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:16:57 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:16:57 2013] [debug] 404 Not Found (0.024706s, 40.476/s).
+[Fri Dec 27 17:17:00 2013] [debug] GET "/map".
+[Fri Dec 27 17:17:00 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 17:17:00 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 17:17:00 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Dec 27 17:17:00 2013] [debug] 200 OK (0.004777s, 209.336/s).
+[Fri Dec 27 17:17:04 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:17:06 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:17:06 2013] [debug] 200 OK (1.777070s, 0.563/s).
+[Fri Dec 27 17:18:10 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:18:10 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:18:10 2013] [debug] 200 OK (0.036434s, 27.447/s).
+[Fri Dec 27 17:20:28 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:28 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:28 2013] [debug] 200 OK (0.285882s, 3.498/s).
+[Fri Dec 27 17:20:29 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:29 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:29 2013] [debug] 200 OK (0.167548s, 5.968/s).
+[Fri Dec 27 17:20:29 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:29 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:29 2013] [debug] 200 OK (0.125547s, 7.965/s).
+[Fri Dec 27 17:20:30 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:30 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:30 2013] [debug] 200 OK (0.116211s, 8.605/s).
+[Fri Dec 27 17:20:31 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:31 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:31 2013] [debug] 200 OK (0.092484s, 10.813/s).
+[Fri Dec 27 17:20:32 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:32 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:32 2013] [debug] 200 OK (0.036697s, 27.250/s).
+[Fri Dec 27 17:20:33 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:33 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:33 2013] [debug] 200 OK (0.020855s, 47.950/s).
+[Fri Dec 27 17:20:33 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:33 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:33 2013] [debug] 200 OK (0.020215s, 49.468/s).
+[Fri Dec 27 17:20:35 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:35 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:35 2013] [debug] 200 OK (0.020350s, 49.140/s).
+[Fri Dec 27 17:20:36 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:36 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:36 2013] [debug] 200 OK (0.015742s, 63.524/s).
+[Fri Dec 27 17:20:37 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:37 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:37 2013] [debug] 200 OK (0.034398s, 29.071/s).
+[Fri Dec 27 17:20:38 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:38 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:38 2013] [debug] 200 OK (0.045795s, 21.836/s).
+[Fri Dec 27 17:20:39 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:39 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:39 2013] [debug] 200 OK (0.109966s, 9.094/s).
+[Fri Dec 27 17:20:40 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:40 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:40 2013] [debug] 200 OK (0.207770s, 4.813/s).
+[Fri Dec 27 17:20:41 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:41 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:41 2013] [debug] 200 OK (0.257370s, 3.885/s).
+[Fri Dec 27 17:20:43 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:43 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:43 2013] [debug] 200 OK (0.045134s, 22.156/s).
+[Fri Dec 27 17:20:44 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:44 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:45 2013] [debug] 200 OK (0.237439s, 4.212/s).
+[Fri Dec 27 17:20:46 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:46 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:46 2013] [debug] 200 OK (0.244011s, 4.098/s).
+[Fri Dec 27 17:20:48 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:48 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:48 2013] [debug] 200 OK (0.301042s, 3.322/s).
+[Fri Dec 27 17:20:49 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:49 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:49 2013] [debug] 200 OK (0.154315s, 6.480/s).
+[Fri Dec 27 17:20:51 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:51 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:51 2013] [debug] 200 OK (0.125127s, 7.992/s).
+[Fri Dec 27 17:20:53 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:53 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:53 2013] [debug] 200 OK (0.097757s, 10.229/s).
+[Fri Dec 27 17:20:54 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:20:54 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:20:55 2013] [debug] 200 OK (0.104369s, 9.581/s).

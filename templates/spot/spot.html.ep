@@ -1,11 +1,9 @@
-% use Data::Dumper;
-% my $spot = shift;
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>WiFind | 臨済宗大本山南禅寺</title>
+		<title>WiFind | <%= $name %></title>
+		<meta name="viewport" content="width=device-width">
 		<link rel="stylesheet" href="/lib/uikit-1.0.1/css/uikit.almost-flat.min.css" />
 		<link rel="stylesheet" href="/css/common.css" />
 		<link rel="stylesheet" href="/css/spot.css" />
@@ -14,46 +12,51 @@
 		<script src="/lib/uikit-1.0.1/js/uikit.min.js"></script>
 	</head>
 
-	%= print Dumper $spot;
-
 	<body>
-		<nav class="navbar">
-			<ul class="uk-navbar-nav">
-				<li><a href="#" class="uk-navbar-brand" id="nav-brand">WiFind</a></li>
-				<li><a href="main.html">home</a></li>
-				<li><a href="about.html">about</a></li>
-			</ul>
-			<div class="uk-navbar-flip">
-				<ul class="uk-navbar-nav">
-					<li><a href="" id="nav-user"><i class="uk-icon-user"></i>login</a></li>
-				</ul>
-			</div>
-		</nav>
+
+%= include 'layouts/navbar'
 
 		<div id="container">
 	
-			<div id="header" class="box"> 
-				<img src="/img/freemobile.png">
-				<div id="header-title"> 
-					<h1>臨済宗大本山南禅寺</h1>
-					<div id="title-detail"> 
-						<i class="uk-icon-map-marker"></i>
-						<span>京都府左京区南禅寺福地町</span>
-						
-						<br>
-						
-						<i class="uk-icon-globe"></i>
-						<span id="title-detail-url">
-							<a href="" target="_blank">nanzenji.jp</a>
-						</span>
+			<div id="header" class="box">
+				<div id="header-img">
+					<img src="/img/<%= $wifi->{class} %>.png">
+				</div>
+				<div id="header-wrap">
+					<div id="header-title">
+						<h1><%= $name %></h1>
 
-						<i class="uk-icon-phone"></i>
-						<span>000-324-4242</span>
+					</div>
+				</div>
 
-					</div> 
-				</div> 
+				<div class="clear-both"></div>
 
-				<div class="clear-both"></div> 
+				<div id="title-detail">
+
+							% if ( $spot->{address} ){
+								<i class="uk-icon-map-marker"></i>
+								<span><%= $spot->{address} %></span>
+								<br>
+							% }
+								
+							% if ( $spot->{url} ){
+								<i class="uk-icon-globe"></i>
+								<span id="title-detail-url">
+									<a href="<%= $spot->{url} %>" target="_blank"><%= $spot->{short_url} %></a>
+								</span>
+							% }
+
+							% if ( $spot->{tel} ){
+								<i class="uk-icon-phone"></i>
+								<span><%= $spot->{tel} %></span>
+							% }
+
+							% if ( $foursquare ){
+								<a href="https://ja.foursquare.com/v/<%= $foursquare->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
+							% }
+
+
+						</div> 
 			</div>
 
 
@@ -63,91 +66,163 @@
 
 					<div id="main">
 
-					<div id="wifi-detail" class="box">
-						<h2><i class="uk-icon-rss"></i>freemobile</h2>
-						<table id="wifi-detail-table"> 
-							<tr>
-								<th><i class="uk-icon-time"></i></th>
-								<td>いつでも</td>
-							</tr>
+						<div id="wifi-detail" class="box">
+							<h2><i class="uk-icon-rss"></i><%= $wifi->{class} %></h2>
+
+							<div>
+								<table id="wifi-detail-table1"> 
+									<tr>
+										<th><i class="uk-icon-time"></i></th>
+										<td><%= $spot->{hours}->{string} %></td>
+									</tr>
+										
+									<tr>
+										<th><i class="uk-icon-power-off"></i></th>
+										<td><%= $wifi->{power} %></td>
+									</tr>
+
+									<tr>
+										<th><i class="uk-icon-tag"></i></th>
+										<td class="tag">
+											% foreach my $tag (@{ $spot->{category} }){
+												<span><%= $tag->{string} %></span>
+											% }
+										</td>
+									</tr>
+									
+									<tr>
+										<th><i class="uk-icon-external-link"></i></th>
+										<td><a href="<%= $wifi->{url} %>" target="_blank"><%= $wifi->{short_url} %></a></td>
+									</tr>
+
+								</table> 
+
+								<table id="wifi-detail-table2"> 
+
+									<tr>
+										<th>SSID</th>
+										% if ( $wifi->{ssid} ){
+											<td><%= $wifi->{ssid} %></td>
+										% }else{
+											<td><%= $service->{wifi}->{ssid} %></td>
+										% }
+									</tr>
+									<tr>
+										<th>暗号化</th>
+										% if ( $wifi->{encryption} ){
+											<td><%= $wifi->{encryption} %></td>
+										% }else{
+											<td><%= $service->{wifi}->{encryption} %></td>
+										% }
+									</tr>
+									<tr>
+										<th>制限</th>
+										% if ( $wifi->{limit} ){
+											<td><%= $wifi->{limit} %></td>
+										% }else{
+											<td><%= $service->{wifi}->{limit} %></td>
+										% }
+									</tr>
+									<tr>
+										<th>認証</th>
+										% if ( $wifi->{auth} ){
+											<td><%= $wifi->{auth} %></td>
+										% }else{
+											<td><%= $service->{wifi}->{auth} %></td>
+										% }
+
+									</tr>
+
+
+								</table> 
+								<div class="clear-both"></div>
+
+							</div>
+						</div>
+
+						<div id="map-wrap-mini" class="box">
+							<a href="/web/map.html"><i class="uk-icon-share"></i></a>
+							<div id="map-mini"></div>
+						</div>
+
+						<div id="description" class="box">
+							<%== $service->{description} %>
+						</div>
+
+
+						<div id="use" class="box">
+							<h2><i class="uk-icon-cog"></i>使い方</h2>
 							
-							<tr>
-								<th><i class="uk-icon-power-off"></i></th>
-								<td>なし</td>
-							</tr>
-
-							<tr>
-								<th><i class="uk-icon-tag"></i></th>
-								<td class="tag">
-									<span>自販機</span>
-									<span>tag</span>
-								</td>
-							</tr>
-							
-							<tr>
-								<th><i class="uk-icon-external-link"></i></th>
-								<td><a href="" target="_blank">freemobile.jp/?p=903</a></td>
-							</tr>
-
-							<tr>
-								<th><i class="uk-icon-check"></i></th>
-								<td><a href="">使い方</a></td>
-							</tr>
-						</table> 
+							<div id="use-detail">
+								<%== $service->{use} %>
+							</div>
+						</div>
 
 
-					</div>
+						<div id="tips" class="box">
+
+							<h2><i class="uk-icon-comment"></i>tips</h2>
 
 
-
-
-					<div id="tips" class="box">
-
-						<h2><i class="uk-icon-comment"></i>tips</h2>
-
-						<ul id="tip-list">
-							<li> 
-								<div class="tip">
-									<img class="" src="/img/icon.jpg" alt="">
-									<div class="tip-main">
-										<div class="tip-message">
-											京都市が運営する公衆無線LAN。3時間で自動切断される
+							<ul id="tip-list">
+								<li> 
+									<div class="tip">
+										<div class="tip-main">
+											<div class="tip-message" style="margin-left:30px;">
+												まだtipがありません。
+											</div>
 										</div>
-										<small>tattii 2013.10.08 03:42</small>
 									</div>
-									<div class="clear-both"></div>
-								</div>
-							</li>
-								
-						</ul>
-
-
-					</div>
-
-
-					<div id="tip-form" class="box uk-form">
-						<img src="/img/icon.jpg" alt="">
-						<div id="tip-text">
-							<input type="text">
+								</li>
+							<!--
+								<li> 
+									<div class="tip">
+										<img class="" src="img/icon.jpg" alt="">
+										<div class="tip-main">
+											<div class="tip-message">
+												京都市が運営する公衆無線LAN。3時間で自動切断される
+											</div>
+											<small>tattii 2013.10.08 03:42</small>
+										</div>
+										<div class="clear-both"></div>
+									</div>
+								</li>
+							-->
+							</ul>
 						</div>
-						<div id="tip-button">
-							<button class="uk-button">tip</button>
+
+
+						<div id="tip-form" class="box uk-form">
+							<img src="/img/icon.jpg" alt="">
+							<div id="tip-text">
+								<input type="text">
+							</div>
+							<div id="tip-button">
+								<button class="uk-button">tip</button>
+							</div>
+							<div class="clear-both"></div>
 						</div>
-						<div class="clear-both"></div>
-					</div>
 
+						<div id="wifi-share-mini" class="box">
+							<div class="uk-form">
+								<input type="text" placeholder="http://wifind.dip.jp/spot/<%= $id %>">
+								<a class="uk-icon-button uk-icon-twitter" href=""></a> 
+								<a class="uk-icon-button uk-icon-facebook" href=""></a>
+							</div>
+						</div> 
 
-				</div> <!-- end of main -->
-			</div>
+					</div> <!-- end of main -->
+				</div>
 
 				<div id="side">
-					<div id="map" class="box">
+					<div id="map-wrap" class="box">
+						<a href="/map"><i class="uk-icon-share"></i></a>
+						<div id="map"></div>
 					</div>
 
 					<div id="wifi-share" class="box">
-
 						<div class="uk-form">
-							<input type="text" placeholder="http://wifind/spot/srfg87rfgwr978g">
+							<input type="text" placeholder="http://wifind.dip.jp/spot/<%= $id %>">
 							<a class="uk-icon-button uk-icon-twitter" href=""></a> 
 							<a class="uk-icon-button uk-icon-facebook" href=""></a>
 						</div>
@@ -159,7 +234,13 @@
 			</div> <!-- end of wrapper -->
 
 			<div id="footer">
-				home | about | login<br>
+				<a href="/map">map</a>
+				|
+				<a href="/about">about</a>
+				|
+				<a href="/login">login</a>
+				
+				<br><br>
 				2013 WiFind
 			</div>
 
@@ -169,22 +250,63 @@
 
 
 		<script>
+
+		$(function(){
+			responsive();
+
+			$(window).resize(function(){
+				responsive();
+			});
+		});
+
+		var size = null;
+
+		function responsive() {
+			if ( $(document).width() <= 900 ){
+				if ( size == null || size == "large" ){
+					$("#side").hide();
+					$("#map-wrap-mini").show();
+					$("#wifi-share-mini").show();
+					initializeMap("map-mini");
+					size = "small";
+				}
+			}else{
+				if ( size == null || size == "small" ){
+					$("#map-wrap-mini").hide();
+					$("#side").show();
+					$("#wifi-share-mini").hide();
+					initializeMap("map");
+					size = "large";
+				}
+			}
+
+			if ( $(document).width() >= 480 ){
+				var detail = $("#title-detail").appendTo("#header-title");
+			}else{
+				var detail = $("#title-detail").appendTo("#header");
+			}
+		}
+
+
+		function initializeMap(map_div) {
 			// map表示
-			var loc = new google.maps.LatLng(35.011636 , 135.768029);
+			var loc = new google.maps.LatLng(<%= $location->{lat} %> , <%= $location->{lng} %>);
 			var myOptions = {
 				zoom: 16,
 				center: loc,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				disableDefaultUI: true,
 			};
-			var map = new google.maps.Map(document.getElementById('map'), myOptions);
+			var map = new google.maps.Map(document.getElementById(map_div), myOptions);
 
 			//marker
 			var marker = new google.maps.Marker({
 				position: loc,
 				map: map,
-				icon: "/img/freemobile_marker.png"
+				icon: "/img/<%= $wifi->{class} %>_marker.png"
 			});
+		}
+
 
 		</script>
 

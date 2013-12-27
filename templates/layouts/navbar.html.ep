@@ -1,0 +1,25 @@
+<nav class="navbar">
+	<ul class="uk-navbar-nav uk-hidden-small">
+		<li><a href="#" class="uk-navbar-brand" id="nav-brand">WiFind</a></li>
+		<li><a href="/map">map</a></li>
+		<li><a href="/about">about</a></li>
+	</ul>
+	<div class="uk-navbar-flip uk-hidden-small">
+		<ul class="uk-navbar-nav">
+			<li><a href="/login" id="nav-user"><i class="uk-icon-user"></i>login</a></li>
+		</ul>
+	</div>
+	
+	<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+	<h2 class="uk-visible-small" id="nav-brand">WiFind</h2>
+</nav>
+
+<div id="offcanvas" class="uk-offcanvas">
+	<div class="uk-offcanvas-bar">
+		<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon">
+			<li><a href="/map"><i class="uk-icon-map-marker"></i>map</a></li>
+			<li><a href="/about"><i class="uk-icon-smile"></i>about</a></li>
+			<li><a href="/login"><i class="uk-icon-user"></i>login</a></li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+package Wifind::Spot;
+
+use strict;
+use warnings;
+use utf8;
+
+use Mojo::Base 'Mojolicious::Controller';
+
+use Wifind::Model::Spot;
+
+sub spot
+{
+	my $self = shift;
+	my $id = $self->stash("id");
+
+	my $spot = Wifind::Model::Spot::getSpotData($id);
+	$self->stash($spot);
+
+	$self->render(
+		template => 'spot/spot'
+	);
+}
+
+
+
+
+
+1;

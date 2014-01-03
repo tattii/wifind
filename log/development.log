@@ -954,3 +954,22 @@ Compilation failed in require at (eval 249) line 1.
 [Fri Nov  8 17:58:10 2013] [debug] Rendering cached inline template.
 [Fri Nov  8 17:58:10 2013] [debug] Rendering cached inline template.
 [Fri Nov  8 17:58:10 2013] [debug] 404 Not Found (0.007465s, 133.958/s).
+[Fri Jan  3 17:07:53 2014] [info] Listening at "http://*:3000".
+[Fri Jan  3 17:08:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jan  3 17:08:03 2014] [debug] GET "/".
+[Fri Jan  3 17:08:03 2014] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Fri Jan  3 17:08:03 2014] [debug] Rendering template "example/welcome.html.ep".
+[Fri Jan  3 17:08:03 2014] [debug] Rendering template "layouts/default.html.ep".
+[Fri Jan  3 17:08:03 2014] [debug] 200 OK (0.014132s, 70.761/s).
+[Fri Jan  3 17:08:08 2014] [debug] GET "/map".
+[Fri Jan  3 17:08:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Jan  3 17:08:08 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Jan  3 17:08:08 2014] [debug] Rendering inline template.
+[Fri Jan  3 17:08:08 2014] [debug] Rendering inline template.
+[Fri Jan  3 17:08:08 2014] [debug] 404 Not Found (0.021924s, 45.612/s).
+[Fri Jan  3 17:08:14 2014] [debug] GET "/map".
+[Fri Jan  3 17:08:14 2014] [debug] Template "not_found.development.html.ep" not found.
+[Fri Jan  3 17:08:14 2014] [debug] Template "not_found.html.ep" not found.
+[Fri Jan  3 17:08:14 2014] [debug] Rendering cached inline template.
+[Fri Jan  3 17:08:14 2014] [debug] Rendering cached inline template.
+[Fri Jan  3 17:08:14 2014] [debug] 404 Not Found (0.005348s, 186.986/s).

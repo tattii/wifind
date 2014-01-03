@@ -22,7 +22,7 @@
 	
 			<div id="header" class="box">
 				<div id="header-img">
-					<img src="/img/<%= $wifi->{class} %>.png">
+					<img src="/img/<%= $wifi->{service} %>.png">
 				</div>
 				<div id="header-wrap">
 					<div id="header-title">
@@ -53,8 +53,8 @@
 								<span><%= $spot->{tel} %></span>
 							% }
 
-							% if ( defined $foursquare ){
-								<a href="https://ja.foursquare.com/v/<%= $foursquare->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
+							% if ( $spot->{foursquare} ){
+								<a href="https://ja.foursquare.com/v/<%= $spot->{foursquare}->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
 							% }
 
 
@@ -69,7 +69,7 @@
 					<div id="main">
 
 						<div id="wifi-detail" class="box">
-							<h2><i class="uk-icon-rss"></i><%= $wifi->{class} %></h2>
+							<h2><i class="uk-icon-rss"></i><%= $wifi->{service} %></h2>
 
 							<div>
 								<table id="wifi-detail-table1"> 
@@ -310,7 +310,7 @@
 			var marker = new google.maps.Marker({
 				position: loc,
 				map: map,
-				icon: "/img/<%= $wifi->{class} %>_marker.png"
+				icon: "/img/<%= $wifi->{service} %>_marker.png"
 			});
 		}
 

@@ -245,7 +245,7 @@ function addSpot(spot) {
 	var marker = new google.maps.Marker({
 		position: location,
 		map: map,
-		icon: markerImage(spot.wifi.class)
+		icon: markerImage(spot.wifi.service)
 	});
 	var infoWindow = new google.maps.InfoWindow({
 		content: '<a href="/spot/' + id + '" class="info-a" target="_blank"><span class="info-span">' + spot.name + '</span></a>'
@@ -275,6 +275,9 @@ function addSpot(spot) {
 // 間引き
 function thinOut() {
 	var intensity = 17-map.zoom;
+	if ( intensity > 10 ){
+		intensity = 10;
+	}
 	for (var id in marker_list) {
 		var marker = marker_list[id];
 		if ( marker.intensity < intensity ){
@@ -339,7 +342,7 @@ function openDetailWindow(id) {
 	$("#container").append(
 		'<div id="detail-window" style="display: none;">' +
 			'<div class="detail-header">' +
-				'<div class="detail-header-img"><img src="' + iconImage(spot.wifi.class) + '" width="50" height="50"></div>' +
+				'<div class="detail-header-img"><img src="' + iconImage(spot.wifi.service) + '" width="50" height="50"></div>' +
 				'<div class="detail-title">' +
 					'<span>' + spot.name + '</span>' +
 				'</div>' +
@@ -352,7 +355,7 @@ function openDetailWindow(id) {
 	var detail_main = 
 		'<div id="detail-main" style="display: none;">' +
 			'<div class="detail-wifi">' +
-				'<h3><i class="uk-icon-rss"></i> ' + spot.wifi.class + '</h3>' +
+				'<h3><i class="uk-icon-rss"></i> ' + spot.wifi.service + '</h3>' +
 				'<table class="detail-wifi-table">' +
 					spot_url +
 					'<tr><th><i class="uk-icon-time"></i></th><td>' + spot.spot.hours.string  + '</td></tr>' +

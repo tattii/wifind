@@ -17,7 +17,7 @@ sub spot
 	my $spot = Wifind::Model::Spot::getSpotData($id);
 
 	if ( $spot ){
-		my $service = Wifind::Model::Service::getServiceData($spot->{wifi}->{class});
+		my $service = Wifind::Model::Service::getServiceData($spot->{wifi}->{service});
 		my $tips = Wifind::Model::Tip::getSpotTips($id);
 
 		$self->stash(id => $id);

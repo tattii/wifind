@@ -4,6 +4,7 @@ use Mojo::Base 'Mojolicious::Controller';
 
 use Wifind::Model::Spot;
 use Wifind::Model::Service;
+use Wifind::Model::Tip;
 use Wifind::Utility;
 
 use Data::Dumper;
@@ -16,15 +17,13 @@ sub spot
 	my $spot = Wifind::Model::Spot::getSpotData($id);
 
 	if ( $spot ){
-		#前処理
-		$spot->{id} = $spot->{_id};
-		$spot->{spot}->{short_url} = Wifind::Utility::shortenURL($spot->{spot}->{url});
-		$spot->{wifi}->{short_url} = Wifind::Utility::shortenURL($spot->{wifi}->{url});
-		
 		my $service = Wifind::Model::Service::getServiceData($spot->{wifi}->{class});
+		my $tips = Wifind::Model::Tip::getSpotTips($id);
 
+		$self->stash(id => $id);
 		$self->stash($spot);
 		$self->stash(service => $service);
+		$self->stash(tips => $tips);
 
 		$self->render( template => 'spot/spot' );
 

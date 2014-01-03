@@ -14,8 +14,9 @@ sub startup
  	# Normal route to controller
  	$r->get('/')->to('example#welcome');
 
-
+	$r->route('/api/find')->to('API#find');
 	$r->route('/api/spot')->to('API#spot');
+	$r->route('/api/tip')->to('API#tip');
 
 	$r->route('/map')->to('Map#map');
 	$r->route('/spot/:id', id => qr/[0-9a-f]{1,20}/)->to('Spot#spot');

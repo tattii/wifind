@@ -18,4 +18,16 @@ sub shortenURL
 }
 
 
+# 時間変換
+sub timeToString
+{
+	my $time = shift;
+
+	my ($sec, $min, $hour, $mday, $mon, $year) = localtime($time);
+	$mon += 1;
+	$year += 1900;
+	return "$year/$mon/$mday $hour:$min";
+}
+
+
 1;

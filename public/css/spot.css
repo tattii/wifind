@@ -215,7 +215,7 @@ a:hover {
 /* description-----------------------*/
 #description {
 	margin-top: 15px;
-	padding: 20px;
+	padding: 20px 30px;
 }
 
 
@@ -236,6 +236,9 @@ a:hover {
 #use ul {
 	list-style-type: decimal;
 }
+#use ul li {
+	margin: 5px;
+}
 
 
 /* tips -----------------------------*/
@@ -252,7 +255,14 @@ a:hover {
 }
 #tip-list {
 	padding: 0;
+	margin: 0;
 	list-style: none;
+}
+
+.tip-empty {
+	width: 100%;
+	height: 40px;
+	padding-left: 20px;
 }
 
 .tip {

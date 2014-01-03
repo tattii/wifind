@@ -27,7 +27,7 @@
 
 				<div id="search" style="display: none;">
 					<i class="uk-icon-search" id="search-icon"></i>
-					<input id="search-input" type="search" placeholder="search" />
+					<input id="search-input" type="search" placeholder="find" />
 					<i class="uk-icon-remove" id="search-reset"></i>
 				</div>
 

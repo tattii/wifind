@@ -1,3 +1,5 @@
+% use Wifind::Utility;
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -42,7 +44,7 @@
 							% if ( $spot->{url} ){
 								<i class="uk-icon-globe"></i>
 								<span id="title-detail-url">
-									<a href="<%= $spot->{url} %>" target="_blank"><%= $spot->{short_url} %></a>
+									<a href="<%= $spot->{url} %>" target="_blank"><%= Wifind::Utility::shortenURL($spot->{url}) %></a>
 								</span>
 							% }
 
@@ -51,7 +53,7 @@
 								<span><%= $spot->{tel} %></span>
 							% }
 
-							% if ( $foursquare ){
+							% if ( defined $foursquare ){
 								<a href="https://ja.foursquare.com/v/<%= $foursquare->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
 							% }
 
@@ -92,7 +94,7 @@
 									
 									<tr>
 										<th><i class="uk-icon-external-link"></i></th>
-										<td><a href="<%= $wifi->{url} %>" target="_blank"><%= $wifi->{short_url} %></a></td>
+										<td><a href="<%= $wifi->{url} %>" target="_blank"><%= Wifind::Utility::shortenURL($wifi->{url}) %></a></td>
 									</tr>
 
 								</table> 
@@ -165,29 +167,34 @@
 
 
 							<ul id="tip-list">
-								<li> 
-									<div class="tip">
-										<div class="tip-main">
-											<div class="tip-message" style="margin-left:30px;">
-												まだtipがありません。
+								% if (! @$tips ){
+									<li> 
+										<div class="tip-empty">
+											<div class="tip-main">
+												<div class="tip-message">
+													まだtipがありません。
+												</div>
 											</div>
 										</div>
-									</div>
-								</li>
-							<!--
-								<li> 
-									<div class="tip">
-										<img class="" src="img/icon.jpg" alt="">
-										<div class="tip-main">
-											<div class="tip-message">
-												京都市が運営する公衆無線LAN。3時間で自動切断される
+									</li>
+
+								% }else{
+								% 	foreach my $tip (@$tips){
+									<li> 
+										<div class="tip">
+											<img class="" src="/img/icon.jpg" alt="">
+											<div class="tip-main">
+												<div class="tip-message">
+													%= $tip->{message}
+												</div>
+												<small><%= $tip->{user} %> <%= Wifind::Utility::timeToString($tip->{time}) %></small>
 											</div>
-											<small>tattii 2013.10.08 03:42</small>
+											<div class="clear-both"></div>
 										</div>
-										<div class="clear-both"></div>
-									</div>
-								</li>
-							-->
+									</li>
+								% 	}
+								% }
+
 							</ul>
 						</div>
 

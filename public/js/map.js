@@ -56,7 +56,7 @@ $(document).ready(function(){
 			var address = $(this).val();
 			search(address);
 			$(this).val("");
-			$(this).attr({placeholder: "search"});
+			$(this).attr({placeholder: "find"});
 		}
 	});
 	$("#search-reset").click(function(){
@@ -74,7 +74,7 @@ $(document).ready(function(){
 			var address = $(this).val();
 			search(address);
 			$(this).val("");
-			$(this).attr({placeholder: "search"});
+			$(this).attr({placeholder: "find"});
 		}
 	});
 	$("#search-mini-reset").click(function(){
@@ -178,7 +178,7 @@ function getSpotCenter() {
 	var limit = 100;
 	
 	$.ajax({
-		url: "/api/spot?lat=" + lat + "&lng=" + lng + "&zoom=" + zoom + "&limit=" + limit,
+		url: "/api/find?lat=" + lat + "&lng=" + lng + "&zoom=" + zoom + "&limit=" + limit,
 		cache: false,
 		dataType: "json",
 		success: function(json) {
@@ -197,7 +197,7 @@ function getSpotBounds() {
 		currentRequest.abort();
 	}
 	currentRequest = $.ajax({
-		url: "/api/spot?" +
+		url: "/api/find?" +
 			"bounds=" + bounds.toUrlValue() + 
 			"&zoom=" + zoom +
 			"&limit=" + limit,
@@ -343,7 +343,7 @@ function openDetailWindow(id) {
 				'<div class="detail-title">' +
 					'<span>' + spot.name + '</span>' +
 				'</div>' +
-				'<a class="uk-icon-button uk-icon-share" target="_blank" href="/cgi/spot/' + id + '"></a>' +
+				'<a class="uk-icon-button uk-icon-share" target="_blank" href="/spot/' + id + '"></a>' +
 				'<div class="clear-both"></div>' +
 			'</div>' +
 		'</div>' 

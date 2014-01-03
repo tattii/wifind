@@ -3134,3 +3134,899 @@ $_M "
 [Fri Dec 27 17:20:54 2013] [debug] GET "/api/spot".
 [Fri Dec 27 17:20:54 2013] [debug] Routing to controller "Wifind::API" and action "spot".
 [Fri Dec 27 17:20:55 2013] [debug] 200 OK (0.104369s, 9.581/s).
+[Fri Dec 27 17:27:35 2013] [info] Listening at "http://*:3000".
+[Fri Dec 27 17:27:38 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 17:27:38 2013] [debug] GET "/cgi/spot/8500c7a99978ba41".
+[Fri Dec 27 17:27:38 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:27:38 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:27:38 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:27:39 2013] [debug] Rendering inline template.
+[Fri Dec 27 17:27:39 2013] [debug] 404 Not Found (0.027259s, 36.685/s).
+[Fri Dec 27 17:27:42 2013] [debug] GET "/cgi/spot/8500c7a99978ba41".
+[Fri Dec 27 17:27:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:27:42 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:27:42 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:27:42 2013] [debug] 404 Not Found (0.010327s, 96.834/s).
+[Fri Dec 27 17:27:45 2013] [debug] GET "/cgi/spot/8500c7a99978ba41".
+[Fri Dec 27 17:27:45 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:27:45 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:27:45 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:27:45 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:27:45 2013] [debug] 404 Not Found (0.010515s, 95.102/s).
+[Fri Dec 27 17:27:48 2013] [debug] GET "/map".
+[Fri Dec 27 17:27:48 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Dec 27 17:27:48 2013] [debug] Rendering template "map/map.html.ep".
+[Fri Dec 27 17:27:48 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 17:27:48 2013] [debug] 200 OK (0.008596s, 116.333/s).
+[Fri Dec 27 17:27:51 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:27:53 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:27:53 2013] [debug] 200 OK (1.743251s, 0.574/s).
+[Fri Dec 27 17:27:56 2013] [debug] GET "/cgi/spot/c20ac305e5c7ac02".
+[Fri Dec 27 17:27:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 27 17:27:56 2013] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 27 17:27:56 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:27:56 2013] [debug] Rendering cached inline template.
+[Fri Dec 27 17:27:56 2013] [debug] 404 Not Found (0.010675s, 93.677/s).
+[Fri Dec 27 17:28:03 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Fri Dec 27 17:28:03 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Dec 27 17:28:03 2013] [debug] Rendering template "spot/spot.html.ep".
+[Fri Dec 27 17:28:03 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Dec 27 17:28:03 2013] [debug] 200 OK (0.034773s, 28.758/s).
+[Fri Dec 27 17:28:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 27 17:28:53 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:28:54 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:28:55 2013] [debug] 200 OK (1.716918s, 0.582/s).
+[Fri Dec 27 17:47:30 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:47:30 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:47:30 2013] [debug] 200 OK (0.017566s, 56.928/s).
+[Fri Dec 27 17:47:31 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:47:31 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:47:32 2013] [debug] 200 OK (0.070451s, 14.194/s).
+[Fri Dec 27 17:47:48 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:47:48 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:47:48 2013] [debug] 200 OK (0.033828s, 29.561/s).
+[Fri Dec 27 17:51:51 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:51:51 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:51:51 2013] [debug] 200 OK (0.035976s, 27.796/s).
+[Fri Dec 27 17:51:52 2013] [debug] GET "/api/spot".
+[Fri Dec 27 17:51:52 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Fri Dec 27 17:51:52 2013] [debug] 200 OK (0.030722s, 32.550/s).
+[Sat Dec 28 17:30:03 2013] [info] Listening at "http://*:3000".
+[Sat Dec 28 17:48:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 28 17:48:13 2013] [debug] GET "/map".
+[Sat Dec 28 17:48:13 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sat Dec 28 17:48:13 2013] [debug] Rendering template "map/map.html.ep".
+[Sat Dec 28 17:48:13 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sat Dec 28 17:48:13 2013] [debug] 200 OK (0.014841s, 67.381/s).
+[Sat Dec 28 17:48:17 2013] [debug] GET "/api/spot".
+[Sat Dec 28 17:48:18 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sat Dec 28 17:48:19 2013] [debug] 200 OK (2.006825s, 0.498/s).
+[Sun Dec 29 02:54:04 2013] [info] Listening at "http://*:3000".
+[Sun Dec 29 02:54:30 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 02:54:30 2013] [debug] GET "/map".
+[Sun Dec 29 02:54:30 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 02:54:30 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 02:54:30 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 02:54:30 2013] [debug] 200 OK (0.012332s, 81.090/s).
+[Sun Dec 29 02:54:35 2013] [debug] GET "/api/spot".
+[Sun Dec 29 02:54:37 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 02:54:37 2013] [debug] 200 OK (2.017704s, 0.496/s).
+[Sun Dec 29 02:54:40 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 02:54:40 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 02:54:40 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 02:54:41 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 02:54:41 2013] [debug] 200 OK (0.032003s, 31.247/s).
+[Sun Dec 29 02:54:46 2013] [debug] GET "/about".
+[Sun Dec 29 02:54:46 2013] [debug] Routing to controller "Wifind::Static" and action "about".
+[Sun Dec 29 02:54:46 2013] [debug] Rendering template "static/about.html.ep".
+[Sun Dec 29 02:54:46 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 02:54:46 2013] [debug] 200 OK (0.005866s, 170.474/s).
+[Sun Dec 29 03:04:46 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 03:04:46 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 03:04:46 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 03:04:46 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 03:04:46 2013] [debug] 200 OK (0.005997s, 166.750/s).
+[Sun Dec 29 03:43:28 2013] [info] Listening at "http://*:3000".
+[Sun Dec 29 04:09:32 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 04:09:32 2013] [debug] GET "/map".
+[Sun Dec 29 04:09:32 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 04:09:32 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 04:09:32 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 04:09:32 2013] [debug] 200 OK (0.011023s, 90.719/s).
+[Sun Dec 29 04:09:35 2013] [debug] GET "/api/spot".
+[Sun Dec 29 04:09:36 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 04:09:37 2013] [debug] 200 OK (1.815688s, 0.551/s).
+[Sun Dec 29 07:01:11 2013] [info] Listening at "http://*:3000".
+[Sun Dec 29 07:01:12 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:01:12 2013] [debug] GET "/map".
+[Sun Dec 29 07:01:12 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:01:12 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 07:01:12 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:01:12 2013] [debug] 200 OK (0.012008s, 83.278/s).
+[Sun Dec 29 07:01:16 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:01:17 2013] [error] syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 68, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 70.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 71.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 74, near "}"
+Global symbol "$self" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 91.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 92.
+Compilation failed in require at (eval 249) line 1.
+
+[Sun Dec 29 07:01:17 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 29 07:01:17 2013] [debug] Template "exception.html.ep" not found.
+[Sun Dec 29 07:01:17 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:01:17 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:01:17 2013] [debug] 500 Internal Server Error (1.740751s, 0.574/s).
+[Sun Dec 29 07:01:19 2013] [debug] GET "/map".
+[Sun Dec 29 07:01:19 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:01:19 2013] [debug] Rendering cached template "map/map.html.ep".
+[Sun Dec 29 07:01:19 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:01:19 2013] [debug] 200 OK (0.001490s, 671.141/s).
+[Sun Dec 29 07:01:20 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:01:20 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:01:20 2013] [debug] 200 OK (0.067586s, 14.796/s).
+[Sun Dec 29 07:01:23 2013] [debug] GET "/map".
+[Sun Dec 29 07:01:23 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:01:23 2013] [debug] Rendering cached template "map/map.html.ep".
+[Sun Dec 29 07:01:23 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:01:23 2013] [debug] 200 OK (0.001368s, 730.994/s).
+[Sun Dec 29 07:01:24 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:01:24 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:01:24 2013] [debug] 200 OK (0.095132s, 10.512/s).
+[Sun Dec 29 07:01:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:01:58 2013] [debug] GET "/map".
+[Sun Dec 29 07:01:58 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:01:58 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 07:01:58 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:01:58 2013] [debug] 200 OK (0.012190s, 82.034/s).
+[Sun Dec 29 07:02:02 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:02:04 2013] [error] syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 68, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 70.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 71.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 74, near "}"
+Global symbol "$self" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 91.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 92.
+Compilation failed in require at (eval 249) line 1.
+
+[Sun Dec 29 07:02:04 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 29 07:02:04 2013] [debug] Template "exception.html.ep" not found.
+[Sun Dec 29 07:02:04 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:02:04 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:02:04 2013] [debug] 500 Internal Server Error (2.348053s, 0.426/s).
+[Sun Dec 29 07:02:28 2013] [debug] GET "/map".
+[Sun Dec 29 07:02:28 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:02:28 2013] [debug] Rendering cached template "map/map.html.ep".
+[Sun Dec 29 07:02:28 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:02:28 2013] [debug] 200 OK (0.001656s, 603.865/s).
+[Sun Dec 29 07:02:28 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:02:28 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:02:28 2013] [debug] 200 OK (0.052388s, 19.088/s).
+[Sun Dec 29 07:02:35 2013] [debug] GET "/spot/a237e7f2a7f6ddfa".
+[Sun Dec 29 07:02:35 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:02:35 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:02:35 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:02:35 2013] [debug] 200 OK (0.029048s, 34.426/s).
+[Sun Dec 29 07:02:55 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:02:55 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:02:55 2013] [error] Can't locate object method "spot" via package "Wifind::API" at /root/perl5/perlbrew/perls/perl-5.16.3/lib/site_perl/5.16.3/Mojolicious.pm line 157.
+
+[Sun Dec 29 07:02:55 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 29 07:02:55 2013] [debug] Template "exception.html.ep" not found.
+[Sun Dec 29 07:02:55 2013] [debug] Rendering cached inline template.
+[Sun Dec 29 07:02:55 2013] [debug] Rendering cached inline template.
+[Sun Dec 29 07:02:55 2013] [debug] 500 Internal Server Error (0.017333s, 57.693/s).
+[Sun Dec 29 07:03:50 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:03:50 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:03:52 2013] [error] syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 68, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 70.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 71.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 74, near "}"
+Global symbol "$self" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 91.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 92.
+Compilation failed in require at (eval 246) line 1.
+
+[Sun Dec 29 07:03:52 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 29 07:03:52 2013] [debug] Template "exception.html.ep" not found.
+[Sun Dec 29 07:03:52 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:03:52 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:03:53 2013] [debug] 500 Internal Server Error (2.607127s, 0.384/s).
+[Sun Dec 29 07:04:47 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:04:47 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:04:48 2013] [error] syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 89, near "):"
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 91.
+Global symbol "$id" requires explicit package name at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 92.
+syntax error at /var/www/wifind/wifind/script/../lib/Wifind/API.pm line 95, near "}"
+Compilation failed in require at (eval 246) line 1.
+
+[Sun Dec 29 07:04:48 2013] [debug] Template "exception.development.html.ep" not found.
+[Sun Dec 29 07:04:48 2013] [debug] Template "exception.html.ep" not found.
+[Sun Dec 29 07:04:48 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:04:48 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:04:49 2013] [debug] 500 Internal Server Error (1.758222s, 0.569/s).
+[Sun Dec 29 07:05:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:05:00 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:05:02 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:05:02 2013] [debug] Template "a_p_i/spot.html.ep" not found.
+[Sun Dec 29 07:05:02 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Dec 29 07:05:24 2013] [info] Listening at "http://*:3000".
+[Sun Dec 29 07:05:29 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:05:29 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:05:31 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:05:31 2013] [debug] Template "a_p_i/spot.html.ep" not found.
+[Sun Dec 29 07:05:31 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Dec 29 07:05:33 2013] [debug] GET "/map".
+[Sun Dec 29 07:05:33 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:05:33 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 07:05:33 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:05:33 2013] [debug] 200 OK (0.008003s, 124.953/s).
+[Sun Dec 29 07:05:37 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:05:37 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:05:37 2013] [debug] 200 OK (0.039634s, 25.231/s).
+[Sun Dec 29 07:05:46 2013] [debug] Inactivity timeout.
+[Sun Dec 29 07:05:52 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:05:52 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:05:52 2013] [debug] Template "a_p_i/spot.html.ep" not found.
+[Sun Dec 29 07:05:52 2013] [debug] Nothing has been rendered, expecting delayed response.
+[Sun Dec 29 07:06:07 2013] [debug] Inactivity timeout.
+[Sun Dec 29 07:06:10 2013] [debug] GET "/map".
+[Sun Dec 29 07:06:10 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:06:10 2013] [debug] Rendering cached template "map/map.html.ep".
+[Sun Dec 29 07:06:10 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:06:10 2013] [debug] 200 OK (0.001499s, 667.111/s).
+[Sun Dec 29 07:06:14 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:06:14 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:06:14 2013] [debug] 200 OK (0.038254s, 26.141/s).
+[Sun Dec 29 07:08:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:08:14 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:08:16 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:08:16 2013] [debug] 200 OK (1.653558s, 0.605/s).
+[Sun Dec 29 07:08:19 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:08:19 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:08:19 2013] [debug] 200 OK (0.003641s, 274.650/s).
+[Sun Dec 29 07:08:22 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:08:22 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:08:22 2013] [debug] 200 OK (0.003547s, 281.928/s).
+[Sun Dec 29 07:09:07 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:09:07 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:09:08 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:09:08 2013] [debug] 200 OK (1.629153s, 0.614/s).
+[Sun Dec 29 07:09:18 2013] [debug] GET "/api/spot".
+[Sun Dec 29 07:09:18 2013] [debug] Routing to controller "Wifind::API" and action "spot".
+[Sun Dec 29 07:09:18 2013] [debug] 200 OK (0.000867s, 1153.403/s).
+[Sun Dec 29 07:09:24 2013] [debug] GET "/map".
+[Sun Dec 29 07:09:24 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:09:24 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 07:09:24 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:09:24 2013] [debug] 200 OK (0.014644s, 68.287/s).
+[Sun Dec 29 07:09:27 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:09:27 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:09:28 2013] [debug] 200 OK (0.075372s, 13.268/s).
+[Sun Dec 29 07:09:29 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:09:29 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:09:29 2013] [debug] 200 OK (0.150204s, 6.658/s).
+[Sun Dec 29 07:09:29 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:09:29 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:09:29 2013] [debug] 200 OK (0.224511s, 4.454/s).
+[Sun Dec 29 07:09:31 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:09:31 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:09:31 2013] [debug] 200 OK (0.176895s, 5.653/s).
+[Sun Dec 29 07:09:32 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:09:32 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:09:33 2013] [debug] 200 OK (0.137383s, 7.279/s).
+[Sun Dec 29 07:09:34 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:09:34 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:09:34 2013] [debug] 200 OK (0.038984s, 25.652/s).
+[Sun Dec 29 07:10:42 2013] [debug] GET "/map".
+[Sun Dec 29 07:10:42 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 07:10:42 2013] [debug] Rendering cached template "map/map.html.ep".
+[Sun Dec 29 07:10:42 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:10:42 2013] [debug] 200 OK (0.001517s, 659.196/s).
+[Sun Dec 29 07:10:50 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:10:50 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:10:50 2013] [debug] 200 OK (0.036770s, 27.196/s).
+[Sun Dec 29 07:10:57 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:10:57 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:10:57 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:10:57 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:10:57 2013] [debug] 200 OK (0.028238s, 35.413/s).
+[Sun Dec 29 07:11:10 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:11:10 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:11:10 2013] [debug] 200 OK (0.096033s, 10.413/s).
+[Sun Dec 29 07:11:11 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:11:11 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:11:11 2013] [debug] 200 OK (0.021128s, 47.331/s).
+[Sun Dec 29 07:11:15 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:11:15 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:11:15 2013] [debug] 200 OK (0.095309s, 10.492/s).
+[Sun Dec 29 07:11:16 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:11:16 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:11:16 2013] [debug] 200 OK (0.020603s, 48.537/s).
+[Sun Dec 29 07:11:17 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:11:17 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:11:17 2013] [debug] 200 OK (0.007536s, 132.696/s).
+[Sun Dec 29 07:11:18 2013] [debug] GET "/api/find".
+[Sun Dec 29 07:11:18 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 07:11:18 2013] [debug] 200 OK (0.007699s, 129.887/s).
+[Sun Dec 29 07:11:22 2013] [debug] GET "/spot/9aab639dea2f8735".
+[Sun Dec 29 07:11:22 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:11:22 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:11:22 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:11:22 2013] [debug] 200 OK (0.027583s, 36.254/s).
+[Sun Dec 29 07:19:52 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:19:52 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:19:54 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:19:54 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:19:54 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:19:54 2013] [debug] 200 OK (1.743974s, 0.573/s).
+[Sun Dec 29 07:20:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:20:36 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:20:38 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:20:38 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:20:38 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:20:38 2013] [debug] 200 OK (2.008193s, 0.498/s).
+[Sun Dec 29 07:24:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:24:03 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:24:05 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:24:05 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:24:05 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:24:05 2013] [debug] 200 OK (2.526762s, 0.396/s).
+[Sun Dec 29 07:24:05 2013] [debug] GET "/spot/img/icon.jpg".
+[Sun Dec 29 07:24:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Dec 29 07:24:05 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Dec 29 07:24:05 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:24:05 2013] [debug] Rendering inline template.
+[Sun Dec 29 07:24:05 2013] [debug] 404 Not Found (0.025617s, 39.037/s).
+[Sun Dec 29 07:24:06 2013] [debug] GET "/spot/img/icon.jpg".
+[Sun Dec 29 07:24:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sun Dec 29 07:24:06 2013] [debug] Template "not_found.html.ep" not found.
+[Sun Dec 29 07:24:06 2013] [debug] Rendering cached inline template.
+[Sun Dec 29 07:24:06 2013] [debug] Rendering cached inline template.
+[Sun Dec 29 07:24:06 2013] [debug] 404 Not Found (0.010539s, 94.886/s).
+[Sun Dec 29 07:24:25 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:24:25 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:24:27 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:24:27 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:24:27 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:24:27 2013] [debug] 200 OK (1.842951s, 0.543/s).
+[Sun Dec 29 07:26:27 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:26:27 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:26:27 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:26:27 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:26:27 2013] [debug] 200 OK (0.007940s, 125.945/s).
+[Sun Dec 29 07:26:31 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 07:26:31 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:26:31 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:26:31 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:26:31 2013] [debug] 200 OK (0.029595s, 33.789/s).
+[Sun Dec 29 07:28:03 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 07:28:03 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 07:28:04 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:28:05 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:28:05 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:28:05 2013] [debug] 200 OK (2.031617s, 0.492/s).
+[Sun Dec 29 07:28:09 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:28:09 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:28:09 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 07:28:09 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 07:28:09 2013] [debug] 200 OK (0.030696s, 32.578/s).
+[Sun Dec 29 07:28:32 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 07:28:32 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:28:32 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:28:32 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:28:32 2013] [debug] 200 OK (0.007511s, 133.138/s).
+[Sun Dec 29 07:28:46 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 07:28:46 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:28:46 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:28:46 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:28:46 2013] [debug] 200 OK (0.012219s, 81.840/s).
+[Sun Dec 29 07:28:55 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 07:28:55 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:28:55 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:28:55 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:28:55 2013] [debug] 200 OK (0.010716s, 93.318/s).
+[Sun Dec 29 07:29:16 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 07:29:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:29:16 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:29:16 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:29:16 2013] [debug] 200 OK (0.009136s, 109.457/s).
+[Sun Dec 29 07:29:38 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:29:38 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:29:38 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:29:38 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:29:38 2013] [debug] 200 OK (0.007798s, 128.238/s).
+[Sun Dec 29 07:30:20 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:30:20 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:30:20 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:30:20 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:30:20 2013] [debug] 200 OK (0.010163s, 98.396/s).
+[Sun Dec 29 07:30:29 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:30:29 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:30:29 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:30:29 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:30:29 2013] [debug] 200 OK (0.008145s, 122.775/s).
+[Sun Dec 29 07:31:01 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 07:31:01 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 07:31:01 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 07:31:01 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 07:31:01 2013] [debug] 200 OK (0.017034s, 58.706/s).
+[Sun Dec 29 08:11:14 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 08:11:14 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 08:11:16 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:11:16 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:11:16 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:11:16 2013] [debug] 200 OK (1.764743s, 0.567/s).
+[Sun Dec 29 08:11:57 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 08:11:57 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 08:11:59 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:11:59 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:11:59 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:11:59 2013] [debug] 200 OK (1.719474s, 0.582/s).
+[Sun Dec 29 08:12:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 08:12:13 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 08:12:14 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:12:14 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:12:14 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:12:14 2013] [debug] 200 OK (1.737209s, 0.576/s).
+[Sun Dec 29 08:14:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 08:14:17 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 08:14:18 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:14:18 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:14:18 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:14:18 2013] [debug] 200 OK (1.741000s, 0.574/s).
+[Sun Dec 29 08:15:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 08:15:24 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 08:15:25 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:15:25 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:15:25 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:15:25 2013] [debug] 200 OK (1.669760s, 0.599/s).
+[Sun Dec 29 08:15:32 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 08:15:32 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:15:32 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:15:32 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:15:32 2013] [debug] 200 OK (0.030654s, 32.622/s).
+[Sun Dec 29 08:15:55 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:15:55 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:15:55 2013] [debug] 200 OK (0.007370s, 135.685/s).
+[Sun Dec 29 08:15:56 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:15:56 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:15:56 2013] [debug] 200 OK (0.005342s, 187.196/s).
+[Sun Dec 29 08:15:57 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:15:57 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:15:57 2013] [debug] 200 OK (0.011973s, 83.521/s).
+[Sun Dec 29 08:15:57 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:15:57 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:15:57 2013] [debug] 200 OK (0.023905s, 41.832/s).
+[Sun Dec 29 08:15:58 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:15:58 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:15:58 2013] [debug] 200 OK (0.098166s, 10.187/s).
+[Sun Dec 29 08:15:58 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:15:58 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:15:59 2013] [debug] 200 OK (0.199699s, 5.008/s).
+[Sun Dec 29 08:16:00 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:00 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:00 2013] [debug] 200 OK (0.247001s, 4.049/s).
+[Sun Dec 29 08:16:02 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:02 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:02 2013] [debug] 200 OK (0.101003s, 9.901/s).
+[Sun Dec 29 08:16:03 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:03 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:03 2013] [debug] 200 OK (0.022101s, 45.247/s).
+[Sun Dec 29 08:16:04 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:04 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:04 2013] [debug] 200 OK (0.005275s, 189.573/s).
+[Sun Dec 29 08:16:06 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:06 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:06 2013] [debug] 200 OK (0.095751s, 10.444/s).
+[Sun Dec 29 08:16:08 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:08 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:08 2013] [debug] 200 OK (0.005233s, 191.095/s).
+[Sun Dec 29 08:16:09 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:09 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:09 2013] [debug] 200 OK (0.005904s, 169.377/s).
+[Sun Dec 29 08:16:12 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:12 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:12 2013] [debug] 200 OK (0.006620s, 151.057/s).
+[Sun Dec 29 08:16:13 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:13 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:13 2013] [debug] 200 OK (0.011640s, 85.911/s).
+[Sun Dec 29 08:16:13 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:13 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:13 2013] [debug] 200 OK (0.027043s, 36.978/s).
+[Sun Dec 29 08:16:14 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:14 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:14 2013] [debug] 200 OK (0.145960s, 6.851/s).
+[Sun Dec 29 08:16:17 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:17 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:17 2013] [debug] 200 OK (0.033394s, 29.945/s).
+[Sun Dec 29 08:16:18 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:18 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:18 2013] [debug] 200 OK (0.009423s, 106.123/s).
+[Sun Dec 29 08:16:19 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:19 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:19 2013] [debug] 200 OK (0.010847s, 92.191/s).
+[Sun Dec 29 08:16:20 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:20 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:20 2013] [debug] 200 OK (0.007027s, 142.308/s).
+[Sun Dec 29 08:16:25 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:25 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:25 2013] [debug] 200 OK (0.006401s, 156.226/s).
+[Sun Dec 29 08:16:26 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:26 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:26 2013] [debug] 200 OK (0.007285s, 137.268/s).
+[Sun Dec 29 08:16:28 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:28 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:28 2013] [debug] 200 OK (0.005420s, 184.502/s).
+[Sun Dec 29 08:16:30 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:30 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:30 2013] [debug] 200 OK (0.006212s, 160.979/s).
+[Sun Dec 29 08:16:42 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:16:42 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:16:42 2013] [debug] 200 OK (0.005225s, 191.388/s).
+[Sun Dec 29 08:17:00 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:00 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:00 2013] [debug] 200 OK (0.008257s, 121.109/s).
+[Sun Dec 29 08:17:00 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:00 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:00 2013] [debug] 200 OK (0.003597s, 278.009/s).
+[Sun Dec 29 08:17:02 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:02 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:02 2013] [debug] 200 OK (0.004732s, 211.327/s).
+[Sun Dec 29 08:17:02 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:02 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:02 2013] [debug] 200 OK (0.006494s, 153.988/s).
+[Sun Dec 29 08:17:03 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:03 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:03 2013] [debug] 200 OK (0.005037s, 198.531/s).
+[Sun Dec 29 08:17:03 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:03 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:03 2013] [debug] 200 OK (0.004767s, 209.776/s).
+[Sun Dec 29 08:17:04 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:04 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:04 2013] [debug] 200 OK (0.004088s, 244.618/s).
+[Sun Dec 29 08:17:04 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:04 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:04 2013] [debug] 200 OK (0.020225s, 49.444/s).
+[Sun Dec 29 08:17:06 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:06 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:06 2013] [debug] 200 OK (0.076926s, 13.000/s).
+[Sun Dec 29 08:17:07 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:07 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:07 2013] [debug] 200 OK (0.029887s, 33.459/s).
+[Sun Dec 29 08:17:19 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:19 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:19 2013] [debug] 200 OK (0.360427s, 2.774/s).
+[Sun Dec 29 08:17:19 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:19 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:19 2013] [debug] 200 OK (0.005530s, 180.832/s).
+[Sun Dec 29 08:17:27 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:27 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:27 2013] [debug] 200 OK (0.005824s, 171.703/s).
+[Sun Dec 29 08:17:30 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:30 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:30 2013] [debug] 200 OK (0.004088s, 244.618/s).
+[Sun Dec 29 08:17:38 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:38 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:38 2013] [debug] 200 OK (0.003715s, 269.179/s).
+[Sun Dec 29 08:17:39 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:39 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:39 2013] [debug] 200 OK (0.003927s, 254.647/s).
+[Sun Dec 29 08:17:39 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:39 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:39 2013] [debug] 200 OK (0.005263s, 190.006/s).
+[Sun Dec 29 08:17:46 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:46 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:46 2013] [debug] 200 OK (0.006566s, 152.300/s).
+[Sun Dec 29 08:17:47 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:47 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:47 2013] [debug] 200 OK (0.010058s, 99.423/s).
+[Sun Dec 29 08:17:49 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:49 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:49 2013] [debug] 200 OK (0.007151s, 139.841/s).
+[Sun Dec 29 08:17:50 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:50 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:50 2013] [debug] 200 OK (0.005536s, 180.636/s).
+[Sun Dec 29 08:17:54 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:54 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:54 2013] [debug] 200 OK (0.006581s, 151.953/s).
+[Sun Dec 29 08:17:59 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:17:59 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:17:59 2013] [debug] 200 OK (0.007832s, 127.681/s).
+[Sun Dec 29 08:18:03 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:03 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:03 2013] [debug] 200 OK (0.007559s, 132.293/s).
+[Sun Dec 29 08:18:04 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:04 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:04 2013] [debug] 200 OK (0.006864s, 145.688/s).
+[Sun Dec 29 08:18:05 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:05 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:05 2013] [debug] 200 OK (0.005639s, 177.336/s).
+[Sun Dec 29 08:18:06 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:06 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:06 2013] [debug] 200 OK (0.005768s, 173.370/s).
+[Sun Dec 29 08:18:07 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:07 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:07 2013] [debug] 200 OK (0.005995s, 166.806/s).
+[Sun Dec 29 08:18:11 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:11 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:11 2013] [debug] 200 OK (0.008927s, 112.020/s).
+[Sun Dec 29 08:18:13 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:13 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:13 2013] [debug] 200 OK (0.006192s, 161.499/s).
+[Sun Dec 29 08:18:13 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:13 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:13 2013] [debug] 200 OK (0.007470s, 133.869/s).
+[Sun Dec 29 08:18:14 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:18:14 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:18:14 2013] [debug] 200 OK (0.007626s, 131.130/s).
+[Sun Dec 29 08:20:35 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 29 08:20:35 2013] [debug] GET "/spot/c20ac305e5c7ac02".
+[Sun Dec 29 08:20:36 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:20:36 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:20:36 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:20:36 2013] [debug] 200 OK (1.779249s, 0.562/s).
+[Sun Dec 29 08:20:49 2013] [debug] GET "/spot/686669c0e1104e23".
+[Sun Dec 29 08:20:49 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:20:49 2013] [debug] Rendering template "spot/spot.html.ep".
+[Sun Dec 29 08:20:49 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:20:49 2013] [debug] 200 OK (0.030164s, 33.152/s).
+[Sun Dec 29 08:52:33 2013] [debug] GET "/".
+[Sun Dec 29 08:52:33 2013] [debug] Routing to controller "Wifind::Example" and action "welcome".
+[Sun Dec 29 08:52:33 2013] [debug] Rendering template "example/welcome.html.ep".
+[Sun Dec 29 08:52:33 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 29 08:52:33 2013] [debug] 200 OK (0.004706s, 212.495/s).
+[Sun Dec 29 08:52:40 2013] [debug] GET "/map".
+[Sun Dec 29 08:52:40 2013] [debug] Routing to controller "Wifind::Map" and action "map".
+[Sun Dec 29 08:52:40 2013] [debug] Rendering template "map/map.html.ep".
+[Sun Dec 29 08:52:40 2013] [debug] Rendering template "layouts/navbar.html.ep".
+[Sun Dec 29 08:52:40 2013] [debug] 200 OK (0.007764s, 128.800/s).
+[Sun Dec 29 08:52:42 2013] [debug] GET "/api/find".
+[Sun Dec 29 08:52:42 2013] [debug] Routing to controller "Wifind::API" and action "find".
+[Sun Dec 29 08:52:42 2013] [debug] 200 OK (0.097838s, 10.221/s).
+[Sun Dec 29 08:53:11 2013] [debug] GET "/spot/a237e7f2a7f6ddfa".
+[Sun Dec 29 08:53:11 2013] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Sun Dec 29 08:53:11 2013] [debug] Rendering cached template "spot/spot.html.ep".
+[Sun Dec 29 08:53:11 2013] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Sun Dec 29 08:53:11 2013] [debug] 200 OK (0.008490s, 117.786/s).
+[Fri Jan  3 15:44:19 2014] [info] Listening at "http://*:3000".
+[Fri Jan  3 15:45:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jan  3 15:45:14 2014] [debug] GET "/spot/c20ac305e5c7ac02".
+[Fri Jan  3 15:45:16 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:45:16 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 15:45:16 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Jan  3 15:45:16 2014] [debug] 200 OK (1.791154s, 0.558/s).
+[Fri Jan  3 15:45:17 2014] [debug] GET "/map".
+[Fri Jan  3 15:45:17 2014] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Jan  3 15:45:17 2014] [debug] Rendering template "map/map.html.ep".
+[Fri Jan  3 15:45:17 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Jan  3 15:45:17 2014] [debug] 200 OK (0.006842s, 146.156/s).
+[Fri Jan  3 15:45:40 2014] [debug] GET "/spot/c20ac305e5c7ac02".
+[Fri Jan  3 15:45:40 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:45:40 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Jan  3 15:45:40 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Jan  3 15:45:40 2014] [debug] 200 OK (0.008881s, 112.600/s).
+[Fri Jan  3 15:45:41 2014] [debug] GET "/spot/c20ac305e5c7ac02".
+[Fri Jan  3 15:45:41 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:45:41 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Jan  3 15:45:41 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Jan  3 15:45:41 2014] [debug] 200 OK (0.008187s, 122.145/s).
+[Fri Jan  3 15:45:56 2014] [debug] GET "/map".
+[Fri Jan  3 15:45:56 2014] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Jan  3 15:45:56 2014] [debug] Rendering cached template "map/map.html.ep".
+[Fri Jan  3 15:45:56 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Jan  3 15:45:56 2014] [debug] 200 OK (0.001485s, 673.401/s).
+[Fri Jan  3 15:45:57 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:45:57 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:45:57 2014] [debug] 200 OK (0.077188s, 12.955/s).
+[Fri Jan  3 15:45:59 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:45:59 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:45:59 2014] [debug] 200 OK (0.077963s, 12.827/s).
+[Fri Jan  3 15:46:00 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:00 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:01 2014] [debug] 200 OK (0.078468s, 12.744/s).
+[Fri Jan  3 15:46:02 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:02 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:02 2014] [debug] 200 OK (0.165175s, 6.054/s).
+[Fri Jan  3 15:46:04 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:04 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:04 2014] [debug] 200 OK (0.183352s, 5.454/s).
+[Fri Jan  3 15:46:05 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:05 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:05 2014] [debug] 200 OK (0.034500s, 28.986/s).
+[Fri Jan  3 15:46:07 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:07 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:07 2014] [debug] 200 OK (0.036099s, 27.702/s).
+[Fri Jan  3 15:46:07 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:07 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:07 2014] [debug] 200 OK (0.025140s, 39.777/s).
+[Fri Jan  3 15:46:08 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:08 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:08 2014] [debug] 200 OK (0.047421s, 21.088/s).
+[Fri Jan  3 15:46:09 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:09 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:09 2014] [debug] 200 OK (0.211720s, 4.723/s).
+[Fri Jan  3 15:46:10 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:10 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:10 2014] [debug] 200 OK (0.175605s, 5.695/s).
+[Fri Jan  3 15:46:12 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:12 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:12 2014] [debug] 200 OK (0.201476s, 4.963/s).
+[Fri Jan  3 15:46:13 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:13 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:14 2014] [debug] 200 OK (0.150736s, 6.634/s).
+[Fri Jan  3 15:46:15 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:15 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:15 2014] [debug] 200 OK (0.125666s, 7.958/s).
+[Fri Jan  3 15:46:16 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:16 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:16 2014] [debug] 200 OK (0.097755s, 10.230/s).
+[Fri Jan  3 15:46:17 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:17 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:17 2014] [debug] 200 OK (0.046058s, 21.712/s).
+[Fri Jan  3 15:46:18 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:18 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:18 2014] [debug] 200 OK (0.020913s, 47.817/s).
+[Fri Jan  3 15:46:19 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:19 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:19 2014] [debug] 200 OK (0.015754s, 63.476/s).
+[Fri Jan  3 15:46:20 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:20 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:20 2014] [debug] 200 OK (0.006634s, 150.739/s).
+[Fri Jan  3 15:46:21 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:21 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:21 2014] [debug] 200 OK (0.016645s, 60.078/s).
+[Fri Jan  3 15:46:21 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:21 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:21 2014] [debug] 200 OK (0.021598s, 46.301/s).
+[Fri Jan  3 15:46:21 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:21 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:21 2014] [debug] 200 OK (0.032317s, 30.943/s).
+[Fri Jan  3 15:46:22 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:22 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:22 2014] [debug] 200 OK (0.069771s, 14.333/s).
+[Fri Jan  3 15:46:23 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:23 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:23 2014] [debug] 200 OK (0.131709s, 7.592/s).
+[Fri Jan  3 15:46:31 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:31 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:31 2014] [debug] 200 OK (0.146772s, 6.813/s).
+[Fri Jan  3 15:46:33 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:33 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:33 2014] [debug] 200 OK (0.251830s, 3.971/s).
+[Fri Jan  3 15:46:34 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:34 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:34 2014] [debug] 200 OK (0.154774s, 6.461/s).
+[Fri Jan  3 15:46:35 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:35 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:36 2014] [debug] 200 OK (0.062176s, 16.083/s).
+[Fri Jan  3 15:46:37 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:37 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:37 2014] [debug] 200 OK (0.116978s, 8.549/s).
+[Fri Jan  3 15:46:39 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:39 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:39 2014] [debug] 200 OK (0.071902s, 13.908/s).
+[Fri Jan  3 15:46:43 2014] [debug] GET "/spot/e6936181002d1ff0".
+[Fri Jan  3 15:46:43 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:46:43 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Jan  3 15:46:43 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Jan  3 15:46:43 2014] [debug] 200 OK (0.031630s, 31.616/s).
+[Fri Jan  3 15:46:50 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:46:50 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:46:51 2014] [debug] 200 OK (0.087288s, 11.456/s).
+[Fri Jan  3 15:52:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jan  3 15:52:45 2014] [debug] GET "/spot/37264deef79ca501".
+[Fri Jan  3 15:52:46 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:52:46 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 15:52:46 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Jan  3 15:52:46 2014] [debug] 200 OK (1.674864s, 0.597/s).
+[Fri Jan  3 15:52:54 2014] [debug] GET "/spot/c20ac305e5c7ac02".
+[Fri Jan  3 15:52:54 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:52:54 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Jan  3 15:52:54 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Jan  3 15:52:54 2014] [debug] 200 OK (0.008738s, 114.443/s).
+[Fri Jan  3 15:53:03 2014] [debug] GET "/api/find".
+[Fri Jan  3 15:53:03 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 15:53:04 2014] [debug] 200 OK (0.166421s, 6.009/s).
+[Fri Jan  3 15:53:08 2014] [debug] GET "/spot/b1c40527237f7f60".
+[Fri Jan  3 15:53:08 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:53:08 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 15:53:08 2014] [error] Global symbol "$foursquare" requires explicit package name at template spot/spot.html.ep line 56.
+Global symbol "$foursquare" requires explicit package name at template spot/spot.html.ep line 57.
+52: 								<i class="uk-icon-phone"></i>
+53: 								<span><%= $spot->{tel} %></span>
+54: 							% }
+55: 
+56: 							% if ( $foursquare ){
+57: 								<a href="https://ja.foursquare.com/v/<%= $foursquare->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
+58: 							% }
+59: 
+60: 
+61: 						</div> 
+62: 			</div>
+
+[Fri Jan  3 15:53:08 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jan  3 15:53:08 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jan  3 15:53:08 2014] [debug] Rendering inline template.
+[Fri Jan  3 15:53:08 2014] [debug] Rendering inline template.
+[Fri Jan  3 15:53:08 2014] [debug] 500 Internal Server Error (0.130950s, 7.637/s).
+[Fri Jan  3 15:53:14 2014] [debug] GET "/spot/b1c40527237f7f60".
+[Fri Jan  3 15:53:14 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 15:53:14 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 15:53:14 2014] [error] Global symbol "$foursquare" requires explicit package name at template spot/spot.html.ep line 56.
+Global symbol "$foursquare" requires explicit package name at template spot/spot.html.ep line 57.
+52: 								<i class="uk-icon-phone"></i>
+53: 								<span><%= $spot->{tel} %></span>
+54: 							% }
+55: 
+56: 							% if ( $foursquare ){
+57: 								<a href="https://ja.foursquare.com/v/<%= $foursquare->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
+58: 							% }
+59: 
+60: 
+61: 						</div> 
+62: 			</div>
+
+[Fri Jan  3 15:53:14 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jan  3 15:53:14 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jan  3 15:53:14 2014] [debug] Rendering cached inline template.
+[Fri Jan  3 15:53:14 2014] [debug] Rendering cached inline template.
+[Fri Jan  3 15:53:14 2014] [debug] 500 Internal Server Error (0.044654s, 22.394/s).
+[Fri Jan  3 16:08:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jan  3 16:08:10 2014] [debug] GET "/spot/b1c40527237f7f60".
+[Fri Jan  3 16:08:12 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 16:08:12 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 16:08:12 2014] [error] Global symbol "$foursquare" requires explicit package name at template spot/spot.html.ep line 56.
+Global symbol "$foursquare" requires explicit package name at template spot/spot.html.ep line 57.
+52: 								<i class="uk-icon-phone"></i>
+53: 								<span><%= $spot->{tel} %></span>
+54: 							% }
+55: 
+56: 							% if ( defined $foursquare ){
+57: 								<a href="https://ja.foursquare.com/v/<%= $foursquare->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
+58: 							% }
+59: 
+60: 
+61: 						</div> 
+62: 			</div>
+
+[Fri Jan  3 16:08:12 2014] [debug] Template "exception.development.html.ep" not found.
+[Fri Jan  3 16:08:12 2014] [debug] Template "exception.html.ep" not found.
+[Fri Jan  3 16:08:12 2014] [debug] Rendering inline template.
+[Fri Jan  3 16:08:12 2014] [debug] Rendering inline template.
+[Fri Jan  3 16:08:12 2014] [debug] 500 Internal Server Error (1.873129s, 0.534/s).
+[Fri Jan  3 16:09:02 2014] [debug] GET "/spot/109d6352187ef639".
+[Fri Jan  3 16:09:02 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 16:09:02 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 16:09:02 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Jan  3 16:09:02 2014] [debug] 200 OK (0.055828s, 17.912/s).
+[Fri Jan  3 16:23:43 2014] [debug] GET "/api/find".
+[Fri Jan  3 16:23:43 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 16:23:43 2014] [debug] 200 OK (0.316028s, 3.164/s).
+[Fri Jan  3 16:23:43 2014] [debug] GET "/api/find".
+[Fri Jan  3 16:23:43 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 16:23:43 2014] [debug] 200 OK (0.005546s, 180.310/s).
+[Fri Jan  3 16:25:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Fri Jan  3 16:25:48 2014] [debug] GET "/map".
+[Fri Jan  3 16:25:48 2014] [debug] Routing to controller "Wifind::Map" and action "map".
+[Fri Jan  3 16:25:48 2014] [debug] Rendering template "map/map.html.ep".
+[Fri Jan  3 16:25:48 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Jan  3 16:25:48 2014] [debug] 200 OK (0.016434s, 60.849/s).
+[Fri Jan  3 16:25:51 2014] [debug] GET "/api/find".
+[Fri Jan  3 16:25:53 2014] [debug] Routing to controller "Wifind::API" and action "find".
+[Fri Jan  3 16:25:53 2014] [debug] 200 OK (1.730136s, 0.578/s).
+[Fri Jan  3 16:29:27 2014] [debug] GET "/spot/d4aaf2e0c9020986".
+[Fri Jan  3 16:29:27 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 16:29:27 2014] [debug] Rendering template "spot/spot.html.ep".
+[Fri Jan  3 16:29:27 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Fri Jan  3 16:29:27 2014] [debug] 200 OK (0.030426s, 32.867/s).
+[Fri Jan  3 16:36:13 2014] [debug] GET "/spot/d4aaf2e0c9020986".
+[Fri Jan  3 16:36:13 2014] [debug] Routing to controller "Wifind::Spot" and action "spot".
+[Fri Jan  3 16:36:13 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Fri Jan  3 16:36:13 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Fri Jan  3 16:36:13 2014] [debug] 200 OK (0.007817s, 127.926/s).

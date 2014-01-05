@@ -275,8 +275,8 @@ function addSpot(spot) {
 // 間引き
 function thinOut() {
 	var intensity = 17-map.zoom;
-	if ( intensity > 10 ){
-		intensity = 10;
+	if ( intensity > 13 ){
+		intensity = 13;
 	}
 	for (var id in marker_list) {
 		var marker = marker_list[id];

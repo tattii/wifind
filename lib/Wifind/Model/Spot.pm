@@ -4,7 +4,7 @@ use MongoDB;
 
 
 my $DB = "test";
-my $COLLECTION = "freemobile";
+my $COLLECTION = "wifind04";
 
 
 # idから検索

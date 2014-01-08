@@ -53,7 +53,7 @@
 								<span><%= $spot->{tel} %></span>
 							% }
 
-							% if ( $spot->{foursquare} ){
+							% if ( $spot->{foursquare}->{id} ){
 								<a href="https://ja.foursquare.com/v/<%= $spot->{foursquare}->{id} %>" target="_blank"><i class="uk-icon-foursquare"></i></a>
 							% }
 

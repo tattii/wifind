@@ -473,6 +473,9 @@ var created = {
 	"sevenspot": 1,
 	"freemobile": 1,
 	"famima_wifi": 1,
+	"c-nexco": 1,
+	"e-nexco": 1,
+	"fukuoka_city_wifi": 1,
 };
 
 function iconImage(name) {

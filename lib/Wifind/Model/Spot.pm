@@ -89,7 +89,11 @@ sub findBounds
 }
 
 
-
+sub count
+{
+	my $coll = MongoDB::MongoClient->new->get_database($DB)->get_collection($COLLECTION);
+	return $coll->count();
+}
 
 
 

@@ -22,13 +22,13 @@
 			</div>
 
 			<div id="about">
-				<p>WiFindは無料で使えるWiFiスポット情報を共有するサービスです。</p>
+				<p>WiFindは「誰でも」無料で使えるWiFiスポット情報を共有するサービスです。</p>
 			</div>
 
 			<div id="main">
 				<div id="spot-num" class="uk-panel-box">
 					登録Spot数
-					<p>1120</p>	
+					<p><%= $count %></p>	
 				</div>
 <!--
 				<div id="history" class="main-panel">

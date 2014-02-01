@@ -11,9 +11,6 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script src="/lib/uikit-1.0.1/js/uikit.min.js"></script>
 		<script src="http://maps.google.com/maps/api/js?libraries=places&sensor=false"></script>
-<!--
-		<script src="/lib/markermanager/src/markermanager.js"></script>
--->
 		<script src="/js/map.js"></script>
 	</head>
 
@@ -21,7 +18,13 @@
 	<body>
 		<div id="screen">
 
-%= include 'layouts/navbar'
+<%= include 'layouts/navbar', plus =>'
+	<div id="search-mini-form">
+		<a href="javascript:onSearchMini();" id="search-mini"><i class="uk-icon-search"></i></a>
+		<input id="search-mini-input" type="search" placeholder="find" style="display: none;"/>
+		<i class="uk-icon-remove" id="search-mini-reset" style="display: none;"></i>
+	</div>'
+%>
 
 			<div id="container">
 

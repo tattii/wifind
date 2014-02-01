@@ -16,7 +16,7 @@
 
 	<body>
 
-%= include 'layouts/navbar'
+%= include 'layouts/navbar', plus => ''
 
 		<div id="container">
 	
@@ -143,7 +143,7 @@
 						</div>
 
 						<div id="map-wrap-mini" class="box">
-							<a href="/web/map.html"><i class="uk-icon-share"></i></a>
+							<a href="/map?lat=<%= $location->{lat} %>&lng=<%= $location->{lng} %>"><i class="uk-icon-share"></i></a>
 							<div id="map-mini"></div>
 						</div>
 
@@ -200,14 +200,16 @@
 
 
 						<div id="tip-form" class="box uk-form">
-							<img src="/img/icon.jpg" alt="">
-							<div id="tip-text">
-								<input type="text">
-							</div>
-							<div id="tip-button">
-								<button class="uk-button">tip</button>
-							</div>
-							<div class="clear-both"></div>
+							<form action="/spot/<%= $id %>/tip" method="post">
+								<img src="/img/icon.jpg" alt="">
+								<div id="tip-text">
+									<input type="text" name="message">
+								</div>
+								<div id="tip-button">
+									<input type="submit" class="uk-button" value="tip">
+								</div>
+								<div class="clear-both"></div>
+							</form>
 						</div>
 
 						<div id="wifi-share-mini" class="box">
@@ -223,7 +225,7 @@
 
 				<div id="side">
 					<div id="map-wrap" class="box">
-						<a href="/map"><i class="uk-icon-share"></i></a>
+						<a href="/map?lat=<%= $location->{lat} %>&lng=<%= $location->{lng} %>"><i class="uk-icon-share"></i></a>
 						<div id="map"></div>
 					</div>
 
@@ -241,13 +243,6 @@
 			</div> <!-- end of wrapper -->
 
 			<div id="footer">
-				<a href="/map">map</a>
-				|
-				<a href="/about">about</a>
-				|
-				<a href="/login">login</a>
-				
-				<br><br>
 				2013 WiFind
 			</div>
 

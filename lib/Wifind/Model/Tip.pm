@@ -27,7 +27,6 @@ sub add
 		user	=> $param->{user},
 		spot_id	=> $param->{spot_id},
 		time	=> time(),
-		like	=> 0,
 	});
 	return $id;
 }

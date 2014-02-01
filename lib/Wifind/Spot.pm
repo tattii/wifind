@@ -37,6 +37,26 @@ sub spot
 }
 
 
+sub tip
+{
+	my $self = shift;
+	my $id = $self->stash("id");
+
+	my %param;
+	$param{spot_id} = $id;
+
+	$param{message} = $self->param("message");
+	$param{user} = $self->param("user") || "test";
+
+	if ( $param{message} && $param{user} ){
+		Wifind::Model::Tip::add(\%param);
+		$self->spot();
+
+	}else{
+		die "error";
+	}
+}
+
 
 
 

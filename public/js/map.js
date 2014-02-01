@@ -21,9 +21,14 @@ $(document).ready(function(){
 
 	$("#container").append("<div id='message'>loading map...</div>");
 
-	// 位置情報
-	var latlng;
-	if ( navigator.geolocation ){
+	var query = getURLQuery();
+
+	if ( query.lat && query.lng ){
+		var position = new google.maps.LatLng(query.lat, query.lng);
+		initializeMap(position);
+
+	// 現在地
+	}else if ( navigator.geolocation ){
 		navigator.geolocation.getCurrentPosition(
 			function (position){
 				var position = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -110,7 +115,7 @@ function initializeMap(position) {
 	google.maps.visualRefresh = true;
 
 	if (! position ){ 
-		position = new google.maps.LatLng(35.011636 , 135.768029);
+		position = new google.maps.LatLng(35.011636 , 135.768029); // kyoto
 	}
 	var mapOptions = {
 		zoom: 15,
@@ -132,9 +137,6 @@ function initializeMap(position) {
 		markerWithin();
 		reduceDetailWindow();
 		getSpotBounds();
-		if ( mobile_device ){
-		//	window.setTimeout(function(){getSpotBounds()}, 2000);
-		}
 	});
 	google.maps.event.addListener(map, "zoom_changed", function() {
 		console.log("zoom:"+map.zoom);
@@ -259,6 +261,12 @@ function addSpot(spot) {
 	};
 
 	google.maps.event.addListener(marker, "click", function() {
+
+		if ( id == display_spot_id ){
+			map.setZoom(17);
+			map.panTo(location);
+		}
+
 		if ( currentInfoWindow ){
 			currentInfoWindow.close();
 		}
@@ -445,6 +453,18 @@ function search(address){
 }
 
 
+
+
+function getURLQuery()
+{
+	var vars = new Object, params;
+	var temp_params = window.location.search.substring(1).split('&');
+	for(var i = 0; i <temp_params.length; i++) {
+		params = temp_params[i].split('=');
+		vars[params[0]] = params[1];
+	}
+	return vars;
+}
 
 
 

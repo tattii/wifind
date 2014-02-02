@@ -15,4 +15,13 @@ sub about
 }
 
 
+sub service
+{
+	my $self = shift;
+
+	$self->render('static/service');
+}
+
+
+
 1;

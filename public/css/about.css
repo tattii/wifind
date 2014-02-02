@@ -1,11 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700);
 
-#container {
-	margin: auto;
-	padding-top: 41px;
-	max-width: 960px;
-	text-align: center;
-}
+
 
 #logo { margin: 40px 0; }
 #logo h1 {

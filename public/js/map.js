@@ -114,11 +114,15 @@ function onSearchMini(){
 function initializeMap(position) {
 	google.maps.visualRefresh = true;
 
+	var zoom = 15;
+
 	if (! position ){ 
-		position = new google.maps.LatLng(35.011636 , 135.768029); // kyoto
+		position = new google.maps.LatLng(36.204824 , 138.252924); // japan
+		zoom = 5;
 	}
+
 	var mapOptions = {
-		zoom: 15,
+		zoom: zoom,
 		center: position,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		disableDefaultUI: true,
@@ -496,6 +500,7 @@ var created = {
 	"c-nexco": 1,
 	"e-nexco": 1,
 	"fukuoka_city_wifi": 1,
+	"hikari_station": 1,
 };
 
 function iconImage(name) {

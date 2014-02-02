@@ -1,0 +1,5 @@
+% layout 'common',
+%		title => 'service',
+%		style => '<link rel="stylesheet" href="" />';
+
+テスト

@@ -12,7 +12,7 @@ sub startup
 	my $r = $self->routes;
 
  	# Normal route to controller
- 	$r->get('/')->to('example#welcome');
+ 	$r->route('/')->to('Map#map');
 
 	$r->route('/api/find')->to('API#find');
 	$r->route('/api/spot')->to('API#spot');
@@ -24,6 +24,7 @@ sub startup
 
 	
 	$r->route('/about')->to('Static#about');
+	$r->route('/service')->to('Static#service');
 }
 
 

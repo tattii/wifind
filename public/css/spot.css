@@ -19,13 +19,7 @@ body {
 	border: 1px solid #ccc;
 }
 
-a {
-	color: #444;
-	text-decoration: none;
-}
-a:hover {
-	color: #777;
-}
+
 
 
 /* header ----------------------------*/
@@ -205,10 +199,10 @@ a:hover {
 #wifi-detail-table2 th {
 	width: 50px;
 	height: 26px;
-	text-align: center;
+	text-align: right;
 }
 #wifi-detail-table2 td {
-	margin-left: 20px;
+	padding-left: 15px;
 }
 
 
@@ -338,20 +332,5 @@ a:hover {
 	text-align: center;
 	padding-top: 10px;
 	margin: 25px 0;
-}
-
-#footer a {
-	margin: 0 10px;
-}
-
-
-
-/* */
-.box-sizing {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
 }
 

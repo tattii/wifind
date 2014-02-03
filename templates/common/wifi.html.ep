@@ -1,0 +1,124 @@
+% layout 'common',
+%		title => 'wifi',
+%		style => '<link rel="stylesheet" href="/css/wifi.css" />';
+
+<h1>登録wifi一覧</h1>
+
+<table class="uk-table uk-table-hover" id="wifi-table">
+
+	<caption>2014.02.03 現在</caption>
+
+	<thead>
+		<tr>
+			<th width="70px"></th>
+			<th width="150px">名称</th>
+			<th width="50px">spot数</th>
+			<th width="120px">制限</th>
+			<th width="120px">認証</th>
+			<th>説明</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td><img src="img/freespot_icon.png"></td>
+			<td>FREESPOT</td>
+			<td>11267</td>
+			<td>なし</td>
+			<td>メール</td>
+			<td></td>
+		</tr>
+
+		<tr>
+			<td><img src="img/hikari_station_icon.png"></td>
+			<td>光ステーション</td>
+			<td>31575</td>
+			<td>15分*2回/日</td>
+			<td>メール</td>
+			<td>NTT東日本</td>
+		</tr>
+		<tr>
+			<td><img src="img/famima_wifi_icon.png"></td>
+			<td>famima_wifi</td>
+			<td>9119</td>
+			<td>20分*3回/日</td>
+			<td>メール</td>
+			<td>ファミリマート</td>
+		</tr>
+		<tr>
+			<td><img src="img/sevenspot_icon.png"></td>
+			<td>7SPOT</td>
+			<td>14085</td>
+			<td>60分*2回/日</td>
+			<td>メール<br>（会員登録）</td>
+			<td>セブンイレブン</td>
+		</tr>
+		<tr>
+			<td><img src="img/freemobile_icon.png"></td>
+			<td>FreeMobile</td>
+			<td>173</td>
+			<td>なし</td>
+			<td>なしorメール</td>
+			<td>自動販売機</td>
+		</tr>
+		<tr>
+			<td><img src="img/starbucks_icon.png"></td>
+			<td>スターバックス</td>
+			<td>477</td>
+			<td>なし</td>
+			<td>事前登録</td>
+			<td>スターバックス</td>
+		</tr>
+		<tr>
+			<td><img src="img/c-nexco_icon.png"></td>
+			<td>C-NEXCO Free Wi-Fi</td>
+			<td>134</td>
+			<td>15分*3回/日</td>
+			<td>メール</td>
+			<td>NEXCO中日本</td>
+		</tr>
+		<tr>
+			<td><img src="img/e-nexco_icon.png"></td>
+			<td>E-NEXCO Wi-Fi SPOT</td>
+			<td>108</td>
+			<td>15分*3回/日</td>
+			<td>メール</td>
+			<td>NEXCO東日本</td>
+		</tr>
+
+
+		<tr>
+			<td><img src="img/kyoto_wifi01_icon.png"></td>
+			<td><a href="/wifi/kyoto_wifi">KYOTO WiFi</a></td>
+			<td>390</td>
+			<td>なし</td>
+			<td>メール</td>
+			<td>京都市</td>
+		</tr>
+		<tr>
+			<td><img src="img/fukuoka_city_wifi_icon.png"></td>
+			<td>Fukuoka City Wi-Fi</td>
+			<td>69</td>
+			<td>なし</td>
+			<td>メール</td>
+			<td>福岡市</td>
+		</tr>
+
+<!--
+		<tr>
+			<td><img src="img/_icon.png"></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+-->
+	</tbody>
+
+</table>
+
+
+<div id="sum">
+	合計: <strong>67397</strong> spot
+</div>

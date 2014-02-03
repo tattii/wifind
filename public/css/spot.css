@@ -1,5 +1,12 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background: #fcfcfe; 
+	background: #fcfcfe;
 }
 
 .navbar {
@@ -23,8 +30,11 @@ body {
 
 
 /* header ----------------------------*/
-#header {
+#header-wrapper {
 	width: 100%;
+}
+
+#header {
 	margin-top: 20px;
 	position: relative;
 }
@@ -273,10 +283,13 @@ body {
 .tip-main {
 	float: left;
 }
+.tip-message {
+	margin-bottom: 10px;
+}
 .tip small {
 	font-size: 12px;
 	color: #999;
-	padding-left: 1em;
+	padding-left: .5em;
 }
 
 
@@ -286,22 +299,51 @@ body {
 	margin-top: 15px;
 	padding: 15px 10px;
 }
-#tip-form img {
+
+#tip-form-icon {
+	float: left;
+	width: 55px;
+	margin-left: -100%;
+}
+
+#tip-form-icon img {
 	width: 32px;
 	height: 32px;
-	float: left;
 	margin: 0 10px;
 }
-#tip-text {
+
+#tip-form-main-wrap {
 	float: left;
-	width: 80%;
-}
-#tip-button {
-	float: left;
-}
-#tip-text input {
 	width: 100%;
 }
+#tip-form-main {
+	margin-left: 55px;
+	margin-right: 0;
+	position: relative;
+}
+
+
+#tip-toggle input {
+	width: 100%;
+}
+#tip-name {
+	width: 150px;
+}
+#tip-message {
+	width: 100%;
+}
+#tip-close {
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+
+#tip-submit {
+	color: #fff;
+	background: #abe314;
+	border: 1px solid #87b800;
+}
+
 
 
 #wifi-share {
@@ -312,7 +354,6 @@ body {
 #wifi-share input {
 	margin-top: -6px;
 }
-
 
 #wifi-share-mini {
 	margin-top: 20px;
@@ -328,7 +369,6 @@ body {
 
 /* footer ---------------------------*/
 #footer {
-	border-top: 1px solid #ccc;
 	text-align: center;
 	padding-top: 10px;
 	margin: 25px 0;

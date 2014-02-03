@@ -1,0 +1,24 @@
+h1 {
+	margin: 35px 0;
+}
+
+#wifi-table caption {
+	caption-side: top;
+	text-align: right;
+}
+
+#wifi-table thead th {
+	text-align: center;
+}
+
+#wifi-table tbody td {
+	height: 60px;
+	vertical-align: middle;
+}
+
+#sum {
+	margin: 40px 0;
+	font-size: 20px;
+}
+
+

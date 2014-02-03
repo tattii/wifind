@@ -23,8 +23,9 @@ sub startup
 	$r->route('/spot/:id', id => qr/[0-9a-f]{1,20}/)->to('Spot#spot');
 
 	
-	$r->route('/about')->to('Static#about');
-	$r->route('/service')->to('Static#service');
+	$r->route('/about')->to('Common#about');
+	$r->route('/wifi')->to('Common#wifi');
+	$r->route('/wifi/:service')->to('Common#service');
 }
 
 

@@ -1,5 +1,5 @@
 % layout 'common',
-%		title => 'service',
+%		title => '',
 %		style => '<link rel="stylesheet" href="" />';
 
-テスト
+

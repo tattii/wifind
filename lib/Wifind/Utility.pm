@@ -26,7 +26,7 @@ sub timeToString
 	my ($sec, $min, $hour, $mday, $mon, $year) = localtime($time);
 	$mon += 1;
 	$year += 1900;
-	return "$year/$mon/$mday $hour:$min";
+	return "$year/$mon/$mday ".sprintf("%2d:%02d", $hour, $min);
 }
 
 

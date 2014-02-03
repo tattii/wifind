@@ -1,0 +1,91 @@
+% layout 'common',
+%		title => 'kyoto_wifi',
+%		style => '<link rel="stylesheet" href="/css/service/kyoto_wifi.css" />';
+
+
+<h1><img src="/img/kyoto_wifi01.png">KYOTO WiFi</h1>
+
+
+京都市が運営するWiFiサービス。<br>
+提供する事業者によって2種類のサービスがある。<br>
+<br>
+<a href="http://kanko.city.kyoto.lg.jp/wifi/" target="_blank">kanko.city.kyoto.lg.jp/wifi/</a>
+<br><br>
+
+<div class="uk-panel-box" id="spot-num">
+	<h3><strong>385</strong> spot</h3>
+</div>
+
+<div class="main">
+
+	<h2><img src="/img/kyoto_wifi01_icon.png">KYOTO WiFi01</h2>
+
+	<div class="article">
+		<table class="wifi-table">
+			<tr>
+				<th>提供事業者</th><td>ワイヤ・アンド・ワイヤレス</td>
+			</tr>
+			<tr>
+				<th>SSID</th><td>KYOTO_WiFi01</td>
+			</tr>
+			<tr>
+				<th>ゲストコード</th><td><a href='mailto:kyoto@forguest.wi2.ne.jp'>kyoto@forguest.wi2.ne.jp</a></td>
+			</tr>
+			<tr>
+				<th>利用可能時間</th><td>24時間</td>
+			</tr>
+				<th>制限</th><td>なし（3時間ごとに自動切断）</td>
+			</tr>
+			<tr>
+				<th>設置場所</th>
+				<td>
+					<table class="wifi-place">
+						<tr><th>バス停</th>			<td>297ヵ所</td></tr>
+						<tr><th>地下鉄駅</th>		<td>3駅</td></tr>
+						<tr><th>セブンイレブン</th>	<td>78店舗</td></tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+	<h2><img src="/img/kyoto_wifi02_icon.png">KYOTO WiFi02</h2>
+	<div class="article">
+		<table class="wifi-table">
+			<tr>
+				<th>提供事業者</th><td>インフィニティ</td>
+			</tr>
+			<tr>
+				<th>SSID</th><td>KYOTO_WiFi02</td>
+			</tr>
+			<tr>
+				<th>ゲストコード</th><td><a href='mailto:guest@inf-kyoto-city.info'>guest@inf-kyoto-city.info</a></td>
+			</tr>
+			<tr>
+				<th>利用可能時間</th><td>施設の開所時間内</td>
+			</tr>
+				<th>制限</th><td>なし</td>
+			</tr>
+			<tr>
+				<th>設置場所</th>
+				<td>
+					<table class="wifi-place">
+						<tr><th>公共施設</th>	<td>7ヵ所</td></tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<h2><i class="uk-icon-cog"></i> 接続方法</h2>
+	<div class="article">
+		指定のアドレスにメールを送信してゲストコードを取得して接続する。
+	</div>
+
+	<h2><i class="uk-icon-book"></i> 参考</h2>
+	<div class="article">
+		<a href="http://kanko.city.kyoto.lg.jp/wifi/img/wifi.pdf" target="_blank">KYOTO_WiFiの実施について(京都市)</a> 
+	</div>
+
+</div>

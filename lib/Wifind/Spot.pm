@@ -11,7 +11,7 @@ use Data::Dumper;
 
 sub spot
 {
-	my $self = shift;
+	my ($self, $modal) = @_;
 	my $id = $self->stash("id");
 
 	my $spot = Wifind::Model::Spot::getSpotData($id);
@@ -24,14 +24,12 @@ sub spot
 		$self->stash($spot);
 		$self->stash(service => $service);
 		$self->stash(tips => $tips);
+		$self->stash(modal => $modal || '');
 
 		$self->render( template => 'spot/spot' );
 
 	}else{
-		$self->render(
-			text => 'spot not found',
-			status => 404
-		);
+		$self->render_not_found;
 	}
 
 }
@@ -46,14 +44,14 @@ sub tip
 	$param{spot_id} = $id;
 
 	$param{message} = $self->param("message");
-	$param{user} = $self->param("user") || "test";
+	$param{user} = $self->param("name") || "unknown";
 
 	if ( $param{message} && $param{user} ){
 		Wifind::Model::Tip::add(\%param);
-		$self->spot();
+		$self->spot("ご協力ありがとうございます！");
 
 	}else{
-		die "error";
+		$self->spot("messageを入力してください");
 	}
 }
 

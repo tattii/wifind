@@ -14,7 +14,7 @@ a:hover {
 
 /* navbar */
 .navbar {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	z-index: 100;
 	background: #87CEEB;
@@ -47,17 +47,21 @@ a:hover {
 	margin-left: -45px;
 }
 #offcanvas i {
-	width: 2em;
-	margin-right: 1em;
+	margin-right: 10px;
+}
+#offcanvas i::before {
+	width: 15px;
+	text-align: center;
 }
 
 /* container */
 .container {
 	margin: auto;
-	padding-top: 41px;
+	padding: 41px 15px 0;
 	max-width: 960px;
 	text-align: center;
 }
+
 
 /* footer */
 .footer {

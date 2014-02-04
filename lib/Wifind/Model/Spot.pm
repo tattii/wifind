@@ -96,7 +96,12 @@ sub count
 }
 
 
-
+sub edit
+{
+	my $spot = shift;
+	my $coll = MongoDB::MongoClient->new->get_database($DB)->get_collection($COLLECTION);
+	$coll->save($spot);
+}
 
 
 1;

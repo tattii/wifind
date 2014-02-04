@@ -1,4 +1,4 @@
-package Wifind::Common;
+package Wifind::Web::Common;
 
 use Mojo::Base 'Mojolicious::Controller';
 
@@ -15,6 +15,12 @@ sub about
 }
 
 
+sub news
+{
+	my $self = shift;
+	$self->render('common/news');
+}
+
 sub wifi
 {
 	my $self = shift;
@@ -28,6 +34,7 @@ sub service
 
 	my %enabled = (
 		"kyoto_wifi" => 1,
+		"fukuoka_city_wifi" => 1,
 	);
 
 	my $service= $self->stash("service");

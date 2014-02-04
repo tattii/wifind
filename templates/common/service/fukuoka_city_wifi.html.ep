@@ -1,0 +1,63 @@
+% layout 'common',
+%		title => 'fukuoka_city_wifi',
+%		style => '<link rel="stylesheet" href="/css/service/kyoto_wifi.css" />';
+
+
+<h1><img src="/img/fukuoka_city_wifi.png">Fukuoka City Wi-Fi</h1>
+
+
+福岡市が運営するWiFiサービス。<br>
+<br>
+<a href="http://www.city.fukuoka.lg.jp/wi-fi/index.html" target="_blank">www.city.fukuoka.lg.jp/wi-fi/</a>
+<br><br>
+
+<div class="uk-panel-box" id="spot-num">
+	<h3><strong>69</strong> spot</h3>
+</div>
+
+<div class="main">
+
+
+	<div class="article">
+		<table class="wifi-table">
+			<tr>
+				<th>提供事業者</th><td>NTT BP</td>
+			</tr>
+			<tr>
+				<th>SSID</th><td>Fukuoka_City_Wi-Fi</td>
+			</tr>
+			<tr>
+				<th>制限</th><td>なし（15分ごとに自動切断）</td>
+			</tr>
+			<tr>
+				<th>設置場所</th>
+				<td>
+					<table class="wifi-place">
+						<tr><th>地下鉄駅</th>	<td>全駅構内</td></tr>
+						<tr><th>JR九州</th>		<td>8駅</td></tr>
+						<tr><th>福岡空港</th>	<td></td></tr>
+					</table>
+					など...
+				</td>
+			</tr>
+		</table>
+
+	</div>
+
+
+
+	<h2><i class="uk-icon-cog"></i> 接続方法</h2>
+	<div class="article" id="howto">
+		<ul>
+			<li>SSID: Fukuoka_City_Wi-Fi に接続</li>
+			<li>ブラウザを開いて、氏名、メールアドレスを登録</li> 
+		</ul>
+		一度登録すると、6か月間は再登録なしで利用できる。
+	</div>
+
+	<h2><i class="uk-icon-book"></i> 参考</h2>
+	<div class="article">
+		<a href="http://www.city.fukuoka.lg.jp/data/open/cnt/3/33175/1/guide_JP_v2.0.pdf" target="_blank">接続ガイド</a>
+	</div>
+
+</div>

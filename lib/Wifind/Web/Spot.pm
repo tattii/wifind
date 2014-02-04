@@ -1,4 +1,4 @@
-package Wifind::Spot;
+package Wifind::Web::Spot;
 
 use Mojo::Base 'Mojolicious::Controller';
 
@@ -7,9 +7,24 @@ use Wifind::Model::Service;
 use Wifind::Model::Tip;
 use Wifind::Utility;
 
-use Data::Dumper;
 
+# post / get の切り替え
 sub spot
+{
+	my $self = shift;
+
+	my $method = $self->req->method;
+
+	if ( lc $method eq "post" ){
+		$self->post_tip();
+
+	}else{
+		$self->render_spot();
+	}
+}
+
+# spotの表示
+sub render_spot
 {
 	my ($self, $modal) = @_;
 	my $id = $self->stash("id");
@@ -35,7 +50,7 @@ sub spot
 }
 
 
-sub tip
+sub post_tip
 {
 	my $self = shift;
 	my $id = $self->stash("id");
@@ -48,10 +63,10 @@ sub tip
 
 	if ( $param{message} && $param{user} ){
 		Wifind::Model::Tip::add(\%param);
-		$self->spot("ご協力ありがとうございます！");
+		$self->render_spot("ご協力ありがとうございます！");
 
 	}else{
-		$self->spot("messageを入力してください");
+		$self->render_spot("messageを入力してください");
 	}
 }
 

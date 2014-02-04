@@ -1,0 +1,8 @@
+% layout 'common',
+%		title => 'news',
+%		style => '<link rel="stylesheet" href="" />';
+
+<h1>news</h1>
+
+更新履歴<br>
+

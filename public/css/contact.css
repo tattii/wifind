@@ -1,0 +1,24 @@
+h1 {
+	margin: 35px 0;
+}
+
+.main-panel {
+	margin: 40px auto;
+	padding: 0 10px;
+	max-width: 400px;
+	text-align: left;
+}
+
+.main-panel p {
+	margin-left: 25px;
+}
+
+#contact-form label {
+	width: 100px;
+	text-align: right;
+}
+
+#contact-form div.uk-form-controls {
+	margin-left: 130px;
+}
+

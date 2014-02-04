@@ -1,12 +1,12 @@
 <nav class="navbar">
 	<ul class="uk-navbar-nav uk-hidden-small">
-		<li><a href="#" class="uk-navbar-brand" id="nav-brand">WiFind</a></li>
+		<li><img src="/img/logo-w.png" width="120px" height="40px"></li>
 		<li><a href="/map">map</a></li>
 		<li><a href="/about">about</a></li>
 	</ul>
 
 	<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-	<h2 class="uk-visible-small" id="nav-brand">WiFind</h2>
+	<h2 class="uk-visible-small" id="nav-brand"><img src="/img/logo-w.png" width="120px" height="40px"></h2>
 
 	<%== $plus %>
 </nav>

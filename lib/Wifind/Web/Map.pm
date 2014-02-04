@@ -1,4 +1,4 @@
-package Wifind::Map;
+package Wifind::Web::Map;
 
 use Mojo::Base 'Mojolicious::Controller';
 
@@ -7,7 +7,7 @@ sub map
 {
 	my $self = shift;
 
-	$self->render( template => 'map/map' );
+	$self->render('map/map');
 }
 
 1;

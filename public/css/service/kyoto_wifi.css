@@ -14,7 +14,7 @@ h1 img {
 }
 
 .main {
-	max-width: 400px;
+	max-width: 420px;
 	margin: auto;
 	text-align: left;
 	padding-top: 40px;
@@ -67,3 +67,9 @@ h2 img {
 .wifi-place td {
 	padding-left: 5px;
 }
+
+
+#howto ul {
+	list-style-type: decimal;
+}
+

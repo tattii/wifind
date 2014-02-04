@@ -6,15 +6,6 @@ my $DB = "test";
 my $COLLECTION = "wifind_tip";
 
 
-#----------------------------------------------------------
-# id
-# message
-# spot_id
-# time
-# user
-# like
-#
-
 
 sub add
 {
@@ -58,6 +49,20 @@ sub getSpotTips
 	return \@tips;
 }
 
+
+sub getAll
+{
+	my $coll = MongoDB::MongoClient->new->get_database($DB)->get_collection($COLLECTION);
+
+	my $result = $coll->find();
+
+	my @tips;
+	while (my $tip = $result->next){
+		push @tips, $tip;
+	}
+
+	return \@tips;
+}
 
 
 

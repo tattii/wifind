@@ -184,7 +184,7 @@
 								% 	foreach my $tip (@$tips){
 									<li> 
 										<div class="tip">
-											<img class="" src="/img/icon.jpg" alt="">
+											<img class="" src="/img/icon.png" alt="">
 											<div class="tip-main">
 												<div class="tip-message">
 													%= $tip->{message}
@@ -202,7 +202,7 @@
 
 
 						<div id="tip-form" class="box uk-form">
-							<form action="/spot/<%= $id %>/tip" method="post">
+							<form class="uk-form" method="post">
 
 								<div id="tip-form-main-wrap">
 									<div id="tip-form-main">
@@ -235,7 +235,7 @@
 								</div>
 								
 								<div id="tip-form-icon">
-									<img src="/img/icon.jpg" alt="">
+									<img src="/img/icon.png" alt="">
 								</div>
 
 								<div class="clear-both"></div>
@@ -357,7 +357,7 @@
 			// map表示
 			var loc = new google.maps.LatLng(<%= $location->{lat} %> , <%= $location->{lng} %>);
 			var myOptions = {
-				zoom: 16,
+				zoom: 17,
 				center: loc,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				disableDefaultUI: true,

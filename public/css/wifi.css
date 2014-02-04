@@ -2,6 +2,10 @@ h1 {
 	margin: 35px 0;
 }
 
+.container {
+	min-width: 640px;
+}
+
 #wifi-table caption {
 	caption-side: top;
 	text-align: right;
@@ -16,9 +20,14 @@ h1 {
 	vertical-align: middle;
 }
 
+#wifi-table img {
+	width: 50px;
+	height: 50px;
+	max-width: none;
+}
+
 #sum {
 	margin: 40px 0;
 	font-size: 20px;
 }
-
 

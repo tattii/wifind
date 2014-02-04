@@ -1,13 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700);
-
-
 
 #logo { margin: 40px 0; }
-#logo h1 {
-	font-size: 64px;
-	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
-}
 
 #about { padding: 0 10px; }
 #about p { font-size: 16px; }
@@ -34,8 +26,5 @@
 
 #developer h2 { line-height: 26px; }
 #developer p { margin-left: 2em; }
-#developer a {
-	color: #444;
-	text-decoration: none;
-}
+
 

@@ -1,4 +1,4 @@
-package Wifind::API;
+package Wifind::Web::API;
 
 use Mojo::Base 'Mojolicious::Controller';
 

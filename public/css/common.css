@@ -38,13 +38,11 @@ a:hover {
 #nav-user i { margin-right: 8px; }
 
 .navbar h2 {
-	color: #fff;
-	font-weight: lighter;
 	margin: 0;
 	position: absolute;
-	top: 6px;
+	top: 0;
 	left: 50%;
-	margin-left: -45px;
+	margin-left: -60px;
 }
 #offcanvas i {
 	margin-right: 10px;

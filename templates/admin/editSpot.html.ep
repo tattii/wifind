@@ -1,0 +1,125 @@
+% use Wifind::Utility;
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Admin | edit spot</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/lib/uikit-1.0.1/css/uikit.almost-flat.min.css" />
+	<link rel="stylesheet" href="/css/common.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/lib/uikit-1.0.1/js/uikit.min.js"></script>
+</head>
+
+<body>
+	
+	<div class="container">
+
+		<h1>Edit Spot</h1>
+
+		<a href="http://localhost:3000/spot/<%= $_id %>" target="_blank">spot</a>
+
+		<form class="uk-form uk-form-horizontal" method="post">
+
+			<div class="uk-form-row">
+				<label class="uk-form-label">name</label>
+				<div class="uk-form-controls">
+					<input type="text" name="name" value="<%= $name %>" size="100">
+				</div>
+			</div>
+
+
+			<div class="uk-form-row">
+				<label class="uk-form-label">lat</label>
+				<div class="uk-form-controls">
+					<input type="text" name="lat" value="<%= $location->{lat} %>" size="15">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">lng</label>
+				<div class="uk-form-controls">
+					<input type="text" name="lng" value="<%= $location->{lng} %>" size="15">
+				</div>
+			</div>
+
+
+			<div class="uk-form-row">
+				<label class="uk-form-label">spot.address</label>
+				<div class="uk-form-controls">
+					<input type="text" name="spot.address" value="<%= $spot->{address} %>" size="100">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">spot.tel</label>
+				<div class="uk-form-controls">
+					<input type="text" name="spot.tel" value="<%= $spot->{tel} %>" size="20">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">spot.hours</label>
+				<div class="uk-form-controls">
+					<input type="text" name="spot.hours" value="<%= $spot->{hours}{string} %>" size="100">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">spot.url</label>
+				<div class="uk-form-controls">
+					<input type="text" name="spot.url" value="<%= $spot->{url} %>" size="100">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">spot.category</label>
+				<div class="uk-form-controls">
+					<input type="text" name="spot.category" value="<%= $spot->{category}[0]{string} %>" size="50">
+				</div>
+			</div>
+
+
+			<div class="uk-form-row">
+				<label class="uk-form-label">wifi.service</label>
+				<div class="uk-form-controls">
+					<input type="text" name="wifi.service" value="<%= $wifi->{service} %>" size="50">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">wifi.ssid</label>
+				<div class="uk-form-controls">
+					<input type="text" name="wifi.ssid" value="<%= $wifi->{ssid} %>" size="50">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">wifi.power</label>
+				<div class="uk-form-controls">
+					<input type="text" name="wifi.power" value="<%= $wifi->{power} %>" size="20">
+				</div>
+			</div>
+			<div class="uk-form-row">
+				<label class="uk-form-label">wifi.url</label>
+				<div class="uk-form-controls">
+					<input type="text" name="wifi.url" value="<%= $wifi->{url} %>" size="100">
+				</div>
+			</div>
+
+				
+			<div class="uk-form-row">
+				<div class="uk-form-controls">
+					<input type="submit" class="uk-button" value="submit">
+				</div>
+			</div>
+
+		</form>
+	</div>
+
+	<style>
+		.uk-form-label {
+			text-align: right;
+		}
+		.uk-form-controls {
+			text-align: left;
+		}
+	</style>
+
+</body>
+</html>
+

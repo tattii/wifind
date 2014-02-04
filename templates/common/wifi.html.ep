@@ -15,13 +15,13 @@
 			<th width="50px">spot数</th>
 			<th width="120px">制限</th>
 			<th width="120px">認証</th>
-			<th>説明</th>
+			<th width="200px">説明</th>
 		</tr>
 	</thead>
 
 	<tbody>
 		<tr>
-			<td><img src="img/freespot_icon.png"></td>
+			<td><img src="/img/freespot_icon.png"></td>
 			<td>FREESPOT</td>
 			<td>11267</td>
 			<td>なし</td>
@@ -30,7 +30,7 @@
 		</tr>
 
 		<tr>
-			<td><img src="img/hikari_station_icon.png"></td>
+			<td><img src="/img/hikari_station_icon.png"></td>
 			<td>光ステーション</td>
 			<td>31575</td>
 			<td>15分*2回/日</td>
@@ -38,7 +38,7 @@
 			<td>NTT東日本</td>
 		</tr>
 		<tr>
-			<td><img src="img/famima_wifi_icon.png"></td>
+			<td><img src="/img/famima_wifi_icon.png"></td>
 			<td>famima_wifi</td>
 			<td>9119</td>
 			<td>20分*3回/日</td>
@@ -46,7 +46,7 @@
 			<td>ファミリマート</td>
 		</tr>
 		<tr>
-			<td><img src="img/sevenspot_icon.png"></td>
+			<td><img src="/img/sevenspot_icon.png"></td>
 			<td>7SPOT</td>
 			<td>14085</td>
 			<td>60分*2回/日</td>
@@ -54,7 +54,7 @@
 			<td>セブンイレブン</td>
 		</tr>
 		<tr>
-			<td><img src="img/freemobile_icon.png"></td>
+			<td><img src="/img/freemobile_icon.png"></td>
 			<td>FreeMobile</td>
 			<td>173</td>
 			<td>なし</td>
@@ -62,7 +62,7 @@
 			<td>自動販売機</td>
 		</tr>
 		<tr>
-			<td><img src="img/starbucks_icon.png"></td>
+			<td><img src="/img/starbucks_icon.png"></td>
 			<td>スターバックス</td>
 			<td>477</td>
 			<td>なし</td>
@@ -70,7 +70,7 @@
 			<td>スターバックス</td>
 		</tr>
 		<tr>
-			<td><img src="img/c-nexco_icon.png"></td>
+			<td><img src="/img/c-nexco_icon.png"></td>
 			<td>C-NEXCO Free Wi-Fi</td>
 			<td>134</td>
 			<td>15分*3回/日</td>
@@ -78,7 +78,7 @@
 			<td>NEXCO中日本</td>
 		</tr>
 		<tr>
-			<td><img src="img/e-nexco_icon.png"></td>
+			<td><img src="/img/e-nexco_icon.png"></td>
 			<td>E-NEXCO Wi-Fi SPOT</td>
 			<td>108</td>
 			<td>15分*3回/日</td>
@@ -88,7 +88,7 @@
 
 
 		<tr>
-			<td><img src="img/kyoto_wifi01_icon.png"></td>
+			<td><img src="/img/kyoto_wifi01_icon.png"></td>
 			<td><a href="/wifi/kyoto_wifi">KYOTO WiFi</a></td>
 			<td>390</td>
 			<td>なし</td>
@@ -96,8 +96,8 @@
 			<td>京都市</td>
 		</tr>
 		<tr>
-			<td><img src="img/fukuoka_city_wifi_icon.png"></td>
-			<td>Fukuoka City Wi-Fi</td>
+			<td><img src="/img/fukuoka_city_wifi_icon.png"></td>
+			<td><a href="/wifi/fukuoka_city_wifi">Fukuoka City Wi-Fi</a></td>
 			<td>69</td>
 			<td>なし</td>
 			<td>メール</td>

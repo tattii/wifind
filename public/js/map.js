@@ -247,11 +247,20 @@ function addSpot(spot) {
 	
 	var location = new google.maps.LatLng(spot.location.lat, spot.location.lng);
 
+	var icon = {
+		url: markerImage(spot.wifi.service),
+		size: new google.maps.Size(90, 120),
+		scaledSize: new google.maps.Size(45, 60),
+		origin: new google.maps.Point(0,0),
+		anchor: new google.maps.Point(23, 60)
+	};
+
 	//marker
 	var marker = new google.maps.Marker({
 		position: location,
 		map: map,
-		icon: markerImage(spot.wifi.service)
+		icon: icon,
+		anchorPoint: new google.maps.Point(0, -60)
 	});
 	var infoWindow = new google.maps.InfoWindow({
 		content: '<a href="/spot/' + id + '" class="info-a" target="_blank"><span class="info-span">' + spot.name + '</span></a>'
@@ -354,7 +363,7 @@ function openDetailWindow(id) {
 	$("#container").append(
 		'<div id="detail-window" style="display: none;">' +
 			'<div class="detail-header">' +
-				'<div class="detail-header-img"><img src="' + iconImage(spot.wifi.service) + '" width="50" height="50"></div>' +
+				'<div class="detail-header-img"><img src="' + wifiImage(spot.wifi.service) + '" width="50" height="50"></div>' +
 				'<div class="detail-title">' +
 					'<span>' + spot.name + '</span>' +
 				'</div>' +

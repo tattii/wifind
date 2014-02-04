@@ -364,11 +364,19 @@
 			};
 			var map = new google.maps.Map(document.getElementById(map_div), myOptions);
 
+			var icon = {
+				url: "/img/<%= $wifi->{service} %>_marker.png",
+				size: new google.maps.Size(90, 120),
+				scaledSize: new google.maps.Size(45, 60),
+				origin: new google.maps.Point(0,0),
+				anchor: new google.maps.Point(23, 60)
+			}
+
 			//marker
 			var marker = new google.maps.Marker({
 				position: loc,
 				map: map,
-				icon: "/img/<%= $wifi->{service} %>_marker.png"
+				icon: icon
 			});
 		}
 

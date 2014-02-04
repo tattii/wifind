@@ -17,6 +17,14 @@
 		<p><%= $count %></p>	
 	</div>
 
+	<div class="main-panel">
+		<h2><i class="uk-icon-envelope"></i> <a href="/contact">Contact</a></h2>
+	</div>
+
+	<div class="main-panel">
+		<h2><i class="uk-icon-list"></i> <a href="/wifi">登録wifi一覧</a></h2>
+	</div>
+
 	<div id="developer" class="main-panel">
 		<h2><i class="uk-icon-smile"></i> 開発者</h2>
 		<p>

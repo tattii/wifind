@@ -24842,6 +24842,7 @@ Compilation failed in require at (eval 251) line 1.
 [Wed Feb  5 04:28:14 2014] [debug] Rendering template "spot/spot.html.ep".
 [Wed Feb  5 04:28:14 2014] [debug] Rendering template "layouts/navbar.html.ep".
 [Wed Feb  5 04:28:14 2014] [debug] 200 OK (0.498294s, 2.007/s).
+<<<<<<< HEAD
 [Thu Feb  6 04:15:15 2014] [info] Listening at "http://*:3000".
 [Thu Feb  6 04:15:57 2014] [debug] Your secret passphrase needs to be changed!!!
 [Thu Feb  6 04:15:57 2014] [debug] GET "/".
@@ -25005,3 +25006,1835 @@ Compilation failed in require at (eval 251) line 1.
 [Thu Feb  6 04:31:39 2014] [debug] GET "/api/find".
 [Thu Feb  6 04:31:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
 [Thu Feb  6 04:31:39 2014] [debug] 200 OK (0.039303s, 25.443/s).
+=======
+[Wed Feb  5 04:29:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:29:43 2014] [debug] POST "/edit/spot/310258e12dd40afd".
+[Wed Feb  5 04:29:43 2014] [debug] Routing to controller "Wifind::Admin::Spot" and action "edit".
+[Wed Feb  5 04:29:43 2014] [debug] Rendering template "admin/editSpot.html.ep".
+[Wed Feb  5 04:29:43 2014] [debug] 200 OK (0.454462s, 2.200/s).
+[Wed Feb  5 04:29:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:29:47 2014] [debug] GET "/spot/310258e12dd40afd".
+[Wed Feb  5 04:29:48 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 04:29:48 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 04:29:48 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:29:48 2014] [debug] 200 OK (0.489208s, 2.044/s).
+[Wed Feb  5 04:30:26 2014] [debug] GET "/wifi".
+[Wed Feb  5 04:30:26 2014] [debug] Routing to controller "Wifind::Web::Common" and action "wifi".
+[Wed Feb  5 04:30:26 2014] [debug] Rendering template "common/wifi.html.ep".
+[Wed Feb  5 04:30:26 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:30:26 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:30:26 2014] [debug] 200 OK (0.020612s, 48.515/s).
+[Wed Feb  5 04:30:30 2014] [debug] GET "/tip".
+[Wed Feb  5 04:30:30 2014] [debug] Routing to controller "Wifind::Admin::Tip" and action "show".
+[Wed Feb  5 04:30:30 2014] [debug] Rendering template "admin/tip.html.ep".
+[Wed Feb  5 04:30:30 2014] [debug] 200 OK (0.016922s, 59.095/s).
+[Wed Feb  5 04:30:41 2014] [debug] GET "/edit/spot/20c1c82f89be31fa".
+[Wed Feb  5 04:30:41 2014] [debug] Routing to controller "Wifind::Admin::Spot" and action "edit".
+[Wed Feb  5 04:30:41 2014] [debug] Rendering cached template "admin/editSpot.html.ep".
+[Wed Feb  5 04:30:41 2014] [debug] 200 OK (0.014988s, 66.720/s).
+[Wed Feb  5 04:32:46 2014] [debug] POST "/edit/spot/20c1c82f89be31fa".
+[Wed Feb  5 04:32:46 2014] [debug] Routing to controller "Wifind::Admin::Spot" and action "edit".
+[Wed Feb  5 04:32:46 2014] [debug] Rendering cached template "admin/editSpot.html.ep".
+[Wed Feb  5 04:32:46 2014] [debug] 200 OK (0.040883s, 24.460/s).
+[Wed Feb  5 04:32:48 2014] [debug] POST "/edit/spot/20c1c82f89be31fa".
+[Wed Feb  5 04:32:48 2014] [debug] Routing to controller "Wifind::Admin::Spot" and action "edit".
+[Wed Feb  5 04:32:48 2014] [debug] Rendering cached template "admin/editSpot.html.ep".
+[Wed Feb  5 04:32:48 2014] [debug] 200 OK (0.006926s, 144.383/s).
+[Wed Feb  5 04:32:54 2014] [debug] GET "/spot/20c1c82f89be31fa".
+[Wed Feb  5 04:32:54 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 04:32:54 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 04:32:54 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:32:54 2014] [debug] 200 OK (0.007937s, 125.992/s).
+[Wed Feb  5 04:33:19 2014] [debug] GET "/map".
+[Wed Feb  5 04:33:19 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:33:19 2014] [debug] Rendering template "map/map.html.ep".
+[Wed Feb  5 04:33:19 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:33:19 2014] [debug] 200 OK (0.015380s, 65.020/s).
+[Wed Feb  5 04:33:20 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:20 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:20 2014] [debug] 200 OK (0.041516s, 24.087/s).
+[Wed Feb  5 04:33:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:22 2014] [debug] 200 OK (0.005202s, 192.234/s).
+[Wed Feb  5 04:33:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:23 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:23 2014] [debug] 200 OK (0.002810s, 355.872/s).
+[Wed Feb  5 04:33:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:24 2014] [debug] 200 OK (0.004537s, 220.410/s).
+[Wed Feb  5 04:33:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:26 2014] [debug] 200 OK (0.004282s, 233.536/s).
+[Wed Feb  5 04:33:27 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:27 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:27 2014] [debug] 200 OK (0.004598s, 217.486/s).
+[Wed Feb  5 04:33:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:28 2014] [debug] 200 OK (0.010165s, 98.377/s).
+[Wed Feb  5 04:33:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:28 2014] [debug] 200 OK (0.003080s, 324.675/s).
+[Wed Feb  5 04:33:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:28 2014] [debug] 200 OK (0.007701s, 129.853/s).
+[Wed Feb  5 04:33:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:28 2014] [debug] 200 OK (0.004657s, 214.731/s).
+[Wed Feb  5 04:33:29 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:29 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:29 2014] [debug] 200 OK (0.004405s, 227.015/s).
+[Wed Feb  5 04:33:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:30 2014] [debug] 200 OK (0.006554s, 152.579/s).
+[Wed Feb  5 04:33:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:30 2014] [debug] 200 OK (0.003361s, 297.530/s).
+[Wed Feb  5 04:33:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:31 2014] [debug] 200 OK (0.002970s, 336.700/s).
+[Wed Feb  5 04:33:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:31 2014] [debug] 200 OK (0.003762s, 265.816/s).
+[Wed Feb  5 04:33:32 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:32 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:32 2014] [debug] 200 OK (0.003384s, 295.508/s).
+[Wed Feb  5 04:33:32 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:32 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:32 2014] [debug] 200 OK (0.005112s, 195.618/s).
+[Wed Feb  5 04:33:34 2014] [debug] GET "/map".
+[Wed Feb  5 04:33:34 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:33:34 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:33:34 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:33:34 2014] [debug] 200 OK (0.001166s, 857.633/s).
+[Wed Feb  5 04:33:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:34 2014] [debug] 200 OK (0.003733s, 267.881/s).
+[Wed Feb  5 04:33:36 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:36 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:36 2014] [debug] 200 OK (0.003361s, 297.530/s).
+[Wed Feb  5 04:33:36 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:36 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:36 2014] [debug] 200 OK (0.003870s, 258.398/s).
+[Wed Feb  5 04:33:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:37 2014] [debug] 200 OK (0.007965s, 125.549/s).
+[Wed Feb  5 04:33:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:37 2014] [debug] 200 OK (0.005616s, 178.063/s).
+[Wed Feb  5 04:33:38 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:38 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:38 2014] [debug] 200 OK (0.004371s, 228.781/s).
+[Wed Feb  5 04:33:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:39 2014] [debug] 200 OK (0.008740s, 114.416/s).
+[Wed Feb  5 04:33:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:39 2014] [debug] 200 OK (0.004505s, 221.976/s).
+[Wed Feb  5 04:33:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:39 2014] [debug] 200 OK (0.004794s, 208.594/s).
+[Wed Feb  5 04:33:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:40 2014] [debug] 200 OK (0.005267s, 189.861/s).
+[Wed Feb  5 04:33:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:40 2014] [debug] 200 OK (0.007621s, 131.216/s).
+[Wed Feb  5 04:33:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:40 2014] [debug] 200 OK (0.005349s, 186.951/s).
+[Wed Feb  5 04:33:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:41 2014] [debug] 200 OK (0.004072s, 245.580/s).
+[Wed Feb  5 04:33:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:41 2014] [debug] 200 OK (0.005044s, 198.255/s).
+[Wed Feb  5 04:33:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:41 2014] [debug] 200 OK (0.003101s, 322.477/s).
+[Wed Feb  5 04:33:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:41 2014] [debug] 200 OK (0.004509s, 221.779/s).
+[Wed Feb  5 04:33:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:42 2014] [debug] 200 OK (0.004537s, 220.410/s).
+[Wed Feb  5 04:33:45 2014] [debug] GET "/map".
+[Wed Feb  5 04:33:45 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:33:45 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:33:45 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:33:45 2014] [debug] 200 OK (0.001671s, 598.444/s).
+[Wed Feb  5 04:33:45 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:45 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:45 2014] [debug] 200 OK (0.005197s, 192.419/s).
+[Wed Feb  5 04:33:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:47 2014] [debug] 200 OK (0.004253s, 235.128/s).
+[Wed Feb  5 04:33:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:48 2014] [debug] 200 OK (0.004396s, 227.480/s).
+[Wed Feb  5 04:33:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:48 2014] [debug] 200 OK (0.004349s, 229.938/s).
+[Wed Feb  5 04:33:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:48 2014] [debug] 200 OK (0.006033s, 165.755/s).
+[Wed Feb  5 04:33:49 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:49 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:49 2014] [debug] 200 OK (0.004998s, 200.080/s).
+[Wed Feb  5 04:33:49 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:49 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:49 2014] [debug] 200 OK (0.004387s, 227.946/s).
+[Wed Feb  5 04:33:56 2014] [debug] GET "/map".
+[Wed Feb  5 04:33:56 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:33:56 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:33:56 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:33:56 2014] [debug] 200 OK (0.001113s, 898.473/s).
+[Wed Feb  5 04:33:56 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:56 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:56 2014] [debug] 200 OK (0.024603s, 40.645/s).
+[Wed Feb  5 04:33:58 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:58 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:58 2014] [debug] 200 OK (0.005603s, 178.476/s).
+[Wed Feb  5 04:33:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:33:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:33:59 2014] [debug] 200 OK (0.006512s, 153.563/s).
+[Wed Feb  5 04:34:02 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:02 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:02 2014] [debug] 200 OK (0.004328s, 231.054/s).
+[Wed Feb  5 04:34:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:03 2014] [debug] 200 OK (0.004352s, 229.779/s).
+[Wed Feb  5 04:34:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:05 2014] [debug] 200 OK (0.004599s, 217.439/s).
+[Wed Feb  5 04:34:06 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:06 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:06 2014] [debug] 200 OK (0.004520s, 221.239/s).
+[Wed Feb  5 04:34:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:08 2014] [debug] 200 OK (0.005020s, 199.203/s).
+[Wed Feb  5 04:34:14 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:14 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:14 2014] [debug] 200 OK (0.004478s, 223.314/s).
+[Wed Feb  5 04:34:17 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:17 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:17 2014] [debug] 200 OK (0.003558s, 281.057/s).
+[Wed Feb  5 04:34:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:34:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:34:22 2014] [debug] 200 OK (0.004527s, 220.897/s).
+[Wed Feb  5 04:35:31 2014] [debug] GET "/wifi".
+[Wed Feb  5 04:35:31 2014] [debug] Routing to controller "Wifind::Web::Common" and action "wifi".
+[Wed Feb  5 04:35:31 2014] [debug] Rendering cached template "common/wifi.html.ep".
+[Wed Feb  5 04:35:31 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:35:31 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:35:31 2014] [debug] 200 OK (0.002589s, 386.250/s).
+[Wed Feb  5 04:35:34 2014] [debug] GET "/tip".
+[Wed Feb  5 04:35:34 2014] [debug] Routing to controller "Wifind::Admin::Tip" and action "show".
+[Wed Feb  5 04:35:34 2014] [debug] Rendering cached template "admin/tip.html.ep".
+[Wed Feb  5 04:35:34 2014] [debug] 200 OK (0.004179s, 239.292/s).
+[Wed Feb  5 04:36:35 2014] [debug] GET "/map".
+[Wed Feb  5 04:36:35 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:36:35 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:36:35 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:36:35 2014] [debug] 200 OK (0.002179s, 458.926/s).
+[Wed Feb  5 04:36:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:36:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:36:39 2014] [debug] 200 OK (0.052060s, 19.209/s).
+[Wed Feb  5 04:36:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:36:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:36:44 2014] [debug] 200 OK (0.023989s, 41.686/s).
+[Wed Feb  5 04:36:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:36:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:36:47 2014] [debug] 200 OK (0.040923s, 24.436/s).
+[Wed Feb  5 04:36:49 2014] [debug] GET "/spot/3101d991d69779cd".
+[Wed Feb  5 04:36:49 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 04:36:49 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 04:36:49 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:36:49 2014] [debug] 200 OK (0.008157s, 122.594/s).
+[Wed Feb  5 04:37:12 2014] [debug] GET "/about".
+[Wed Feb  5 04:37:12 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 04:37:12 2014] [debug] Rendering template "common/about.html.ep".
+[Wed Feb  5 04:37:12 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:37:12 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:12 2014] [debug] 200 OK (0.018359s, 54.469/s).
+[Wed Feb  5 04:37:14 2014] [debug] GET "/contact".
+[Wed Feb  5 04:37:14 2014] [debug] Routing to controller "Wifind::Web::Contact" and action "contact".
+[Wed Feb  5 04:37:14 2014] [debug] Rendering template "common/contact.html.ep".
+[Wed Feb  5 04:37:14 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:37:14 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:14 2014] [debug] 200 OK (0.022931s, 43.609/s).
+[Wed Feb  5 04:37:20 2014] [debug] GET "/map".
+[Wed Feb  5 04:37:20 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:37:20 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:37:20 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:20 2014] [debug] 200 OK (0.001046s, 956.023/s).
+[Wed Feb  5 04:37:25 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:37:25 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:37:25 2014] [debug] 200 OK (0.030409s, 32.885/s).
+[Wed Feb  5 04:37:27 2014] [debug] GET "/about".
+[Wed Feb  5 04:37:27 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 04:37:27 2014] [debug] Rendering cached template "common/about.html.ep".
+[Wed Feb  5 04:37:27 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:37:27 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:27 2014] [debug] 200 OK (0.003649s, 274.048/s).
+[Wed Feb  5 04:37:28 2014] [debug] GET "/wifi".
+[Wed Feb  5 04:37:28 2014] [debug] Routing to controller "Wifind::Web::Common" and action "wifi".
+[Wed Feb  5 04:37:28 2014] [debug] Rendering cached template "common/wifi.html.ep".
+[Wed Feb  5 04:37:28 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:37:28 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:28 2014] [debug] 200 OK (0.001894s, 527.983/s).
+[Wed Feb  5 04:37:42 2014] [debug] GET "/wifi/fukuoka_city_wifi".
+[Wed Feb  5 04:37:42 2014] [debug] Routing to controller "Wifind::Web::Common" and action "service".
+[Wed Feb  5 04:37:42 2014] [debug] Rendering template "common/service/fukuoka_city_wifi.html.ep".
+[Wed Feb  5 04:37:42 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:37:42 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:42 2014] [debug] 200 OK (0.016389s, 61.017/s).
+[Wed Feb  5 04:37:45 2014] [debug] GET "/map".
+[Wed Feb  5 04:37:45 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:37:45 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:37:45 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:37:45 2014] [debug] 200 OK (0.001065s, 938.967/s).
+[Wed Feb  5 04:38:10 2014] [debug] GET "/".
+[Wed Feb  5 04:38:10 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:38:10 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 04:38:10 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:38:10 2014] [debug] 200 OK (0.001323s, 755.858/s).
+[Wed Feb  5 04:38:32 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:38:32 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:38:32 2014] [debug] 200 OK (0.033286s, 30.043/s).
+[Wed Feb  5 04:38:43 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:38:43 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:38:43 2014] [debug] 200 OK (0.035629s, 28.067/s).
+[Wed Feb  5 04:38:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:38:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:38:48 2014] [debug] 200 OK (0.032113s, 31.140/s).
+[Wed Feb  5 04:38:50 2014] [debug] GET "/spot/3101adaa3db65d2a".
+[Wed Feb  5 04:38:50 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 04:38:50 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 04:38:50 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:38:50 2014] [debug] 200 OK (0.009243s, 108.190/s).
+[Wed Feb  5 04:39:02 2014] [debug] GET "/about".
+[Wed Feb  5 04:39:02 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 04:39:02 2014] [debug] Rendering cached template "common/about.html.ep".
+[Wed Feb  5 04:39:02 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:39:02 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:39:02 2014] [debug] 200 OK (0.005065s, 197.433/s).
+[Wed Feb  5 04:39:04 2014] [debug] GET "/wifi".
+[Wed Feb  5 04:39:04 2014] [debug] Routing to controller "Wifind::Web::Common" and action "wifi".
+[Wed Feb  5 04:39:04 2014] [debug] Rendering cached template "common/wifi.html.ep".
+[Wed Feb  5 04:39:04 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:39:04 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:39:04 2014] [debug] 200 OK (0.002499s, 400.160/s).
+[Wed Feb  5 04:42:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:42:52 2014] [debug] GET "/news".
+[Wed Feb  5 04:42:52 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:42:52 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:42:52 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:42:52 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:42:52 2014] [debug] 200 OK (0.500183s, 1.999/s).
+[Wed Feb  5 04:43:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:43:57 2014] [debug] GET "/news".
+[Wed Feb  5 04:43:58 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:43:58 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:43:58 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:43:58 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:43:58 2014] [debug] 200 OK (0.434249s, 2.303/s).
+[Wed Feb  5 04:44:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:44:26 2014] [debug] GET "/news".
+[Wed Feb  5 04:44:26 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:44:26 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:44:26 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:44:26 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:44:26 2014] [debug] 200 OK (0.417595s, 2.395/s).
+[Wed Feb  5 04:44:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:44:47 2014] [debug] GET "/news".
+[Wed Feb  5 04:44:48 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:44:48 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:44:48 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:44:48 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:44:48 2014] [debug] 200 OK (0.426614s, 2.344/s).
+[Wed Feb  5 04:44:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:44:55 2014] [debug] GET "/news".
+[Wed Feb  5 04:44:56 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:44:56 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:44:56 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:44:56 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:44:56 2014] [debug] 200 OK (0.427580s, 2.339/s).
+[Wed Feb  5 04:44:57 2014] [debug] GET "/news".
+[Wed Feb  5 04:44:57 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:44:57 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:44:57 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:44:57 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:44:57 2014] [debug] 200 OK (0.001406s, 711.238/s).
+[Wed Feb  5 04:45:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:45:25 2014] [debug] GET "/news".
+[Wed Feb  5 04:45:25 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:45:25 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:45:25 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:45:25 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:45:25 2014] [debug] 200 OK (0.451445s, 2.215/s).
+[Wed Feb  5 04:46:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:46:37 2014] [debug] GET "/news".
+[Wed Feb  5 04:46:37 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:46:37 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:46:37 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:46:37 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:46:37 2014] [debug] 200 OK (0.458247s, 2.182/s).
+[Wed Feb  5 04:46:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:46:47 2014] [debug] GET "/news".
+[Wed Feb  5 04:46:47 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:46:47 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:46:47 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:46:47 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:46:47 2014] [debug] 200 OK (0.416012s, 2.404/s).
+[Wed Feb  5 04:47:19 2014] [debug] GET "/news".
+[Wed Feb  5 04:47:19 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:47:19 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:47:19 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:47:19 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:47:19 2014] [debug] 200 OK (0.001277s, 783.085/s).
+[Wed Feb  5 04:48:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:48:27 2014] [debug] GET "/news".
+[Wed Feb  5 04:48:28 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:48:28 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:48:28 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:48:28 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:48:28 2014] [debug] 200 OK (0.515966s, 1.938/s).
+[Wed Feb  5 04:49:13 2014] [debug] GET "/news".
+[Wed Feb  5 04:49:13 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:49:13 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:49:13 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:49:13 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:49:13 2014] [debug] 200 OK (0.001312s, 762.195/s).
+[Wed Feb  5 04:49:15 2014] [debug] GET "/news".
+[Wed Feb  5 04:49:15 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:49:15 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:49:15 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:49:15 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:49:15 2014] [debug] 200 OK (0.001659s, 602.773/s).
+[Wed Feb  5 04:49:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 04:49:21 2014] [debug] GET "/news".
+[Wed Feb  5 04:49:21 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:49:21 2014] [debug] Rendering template "common/news.html.ep".
+[Wed Feb  5 04:49:21 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:49:21 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:49:21 2014] [debug] 200 OK (0.434601s, 2.301/s).
+[Wed Feb  5 04:49:26 2014] [debug] GET "/wifi/kyoto_wifi".
+[Wed Feb  5 04:49:26 2014] [debug] Routing to controller "Wifind::Web::Common" and action "service".
+[Wed Feb  5 04:49:26 2014] [debug] Rendering template "common/service/kyoto_wifi.html.ep".
+[Wed Feb  5 04:49:26 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:49:26 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:49:26 2014] [debug] 200 OK (0.015306s, 65.334/s).
+[Wed Feb  5 04:50:12 2014] [debug] GET "/news".
+[Wed Feb  5 04:50:12 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:50:12 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:50:12 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:50:12 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:50:12 2014] [debug] 200 OK (0.001336s, 748.503/s).
+[Wed Feb  5 04:50:14 2014] [debug] GET "/news".
+[Wed Feb  5 04:50:14 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:50:14 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:50:14 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:50:14 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:50:14 2014] [debug] 200 OK (0.001608s, 621.891/s).
+[Wed Feb  5 04:50:21 2014] [debug] GET "/news".
+[Wed Feb  5 04:50:21 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:50:21 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:50:21 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:50:21 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:50:21 2014] [debug] 200 OK (0.001625s, 615.385/s).
+[Wed Feb  5 04:50:44 2014] [debug] GET "/news".
+[Wed Feb  5 04:50:44 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:50:44 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:50:44 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:50:44 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:50:44 2014] [debug] 200 OK (0.001310s, 763.359/s).
+[Wed Feb  5 04:50:56 2014] [debug] GET "/news".
+[Wed Feb  5 04:50:56 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:50:56 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:50:56 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:50:56 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:50:56 2014] [debug] 200 OK (0.001260s, 793.651/s).
+[Wed Feb  5 04:51:09 2014] [debug] GET "/spot/310258e12dd40afd".
+[Wed Feb  5 04:51:09 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 04:51:09 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 04:51:09 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:51:09 2014] [debug] 200 OK (0.037084s, 26.966/s).
+[Wed Feb  5 04:51:31 2014] [debug] GET "/news".
+[Wed Feb  5 04:51:31 2014] [debug] Routing to controller "Wifind::Web::Common" and action "news".
+[Wed Feb  5 04:51:31 2014] [debug] Rendering cached template "common/news.html.ep".
+[Wed Feb  5 04:51:31 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 04:51:31 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 04:51:31 2014] [debug] 200 OK (0.001410s, 709.220/s).
+[Wed Feb  5 04:51:58 2014] [debug] GET "/about".
+[Wed Feb  5 04:51:58 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 04:51:58 2014] [debug] Rendering template "common/about.html.ep".
+[Wed Feb  5 04:51:58 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 04:51:58 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:51:58 2014] [debug] 200 OK (0.111170s, 8.995/s).
+[Wed Feb  5 04:53:14 2014] [debug] GET "/map".
+[Wed Feb  5 04:53:14 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 04:53:14 2014] [debug] Rendering template "map/map.html.ep".
+[Wed Feb  5 04:53:14 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 04:53:14 2014] [debug] 200 OK (0.445023s, 2.247/s).
+[Wed Feb  5 04:53:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:16 2014] [debug] 200 OK (0.018018s, 55.500/s).
+[Wed Feb  5 04:53:19 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:19 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:19 2014] [debug] 200 OK (0.021674s, 46.138/s).
+[Wed Feb  5 04:53:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:22 2014] [debug] 200 OK (0.029697s, 33.673/s).
+[Wed Feb  5 04:53:25 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:25 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:25 2014] [debug] 200 OK (0.027506s, 36.356/s).
+[Wed Feb  5 04:53:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:40 2014] [debug] 200 OK (0.765694s, 1.306/s).
+[Wed Feb  5 04:53:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:40 2014] [debug] 200 OK (0.003748s, 266.809/s).
+[Wed Feb  5 04:53:45 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:45 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:45 2014] [debug] 200 OK (0.005075s, 197.044/s).
+[Wed Feb  5 04:53:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:46 2014] [debug] 200 OK (0.005263s, 190.006/s).
+[Wed Feb  5 04:53:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:52 2014] [debug] 200 OK (0.006926s, 144.383/s).
+[Wed Feb  5 04:53:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:52 2014] [debug] 200 OK (0.004372s, 228.728/s).
+[Wed Feb  5 04:53:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:54 2014] [debug] 200 OK (0.004311s, 231.965/s).
+[Wed Feb  5 04:53:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:54 2014] [debug] 200 OK (0.003807s, 262.674/s).
+[Wed Feb  5 04:53:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:55 2014] [debug] 200 OK (0.003873s, 258.198/s).
+[Wed Feb  5 04:53:56 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:56 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:56 2014] [debug] 200 OK (0.004618s, 216.544/s).
+[Wed Feb  5 04:53:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:53:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:53:57 2014] [debug] 200 OK (0.003954s, 252.908/s).
+[Wed Feb  5 04:54:04 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:04 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:04 2014] [debug] 200 OK (0.004426s, 225.938/s).
+[Wed Feb  5 04:54:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:05 2014] [debug] 200 OK (0.004683s, 213.538/s).
+[Wed Feb  5 04:54:07 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:07 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:07 2014] [debug] 200 OK (0.003273s, 305.530/s).
+[Wed Feb  5 04:54:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:08 2014] [debug] 200 OK (0.003611s, 276.932/s).
+[Wed Feb  5 04:54:09 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:09 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:09 2014] [debug] 200 OK (0.003341s, 299.312/s).
+[Wed Feb  5 04:54:12 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:12 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:12 2014] [debug] 200 OK (0.006005s, 166.528/s).
+[Wed Feb  5 04:54:13 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:13 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:13 2014] [debug] 200 OK (0.003211s, 311.429/s).
+[Wed Feb  5 04:54:14 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:14 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:14 2014] [debug] 200 OK (0.003319s, 301.296/s).
+[Wed Feb  5 04:54:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:16 2014] [debug] 200 OK (0.002714s, 368.460/s).
+[Wed Feb  5 04:54:17 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:17 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:17 2014] [debug] 200 OK (0.002862s, 349.406/s).
+[Wed Feb  5 04:54:17 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:17 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:17 2014] [debug] 200 OK (0.003130s, 319.489/s).
+[Wed Feb  5 04:54:18 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:18 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:18 2014] [debug] 200 OK (0.003162s, 316.256/s).
+[Wed Feb  5 04:54:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:24 2014] [debug] 200 OK (0.002958s, 338.066/s).
+[Wed Feb  5 04:54:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:24 2014] [debug] 200 OK (0.004438s, 225.327/s).
+[Wed Feb  5 04:54:38 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:38 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:38 2014] [debug] 200 OK (0.003715s, 269.179/s).
+[Wed Feb  5 04:54:38 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:38 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:38 2014] [debug] 200 OK (0.470798s, 2.124/s).
+[Wed Feb  5 04:54:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:47 2014] [debug] 200 OK (0.005186s, 192.827/s).
+[Wed Feb  5 04:54:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:53 2014] [debug] 200 OK (0.562567s, 1.778/s).
+[Wed Feb  5 04:54:53 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:53 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:53 2014] [debug] 200 OK (0.018473s, 54.133/s).
+[Wed Feb  5 04:54:56 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:56 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:56 2014] [debug] 200 OK (0.012277s, 81.453/s).
+[Wed Feb  5 04:54:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:57 2014] [debug] 200 OK (0.010581s, 94.509/s).
+[Wed Feb  5 04:54:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:54:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:54:59 2014] [debug] 200 OK (0.011194s, 89.334/s).
+[Wed Feb  5 04:55:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:00 2014] [debug] 200 OK (0.008558s, 116.850/s).
+[Wed Feb  5 04:55:01 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:01 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:01 2014] [debug] 200 OK (0.006188s, 161.603/s).
+[Wed Feb  5 04:55:02 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:02 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:02 2014] [debug] 200 OK (0.107873s, 9.270/s).
+[Wed Feb  5 04:55:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:03 2014] [debug] 200 OK (0.010785s, 92.721/s).
+[Wed Feb  5 04:55:04 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:04 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:04 2014] [debug] 200 OK (0.007284s, 137.287/s).
+[Wed Feb  5 04:55:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:05 2014] [debug] 200 OK (0.008267s, 120.963/s).
+[Wed Feb  5 04:55:06 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:06 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:06 2014] [debug] 200 OK (0.007484s, 133.618/s).
+[Wed Feb  5 04:55:07 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:07 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:07 2014] [debug] 200 OK (0.007535s, 132.714/s).
+[Wed Feb  5 04:55:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:08 2014] [debug] 200 OK (0.006543s, 152.835/s).
+[Wed Feb  5 04:55:09 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:09 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:09 2014] [debug] 200 OK (0.006407s, 156.079/s).
+[Wed Feb  5 04:55:10 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:10 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:10 2014] [debug] 200 OK (0.008046s, 124.285/s).
+[Wed Feb  5 04:55:10 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:10 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:10 2014] [debug] 200 OK (0.008398s, 119.076/s).
+[Wed Feb  5 04:55:13 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:13 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:13 2014] [debug] 200 OK (0.008502s, 117.619/s).
+[Wed Feb  5 04:55:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:26 2014] [debug] 200 OK (0.008954s, 111.682/s).
+[Wed Feb  5 04:55:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:28 2014] [debug] 200 OK (0.006552s, 152.625/s).
+[Wed Feb  5 04:55:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:28 2014] [debug] 200 OK (0.007224s, 138.427/s).
+[Wed Feb  5 04:55:38 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:38 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:38 2014] [debug] 200 OK (0.006028s, 165.893/s).
+[Wed Feb  5 04:55:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:40 2014] [debug] 200 OK (0.008433s, 118.582/s).
+[Wed Feb  5 04:55:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:42 2014] [debug] 200 OK (0.006490s, 154.083/s).
+[Wed Feb  5 04:55:45 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:45 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:45 2014] [debug] 200 OK (0.005922s, 168.862/s).
+[Wed Feb  5 04:55:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:46 2014] [debug] 200 OK (0.006232s, 160.462/s).
+[Wed Feb  5 04:55:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:51 2014] [debug] 200 OK (0.006237s, 160.333/s).
+[Wed Feb  5 04:55:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:51 2014] [debug] 200 OK (0.009006s, 111.037/s).
+[Wed Feb  5 04:55:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:54 2014] [debug] 200 OK (0.009177s, 108.968/s).
+[Wed Feb  5 04:55:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:55 2014] [debug] 200 OK (0.010015s, 99.850/s).
+[Wed Feb  5 04:55:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:55 2014] [debug] 200 OK (0.018464s, 54.159/s).
+[Wed Feb  5 04:55:58 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:58 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:58 2014] [debug] 200 OK (0.020658s, 48.407/s).
+[Wed Feb  5 04:55:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:55:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:55:59 2014] [debug] 200 OK (0.018959s, 52.745/s).
+[Wed Feb  5 04:56:09 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:56:09 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:56:09 2014] [debug] 200 OK (0.018943s, 52.790/s).
+[Wed Feb  5 04:56:11 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:56:11 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:56:11 2014] [debug] 200 OK (0.019035s, 52.535/s).
+[Wed Feb  5 04:56:14 2014] [debug] GET "/api/find".
+[Wed Feb  5 04:56:14 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 04:56:14 2014] [debug] 200 OK (0.019887s, 50.284/s).
+[Wed Feb  5 05:04:53 2014] [debug] GET "/about".
+[Wed Feb  5 05:04:53 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 05:04:53 2014] [debug] Rendering cached template "common/about.html.ep".
+[Wed Feb  5 05:04:53 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 05:04:53 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:04:53 2014] [debug] 200 OK (0.003016s, 331.565/s).
+[Wed Feb  5 05:05:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:05:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:05:00 2014] [debug] 200 OK (0.018754s, 53.322/s).
+[Wed Feb  5 05:05:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 05:05:21 2014] [debug] GET "/contact".
+[Wed Feb  5 05:05:22 2014] [debug] Routing to controller "Wifind::Admin::Contact" and action "show".
+[Wed Feb  5 05:05:22 2014] [debug] Rendering template "admin/contact.html.ep".
+[Wed Feb  5 05:05:22 2014] [debug] 200 OK (1.169679s, 0.855/s).
+[Wed Feb  5 05:05:22 2014] [debug] GET "/contact".
+[Wed Feb  5 05:05:22 2014] [debug] Routing to controller "Wifind::Admin::Contact" and action "show".
+[Wed Feb  5 05:05:22 2014] [debug] Rendering cached template "admin/contact.html.ep".
+[Wed Feb  5 05:05:22 2014] [debug] 200 OK (0.002456s, 407.166/s).
+[Wed Feb  5 05:05:31 2014] [debug] GET "/tip".
+[Wed Feb  5 05:05:31 2014] [debug] Routing to controller "Wifind::Admin::Tip" and action "show".
+[Wed Feb  5 05:05:31 2014] [debug] Rendering template "admin/tip.html.ep".
+[Wed Feb  5 05:05:32 2014] [debug] 200 OK (0.757807s, 1.320/s).
+[Wed Feb  5 05:06:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:06:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:06:34 2014] [debug] 200 OK (0.015696s, 63.710/s).
+[Wed Feb  5 05:06:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:06:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:06:34 2014] [debug] 200 OK (0.005058s, 197.707/s).
+[Wed Feb  5 05:06:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:06:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:06:41 2014] [debug] 200 OK (0.003264s, 306.373/s).
+[Wed Feb  5 05:06:43 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:06:43 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:06:43 2014] [debug] 200 OK (0.002929s, 341.413/s).
+[Wed Feb  5 05:06:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:06:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:06:50 2014] [debug] 200 OK (0.004222s, 236.855/s).
+[Wed Feb  5 05:06:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:06:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:06:50 2014] [debug] 200 OK (0.004983s, 200.682/s).
+[Wed Feb  5 05:07:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:00 2014] [debug] 200 OK (0.003828s, 261.233/s).
+[Wed Feb  5 05:07:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:00 2014] [debug] 200 OK (0.004300s, 232.558/s).
+[Wed Feb  5 05:07:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:15 2014] [debug] 200 OK (0.003328s, 300.481/s).
+[Wed Feb  5 05:07:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:15 2014] [debug] 200 OK (0.005435s, 183.993/s).
+[Wed Feb  5 05:07:20 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:20 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:20 2014] [debug] 200 OK (0.003004s, 332.889/s).
+[Wed Feb  5 05:07:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:26 2014] [debug] 200 OK (0.002871s, 348.311/s).
+[Wed Feb  5 05:07:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:27 2014] [debug] 200 OK (0.760694s, 1.315/s).
+[Wed Feb  5 05:07:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:30 2014] [debug] 200 OK (0.002861s, 349.528/s).
+[Wed Feb  5 05:07:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:30 2014] [debug] 200 OK (0.004397s, 227.428/s).
+[Wed Feb  5 05:07:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:30 2014] [debug] 200 OK (0.003762s, 265.816/s).
+[Wed Feb  5 05:07:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:31 2014] [debug] 200 OK (0.002921s, 342.349/s).
+[Wed Feb  5 05:07:33 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:33 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:33 2014] [debug] 200 OK (0.003506s, 285.225/s).
+[Wed Feb  5 05:07:35 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:35 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:35 2014] [debug] 200 OK (0.003605s, 277.393/s).
+[Wed Feb  5 05:07:35 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:35 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:35 2014] [debug] 200 OK (0.003617s, 276.472/s).
+[Wed Feb  5 05:07:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:37 2014] [debug] 200 OK (0.003485s, 286.944/s).
+[Wed Feb  5 05:07:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:39 2014] [debug] 200 OK (0.003222s, 310.366/s).
+[Wed Feb  5 05:07:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:42 2014] [debug] 200 OK (0.003080s, 324.675/s).
+[Wed Feb  5 05:07:43 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:43 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:43 2014] [debug] 200 OK (0.003025s, 330.579/s).
+[Wed Feb  5 05:07:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:44 2014] [debug] 200 OK (0.003126s, 319.898/s).
+[Wed Feb  5 05:07:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:44 2014] [debug] 200 OK (0.004034s, 247.893/s).
+[Wed Feb  5 05:07:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:44 2014] [debug] 200 OK (0.002883s, 346.861/s).
+[Wed Feb  5 05:07:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:46 2014] [debug] 200 OK (0.003852s, 259.605/s).
+[Wed Feb  5 05:07:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:46 2014] [debug] 200 OK (0.002706s, 369.549/s).
+[Wed Feb  5 05:07:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:47 2014] [debug] 200 OK (0.003130s, 319.489/s).
+[Wed Feb  5 05:07:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:47 2014] [debug] 200 OK (0.016037s, 62.356/s).
+[Wed Feb  5 05:07:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:47 2014] [debug] 200 OK (0.010317s, 96.927/s).
+[Wed Feb  5 05:07:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:50 2014] [debug] 200 OK (0.008736s, 114.469/s).
+[Wed Feb  5 05:07:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:50 2014] [debug] 200 OK (0.009838s, 101.647/s).
+[Wed Feb  5 05:07:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:51 2014] [debug] 200 OK (0.009874s, 101.276/s).
+[Wed Feb  5 05:07:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:52 2014] [debug] 200 OK (0.009536s, 104.866/s).
+[Wed Feb  5 05:07:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:52 2014] [debug] 200 OK (0.007365s, 135.777/s).
+[Wed Feb  5 05:07:53 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:53 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:53 2014] [debug] 200 OK (0.007543s, 132.573/s).
+[Wed Feb  5 05:07:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:54 2014] [debug] 200 OK (0.008076s, 123.824/s).
+[Wed Feb  5 05:07:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:54 2014] [debug] 200 OK (0.006803s, 146.994/s).
+[Wed Feb  5 05:07:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:55 2014] [debug] 200 OK (0.006780s, 147.493/s).
+[Wed Feb  5 05:07:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:57 2014] [debug] 200 OK (0.010901s, 91.735/s).
+[Wed Feb  5 05:07:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:58 2014] [debug] 200 OK (0.008167s, 122.444/s).
+[Wed Feb  5 05:07:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:07:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:07:59 2014] [debug] 200 OK (0.003939s, 253.872/s).
+[Wed Feb  5 05:08:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:00 2014] [debug] 200 OK (0.004401s, 227.221/s).
+[Wed Feb  5 05:08:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:03 2014] [debug] 200 OK (0.005036s, 198.570/s).
+[Wed Feb  5 05:08:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:05 2014] [debug] 200 OK (0.004479s, 223.264/s).
+[Wed Feb  5 05:08:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:08 2014] [debug] 200 OK (0.005149s, 194.212/s).
+[Wed Feb  5 05:08:11 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:11 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:11 2014] [debug] 200 OK (0.004668s, 214.225/s).
+[Wed Feb  5 05:08:14 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:14 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:14 2014] [debug] 200 OK (0.004855s, 205.973/s).
+[Wed Feb  5 05:08:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:15 2014] [debug] 200 OK (0.004524s, 221.043/s).
+[Wed Feb  5 05:08:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:16 2014] [debug] 200 OK (0.003411s, 293.169/s).
+[Wed Feb  5 05:08:17 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:17 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:17 2014] [debug] 200 OK (0.004796s, 208.507/s).
+[Wed Feb  5 05:08:18 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:18 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:18 2014] [debug] 200 OK (0.005038s, 198.491/s).
+[Wed Feb  5 05:08:19 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:19 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:19 2014] [debug] 200 OK (0.005262s, 190.042/s).
+[Wed Feb  5 05:08:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:22 2014] [debug] 200 OK (0.004160s, 240.385/s).
+[Wed Feb  5 05:08:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:22 2014] [debug] 200 OK (0.004862s, 205.677/s).
+[Wed Feb  5 05:08:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:24 2014] [debug] 200 OK (0.003130s, 319.489/s).
+[Wed Feb  5 05:08:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:26 2014] [debug] 200 OK (0.003984s, 251.004/s).
+[Wed Feb  5 05:08:32 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:32 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:32 2014] [debug] 200 OK (0.003896s, 256.674/s).
+[Wed Feb  5 05:08:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:40 2014] [debug] 200 OK (0.004180s, 239.234/s).
+[Wed Feb  5 05:08:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:41 2014] [debug] 200 OK (0.003834s, 260.824/s).
+[Wed Feb  5 05:08:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:41 2014] [debug] 200 OK (0.003929s, 254.518/s).
+[Wed Feb  5 05:08:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:42 2014] [debug] 200 OK (0.003971s, 251.826/s).
+[Wed Feb  5 05:08:43 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:43 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:43 2014] [debug] 200 OK (0.004093s, 244.320/s).
+[Wed Feb  5 05:08:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:44 2014] [debug] 200 OK (0.004109s, 243.368/s).
+[Wed Feb  5 05:08:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:46 2014] [debug] 200 OK (0.003924s, 254.842/s).
+[Wed Feb  5 05:08:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:46 2014] [debug] 200 OK (0.004019s, 248.818/s).
+[Wed Feb  5 05:08:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:48 2014] [debug] 200 OK (0.003185s, 313.972/s).
+[Wed Feb  5 05:08:49 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:49 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:49 2014] [debug] 200 OK (0.003270s, 305.810/s).
+[Wed Feb  5 05:08:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:51 2014] [debug] 200 OK (0.004105s, 243.605/s).
+[Wed Feb  5 05:08:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:52 2014] [debug] 200 OK (0.005562s, 179.791/s).
+[Wed Feb  5 05:08:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:54 2014] [debug] 200 OK (0.004680s, 213.675/s).
+[Wed Feb  5 05:08:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:08:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:08:59 2014] [debug] 200 OK (0.004770s, 209.644/s).
+[Wed Feb  5 05:09:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:00 2014] [debug] 200 OK (0.003840s, 260.417/s).
+[Wed Feb  5 05:09:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:00 2014] [debug] 200 OK (0.003510s, 284.900/s).
+[Wed Feb  5 05:09:01 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:01 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:01 2014] [debug] 200 OK (0.004632s, 215.889/s).
+[Wed Feb  5 05:09:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:03 2014] [debug] 200 OK (0.004896s, 204.248/s).
+[Wed Feb  5 05:09:06 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:06 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:06 2014] [debug] 200 OK (0.004831s, 206.996/s).
+[Wed Feb  5 05:09:07 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:07 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:07 2014] [debug] 200 OK (0.005751s, 173.883/s).
+[Wed Feb  5 05:09:07 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:07 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:07 2014] [debug] 200 OK (0.004866s, 205.508/s).
+[Wed Feb  5 05:09:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:08 2014] [debug] 200 OK (0.004345s, 230.150/s).
+[Wed Feb  5 05:09:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:08 2014] [debug] 200 OK (0.003939s, 253.872/s).
+[Wed Feb  5 05:09:09 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:09 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:09 2014] [debug] 200 OK (0.003776s, 264.831/s).
+[Wed Feb  5 05:09:12 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:12 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:12 2014] [debug] 200 OK (0.004024s, 248.509/s).
+[Wed Feb  5 05:09:12 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:12 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:12 2014] [debug] 200 OK (0.003394s, 294.638/s).
+[Wed Feb  5 05:09:19 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:19 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:19 2014] [debug] 200 OK (0.003331s, 300.210/s).
+[Wed Feb  5 05:09:21 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:09:21 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:09:21 2014] [debug] 200 OK (0.003726s, 268.384/s).
+[Wed Feb  5 05:09:29 2014] [debug] GET "/spot/0f00ec16c69fa2d8".
+[Wed Feb  5 05:09:29 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:09:29 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:09:29 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:09:29 2014] [debug] 200 OK (0.010982s, 91.058/s).
+[Wed Feb  5 05:09:44 2014] [debug] POST "/spot/0f00ec16c69fa2d8".
+[Wed Feb  5 05:09:44 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:09:44 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:09:44 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:09:44 2014] [debug] 200 OK (0.008398s, 119.076/s).
+[Wed Feb  5 05:10:04 2014] [debug] GET "/spot/0f00d108044449a8".
+[Wed Feb  5 05:10:04 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:10:04 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:10:04 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:10:04 2014] [debug] 200 OK (0.005737s, 174.307/s).
+[Wed Feb  5 05:10:12 2014] [debug] POST "/spot/0f00d108044449a8".
+[Wed Feb  5 05:10:12 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:10:12 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:10:12 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:10:12 2014] [debug] 200 OK (0.007251s, 137.912/s).
+[Wed Feb  5 05:10:24 2014] [debug] GET "/spot/0f00d108044449a8".
+[Wed Feb  5 05:10:24 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:10:24 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:10:24 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:10:24 2014] [debug] 200 OK (0.005769s, 173.340/s).
+[Wed Feb  5 05:10:36 2014] [debug] GET "/spot/0f00d108044449a8".
+[Wed Feb  5 05:10:36 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:10:36 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:10:36 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:10:36 2014] [debug] 200 OK (0.005469s, 182.849/s).
+[Wed Feb  5 05:11:02 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:02 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:02 2014] [debug] 200 OK (0.002724s, 367.107/s).
+[Wed Feb  5 05:11:02 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:02 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:02 2014] [debug] 200 OK (0.003139s, 318.573/s).
+[Wed Feb  5 05:11:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:05 2014] [debug] 200 OK (0.003280s, 304.878/s).
+[Wed Feb  5 05:11:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:05 2014] [debug] 200 OK (0.004152s, 240.848/s).
+[Wed Feb  5 05:11:06 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:06 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:06 2014] [debug] 200 OK (0.005312s, 188.253/s).
+[Wed Feb  5 05:11:07 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:07 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:07 2014] [debug] 200 OK (0.003517s, 284.333/s).
+[Wed Feb  5 05:11:09 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:09 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:09 2014] [debug] 200 OK (0.003868s, 258.532/s).
+[Wed Feb  5 05:11:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:16 2014] [debug] 200 OK (0.003417s, 292.654/s).
+[Wed Feb  5 05:11:17 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:17 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:17 2014] [debug] 200 OK (0.003647s, 274.198/s).
+[Wed Feb  5 05:11:20 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:20 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:20 2014] [debug] 200 OK (0.003513s, 284.657/s).
+[Wed Feb  5 05:11:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:22 2014] [debug] 200 OK (0.004023s, 248.571/s).
+[Wed Feb  5 05:11:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:23 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:23 2014] [debug] 200 OK (0.005072s, 197.161/s).
+[Wed Feb  5 05:11:25 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:25 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:25 2014] [debug] 200 OK (0.004160s, 240.385/s).
+[Wed Feb  5 05:11:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:26 2014] [debug] 200 OK (0.003585s, 278.940/s).
+[Wed Feb  5 05:11:27 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:27 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:27 2014] [debug] 200 OK (0.003976s, 251.509/s).
+[Wed Feb  5 05:11:29 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:29 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:29 2014] [debug] 200 OK (0.003553s, 281.452/s).
+[Wed Feb  5 05:11:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:30 2014] [debug] 200 OK (0.003821s, 261.712/s).
+[Wed Feb  5 05:11:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:31 2014] [debug] 200 OK (0.003653s, 273.748/s).
+[Wed Feb  5 05:11:32 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:32 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:32 2014] [debug] 200 OK (0.003138s, 318.674/s).
+[Wed Feb  5 05:11:33 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:33 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:33 2014] [debug] 200 OK (0.003782s, 264.410/s).
+[Wed Feb  5 05:11:33 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:33 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:33 2014] [debug] 200 OK (0.004379s, 228.363/s).
+[Wed Feb  5 05:11:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:34 2014] [debug] 200 OK (0.008330s, 120.048/s).
+[Wed Feb  5 05:11:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:34 2014] [debug] 200 OK (0.006126s, 163.239/s).
+[Wed Feb  5 05:11:35 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:35 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:35 2014] [debug] 200 OK (0.008073s, 123.870/s).
+[Wed Feb  5 05:11:36 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:36 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:36 2014] [debug] 200 OK (0.007637s, 130.941/s).
+[Wed Feb  5 05:11:38 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:38 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:38 2014] [debug] 200 OK (0.008676s, 115.260/s).
+[Wed Feb  5 05:11:38 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:38 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:38 2014] [debug] 200 OK (0.008214s, 121.743/s).
+[Wed Feb  5 05:11:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:39 2014] [debug] 200 OK (0.010057s, 99.433/s).
+[Wed Feb  5 05:11:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:39 2014] [debug] 200 OK (0.009838s, 101.647/s).
+[Wed Feb  5 05:11:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:42 2014] [debug] 200 OK (0.010678s, 93.650/s).
+[Wed Feb  5 05:11:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:42 2014] [debug] 200 OK (0.008738s, 114.443/s).
+[Wed Feb  5 05:11:43 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:43 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:43 2014] [debug] 200 OK (0.016413s, 60.927/s).
+[Wed Feb  5 05:11:43 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:43 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:43 2014] [debug] 200 OK (0.011247s, 88.913/s).
+[Wed Feb  5 05:11:45 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:45 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:45 2014] [debug] 200 OK (0.011388s, 87.812/s).
+[Wed Feb  5 05:11:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:47 2014] [debug] 200 OK (0.783886s, 1.276/s).
+[Wed Feb  5 05:11:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:47 2014] [debug] 200 OK (0.079500s, 12.579/s).
+[Wed Feb  5 05:11:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:48 2014] [debug] 200 OK (0.049372s, 20.254/s).
+[Wed Feb  5 05:11:49 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:49 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:49 2014] [debug] 200 OK (0.047305s, 21.139/s).
+[Wed Feb  5 05:11:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:50 2014] [debug] 200 OK (0.092818s, 10.774/s).
+[Wed Feb  5 05:11:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:52 2014] [debug] 200 OK (0.114825s, 8.709/s).
+[Wed Feb  5 05:11:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:54 2014] [debug] 200 OK (0.068786s, 14.538/s).
+[Wed Feb  5 05:11:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:55 2014] [debug] 200 OK (0.090248s, 11.081/s).
+[Wed Feb  5 05:11:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:11:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:11:59 2014] [debug] 200 OK (0.003303s, 302.755/s).
+[Wed Feb  5 05:12:01 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:01 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:01 2014] [debug] 200 OK (0.003145s, 317.965/s).
+[Wed Feb  5 05:12:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:05 2014] [debug] 200 OK (0.004020s, 248.756/s).
+[Wed Feb  5 05:12:06 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:06 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:06 2014] [debug] 200 OK (0.003449s, 289.939/s).
+[Wed Feb  5 05:12:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:08 2014] [debug] 200 OK (0.003520s, 284.091/s).
+[Wed Feb  5 05:12:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:08 2014] [debug] 200 OK (0.003446s, 290.192/s).
+[Wed Feb  5 05:12:10 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:10 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:10 2014] [debug] 200 OK (0.003491s, 286.451/s).
+[Wed Feb  5 05:12:12 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:12 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:12 2014] [debug] 200 OK (0.003170s, 315.457/s).
+[Wed Feb  5 05:12:13 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:13 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:13 2014] [debug] 200 OK (0.002935s, 340.716/s).
+[Wed Feb  5 05:12:14 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:14 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:14 2014] [debug] 200 OK (0.003510s, 284.900/s).
+[Wed Feb  5 05:12:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:15 2014] [debug] 200 OK (0.003142s, 318.269/s).
+[Wed Feb  5 05:12:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:15 2014] [debug] 200 OK (0.002940s, 340.136/s).
+[Wed Feb  5 05:12:19 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:19 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:19 2014] [debug] 200 OK (0.003552s, 281.532/s).
+[Wed Feb  5 05:12:19 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:19 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:19 2014] [debug] 200 OK (0.003056s, 327.225/s).
+[Wed Feb  5 05:12:21 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:21 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:21 2014] [debug] 200 OK (0.003220s, 310.559/s).
+[Wed Feb  5 05:12:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:24 2014] [debug] 200 OK (0.002800s, 357.143/s).
+[Wed Feb  5 05:12:25 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:25 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:25 2014] [debug] 200 OK (0.002877s, 347.584/s).
+[Wed Feb  5 05:12:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:26 2014] [debug] 200 OK (0.004378s, 228.415/s).
+[Wed Feb  5 05:12:27 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:27 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:27 2014] [debug] 200 OK (0.003305s, 302.572/s).
+[Wed Feb  5 05:12:29 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:29 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:29 2014] [debug] 200 OK (0.002722s, 367.377/s).
+[Wed Feb  5 05:12:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:30 2014] [debug] 200 OK (0.003218s, 310.752/s).
+[Wed Feb  5 05:12:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:31 2014] [debug] 200 OK (0.002981s, 335.458/s).
+[Wed Feb  5 05:12:32 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:32 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:32 2014] [debug] 200 OK (0.003424s, 292.056/s).
+[Wed Feb  5 05:12:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:34 2014] [debug] 200 OK (0.003152s, 317.259/s).
+[Wed Feb  5 05:12:36 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:36 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:36 2014] [debug] 200 OK (0.003159s, 316.556/s).
+[Wed Feb  5 05:12:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:37 2014] [debug] 200 OK (0.003397s, 294.377/s).
+[Wed Feb  5 05:12:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:39 2014] [debug] 200 OK (0.003683s, 271.518/s).
+[Wed Feb  5 05:12:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:39 2014] [debug] 200 OK (0.002966s, 337.154/s).
+[Wed Feb  5 05:12:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:42 2014] [debug] 200 OK (0.004300s, 232.558/s).
+[Wed Feb  5 05:12:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:42 2014] [debug] 200 OK (0.004378s, 228.415/s).
+[Wed Feb  5 05:12:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:44 2014] [debug] 200 OK (0.005469s, 182.849/s).
+[Wed Feb  5 05:12:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:46 2014] [debug] 200 OK (0.006129s, 163.159/s).
+[Wed Feb  5 05:12:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:46 2014] [debug] 200 OK (0.008730s, 114.548/s).
+[Wed Feb  5 05:12:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:47 2014] [debug] 200 OK (0.008524s, 117.316/s).
+[Wed Feb  5 05:12:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:50 2014] [debug] 200 OK (0.014078s, 71.033/s).
+[Wed Feb  5 05:12:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:50 2014] [debug] 200 OK (0.014825s, 67.454/s).
+[Wed Feb  5 05:12:53 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:53 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:53 2014] [debug] 200 OK (0.016158s, 61.889/s).
+[Wed Feb  5 05:12:54 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:54 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:54 2014] [debug] 200 OK (0.014655s, 68.236/s).
+[Wed Feb  5 05:12:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:55 2014] [debug] 200 OK (0.015786s, 63.347/s).
+[Wed Feb  5 05:12:56 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:56 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:56 2014] [debug] 200 OK (0.008227s, 121.551/s).
+[Wed Feb  5 05:12:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:57 2014] [debug] 200 OK (0.009349s, 106.963/s).
+[Wed Feb  5 05:12:58 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:58 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:58 2014] [debug] 200 OK (0.008801s, 113.623/s).
+[Wed Feb  5 05:12:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:12:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:12:59 2014] [debug] 200 OK (0.011559s, 86.513/s).
+[Wed Feb  5 05:13:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:00 2014] [debug] 200 OK (0.008656s, 115.527/s).
+[Wed Feb  5 05:13:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:00 2014] [debug] 200 OK (0.005256s, 190.259/s).
+[Wed Feb  5 05:13:01 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:01 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:01 2014] [debug] 200 OK (0.005285s, 189.215/s).
+[Wed Feb  5 05:13:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:03 2014] [debug] 200 OK (0.011040s, 90.580/s).
+[Wed Feb  5 05:13:08 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:08 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:08 2014] [debug] 200 OK (0.123698s, 8.084/s).
+[Wed Feb  5 05:13:09 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:09 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:09 2014] [debug] 200 OK (0.008129s, 123.016/s).
+[Wed Feb  5 05:13:10 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:10 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:10 2014] [debug] 200 OK (0.004063s, 246.124/s).
+[Wed Feb  5 05:13:10 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:10 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:10 2014] [debug] 200 OK (0.004202s, 237.982/s).
+[Wed Feb  5 05:13:13 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:13 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:13 2014] [debug] 200 OK (0.003441s, 290.613/s).
+[Wed Feb  5 05:13:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:16 2014] [debug] 200 OK (0.003469s, 288.268/s).
+[Wed Feb  5 05:13:19 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:19 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:19 2014] [debug] 200 OK (0.003801s, 263.089/s).
+[Wed Feb  5 05:13:21 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:21 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:21 2014] [debug] 200 OK (0.003930s, 254.453/s).
+[Wed Feb  5 05:13:21 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:21 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:21 2014] [debug] 200 OK (0.003313s, 301.841/s).
+[Wed Feb  5 05:13:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:22 2014] [debug] 200 OK (0.003564s, 280.584/s).
+[Wed Feb  5 05:13:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:23 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:23 2014] [debug] 200 OK (0.003130s, 319.489/s).
+[Wed Feb  5 05:13:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:24 2014] [debug] 200 OK (0.003046s, 328.299/s).
+[Wed Feb  5 05:13:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:26 2014] [debug] 200 OK (0.003037s, 329.272/s).
+[Wed Feb  5 05:13:33 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:33 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:33 2014] [debug] 200 OK (0.002822s, 354.359/s).
+[Wed Feb  5 05:13:35 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:35 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:35 2014] [debug] 200 OK (0.003237s, 308.928/s).
+[Wed Feb  5 05:13:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:37 2014] [debug] 200 OK (0.003225s, 310.078/s).
+[Wed Feb  5 05:13:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:37 2014] [debug] 200 OK (0.003109s, 321.647/s).
+[Wed Feb  5 05:13:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:39 2014] [debug] 200 OK (0.003615s, 276.625/s).
+[Wed Feb  5 05:13:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:39 2014] [debug] 200 OK (0.003446s, 290.192/s).
+[Wed Feb  5 05:13:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:40 2014] [debug] 200 OK (0.003093s, 323.311/s).
+[Wed Feb  5 05:13:41 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:41 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:41 2014] [debug] 200 OK (0.002952s, 338.753/s).
+[Wed Feb  5 05:13:42 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:42 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:42 2014] [debug] 200 OK (0.002731s, 366.166/s).
+[Wed Feb  5 05:13:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:44 2014] [debug] 200 OK (0.004268s, 234.302/s).
+[Wed Feb  5 05:13:44 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:44 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:44 2014] [debug] 200 OK (0.003620s, 276.243/s).
+[Wed Feb  5 05:13:45 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:45 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:45 2014] [debug] 200 OK (0.004205s, 237.812/s).
+[Wed Feb  5 05:13:46 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:46 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:46 2014] [debug] 200 OK (0.004966s, 201.369/s).
+[Wed Feb  5 05:13:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:47 2014] [debug] 200 OK (0.004180s, 239.234/s).
+[Wed Feb  5 05:13:49 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:49 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:49 2014] [debug] 200 OK (0.005284s, 189.251/s).
+[Wed Feb  5 05:13:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:50 2014] [debug] 200 OK (0.004989s, 200.441/s).
+[Wed Feb  5 05:13:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:51 2014] [debug] 200 OK (0.004412s, 226.655/s).
+[Wed Feb  5 05:13:51 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:51 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:51 2014] [debug] 200 OK (0.003750s, 266.667/s).
+[Wed Feb  5 05:13:52 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:52 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:52 2014] [debug] 200 OK (0.004294s, 232.883/s).
+[Wed Feb  5 05:13:53 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:53 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:53 2014] [debug] 200 OK (0.002846s, 351.370/s).
+[Wed Feb  5 05:13:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:57 2014] [debug] 200 OK (0.003056s, 327.225/s).
+[Wed Feb  5 05:13:57 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:57 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:57 2014] [debug] 200 OK (0.003110s, 321.543/s).
+[Wed Feb  5 05:13:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:59 2014] [debug] 200 OK (0.003419s, 292.483/s).
+[Wed Feb  5 05:13:59 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:13:59 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:13:59 2014] [debug] 200 OK (0.003456s, 289.352/s).
+[Wed Feb  5 05:14:00 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:00 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:00 2014] [debug] 200 OK (0.005282s, 189.322/s).
+[Wed Feb  5 05:14:02 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:02 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:02 2014] [debug] 200 OK (0.004664s, 214.408/s).
+[Wed Feb  5 05:14:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:03 2014] [debug] 200 OK (0.002837s, 352.485/s).
+[Wed Feb  5 05:14:04 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:04 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:04 2014] [debug] 200 OK (0.003120s, 320.513/s).
+[Wed Feb  5 05:14:05 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:05 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:05 2014] [debug] 200 OK (0.002990s, 334.448/s).
+[Wed Feb  5 05:14:07 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:07 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:07 2014] [debug] 200 OK (0.003935s, 254.130/s).
+[Wed Feb  5 05:14:12 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:12 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:12 2014] [debug] 200 OK (0.003572s, 279.955/s).
+[Wed Feb  5 05:14:15 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:15 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:15 2014] [debug] 200 OK (0.003473s, 287.936/s).
+[Wed Feb  5 05:14:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:16 2014] [debug] 200 OK (0.003190s, 313.480/s).
+[Wed Feb  5 05:14:18 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:18 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:18 2014] [debug] 200 OK (0.003058s, 327.011/s).
+[Wed Feb  5 05:14:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:22 2014] [debug] 200 OK (0.004127s, 242.307/s).
+[Wed Feb  5 05:14:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:22 2014] [debug] 200 OK (0.003647s, 274.198/s).
+[Wed Feb  5 05:14:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:23 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:23 2014] [debug] 200 OK (0.003570s, 280.112/s).
+[Wed Feb  5 05:14:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:23 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:23 2014] [debug] 200 OK (0.003713s, 269.324/s).
+[Wed Feb  5 05:14:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:24 2014] [debug] 200 OK (0.003978s, 251.383/s).
+[Wed Feb  5 05:14:24 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:24 2014] [debug] 200 OK (0.004959s, 201.654/s).
+[Wed Feb  5 05:14:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:26 2014] [debug] 200 OK (0.013179s, 75.878/s).
+[Wed Feb  5 05:14:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:26 2014] [debug] 200 OK (0.013506s, 74.041/s).
+[Wed Feb  5 05:14:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:28 2014] [debug] 200 OK (0.031524s, 31.722/s).
+[Wed Feb  5 05:14:28 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:28 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:28 2014] [debug] 200 OK (0.032922s, 30.375/s).
+[Wed Feb  5 05:14:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:30 2014] [debug] 200 OK (0.052876s, 18.912/s).
+[Wed Feb  5 05:14:30 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:30 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:30 2014] [debug] 200 OK (0.053922s, 18.545/s).
+[Wed Feb  5 05:14:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:34 2014] [debug] 200 OK (0.064019s, 15.620/s).
+[Wed Feb  5 05:14:35 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:35 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:35 2014] [debug] 200 OK (0.061939s, 16.145/s).
+[Wed Feb  5 05:14:45 2014] [debug] GET "/map".
+[Wed Feb  5 05:14:45 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 05:14:45 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 05:14:45 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:14:45 2014] [debug] 200 OK (0.001076s, 929.368/s).
+[Wed Feb  5 05:14:48 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:48 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:48 2014] [debug] 200 OK (0.014178s, 70.532/s).
+[Wed Feb  5 05:14:52 2014] [debug] GET "/about".
+[Wed Feb  5 05:14:52 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 05:14:52 2014] [debug] Rendering cached template "common/about.html.ep".
+[Wed Feb  5 05:14:52 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 05:14:52 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:14:52 2014] [debug] 200 OK (0.003084s, 324.254/s).
+[Wed Feb  5 05:14:57 2014] [debug] GET "/map".
+[Wed Feb  5 05:14:57 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 05:14:57 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 05:14:57 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:14:57 2014] [debug] 200 OK (0.001081s, 925.069/s).
+[Wed Feb  5 05:14:58 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:14:58 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:14:58 2014] [debug] 200 OK (0.013864s, 72.129/s).
+[Wed Feb  5 05:15:01 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:01 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:01 2014] [debug] 200 OK (0.017392s, 57.498/s).
+[Wed Feb  5 05:15:03 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:03 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:03 2014] [debug] 200 OK (0.013236s, 75.552/s).
+[Wed Feb  5 05:15:04 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:04 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:04 2014] [debug] 200 OK (0.014632s, 68.343/s).
+[Wed Feb  5 05:15:07 2014] [debug] GET "/spot/3101fe732a60b6da".
+[Wed Feb  5 05:15:07 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:15:07 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:15:07 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:15:07 2014] [debug] 200 OK (0.005992s, 166.889/s).
+[Wed Feb  5 05:15:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:16 2014] [debug] 200 OK (0.012936s, 77.304/s).
+[Wed Feb  5 05:15:18 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:18 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:18 2014] [debug] 200 OK (0.012315s, 81.202/s).
+[Wed Feb  5 05:15:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:23 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:23 2014] [debug] 200 OK (0.015636s, 63.955/s).
+[Wed Feb  5 05:15:27 2014] [debug] GET "/api/find".
+[Wed Feb  5 05:15:27 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 05:15:27 2014] [debug] 200 OK (0.016302s, 61.342/s).
+[Wed Feb  5 05:35:02 2014] [debug] GET "/spot/310258e12dd40afd".
+[Wed Feb  5 05:35:02 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 05:35:02 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 05:35:02 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:35:02 2014] [debug] 200 OK (0.005647s, 177.085/s).
+[Wed Feb  5 05:39:20 2014] [debug] GET "/about".
+[Wed Feb  5 05:39:20 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 05:39:20 2014] [debug] Rendering cached template "common/about.html.ep".
+[Wed Feb  5 05:39:20 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 05:39:20 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:39:20 2014] [debug] 200 OK (0.003269s, 305.904/s).
+[Wed Feb  5 05:42:57 2014] [debug] GET "/wifi".
+[Wed Feb  5 05:42:57 2014] [debug] Routing to controller "Wifind::Web::Common" and action "wifi".
+[Wed Feb  5 05:42:57 2014] [debug] Rendering template "common/wifi.html.ep".
+[Wed Feb  5 05:42:58 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 05:42:58 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 05:42:58 2014] [debug] 200 OK (0.519979s, 1.923/s).
+[Wed Feb  5 06:31:36 2014] [debug] GET "/map".
+[Wed Feb  5 06:31:36 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:31:36 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:31:36 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:31:36 2014] [debug] 200 OK (0.001119s, 893.655/s).
+[Wed Feb  5 06:31:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:31:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:31:40 2014] [debug] 200 OK (0.028239s, 35.412/s).
+[Wed Feb  5 06:31:40 2014] [debug] GET "/about".
+[Wed Feb  5 06:31:40 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 06:31:40 2014] [debug] Rendering cached template "common/about.html.ep".
+[Wed Feb  5 06:31:40 2014] [debug] Rendering cached template "layouts/common.html.ep".
+[Wed Feb  5 06:31:40 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:31:40 2014] [debug] 200 OK (0.008418s, 118.793/s).
+[Wed Feb  5 06:32:09 2014] [debug] GET "/contact".
+[Wed Feb  5 06:32:09 2014] [debug] Routing to controller "Wifind::Web::Contact" and action "contact".
+[Wed Feb  5 06:32:09 2014] [debug] Rendering template "common/contact.html.ep".
+[Wed Feb  5 06:32:09 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 06:32:09 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:32:09 2014] [debug] 200 OK (0.017862s, 55.985/s).
+[Wed Feb  5 06:38:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 06:38:48 2014] [debug] GET "/contact".
+[Wed Feb  5 06:38:48 2014] [debug] Routing to controller "Wifind::Web::Contact" and action "contact".
+[Wed Feb  5 06:38:48 2014] [debug] Rendering template "common/contact.html.ep".
+[Wed Feb  5 06:38:48 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 06:38:48 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:38:48 2014] [debug] 200 OK (0.522165s, 1.915/s).
+[Wed Feb  5 06:39:09 2014] [debug] GET "/map".
+[Wed Feb  5 06:39:09 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:39:09 2014] [debug] Rendering template "map/map.html.ep".
+[Wed Feb  5 06:39:10 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:39:10 2014] [debug] 200 OK (0.013247s, 75.489/s).
+[Wed Feb  5 06:39:14 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:39:14 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:39:14 2014] [debug] 200 OK (0.039080s, 25.589/s).
+[Wed Feb  5 06:41:07 2014] [debug] GET "/map".
+[Wed Feb  5 06:41:07 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:41:07 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:41:07 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:41:07 2014] [debug] 200 OK (0.001329s, 752.445/s).
+[Wed Feb  5 06:41:11 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:41:11 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:41:11 2014] [debug] 200 OK (0.246276s, 4.060/s).
+[Wed Feb  5 06:51:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 06:51:11 2014] [debug] GET "/".
+[Wed Feb  5 06:51:11 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:51:11 2014] [debug] Rendering template "map/map.html.ep".
+[Wed Feb  5 06:51:11 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:51:11 2014] [debug] 400 Bad Request (0.021842s, 45.783/s).
+[Wed Feb  5 06:51:19 2014] [debug] GET "/map".
+[Wed Feb  5 06:51:19 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:51:19 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:51:19 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:51:19 2014] [debug] 200 OK (0.001405s, 711.744/s).
+[Wed Feb  5 06:51:23 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:51:24 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:51:24 2014] [debug] 200 OK (0.738783s, 1.354/s).
+[Wed Feb  5 06:51:52 2014] [debug] GET "/".
+[Wed Feb  5 06:51:52 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:51:52 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:51:52 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:51:52 2014] [debug] 200 OK (0.001359s, 735.835/s).
+[Wed Feb  5 06:52:20 2014] [debug] GET "/".
+[Wed Feb  5 06:52:20 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:52:20 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:52:20 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:52:20 2014] [debug] 200 OK (0.001241s, 805.802/s).
+[Wed Feb  5 06:52:25 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:25 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:25 2014] [debug] 200 OK (0.021916s, 45.629/s).
+[Wed Feb  5 06:52:36 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:36 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:36 2014] [debug] 200 OK (0.009821s, 101.823/s).
+[Wed Feb  5 06:52:36 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:36 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:36 2014] [debug] 200 OK (0.007362s, 135.833/s).
+[Wed Feb  5 06:52:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:39 2014] [debug] 200 OK (0.010404s, 96.117/s).
+[Wed Feb  5 06:52:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:39 2014] [debug] 200 OK (0.015481s, 64.595/s).
+[Wed Feb  5 06:52:39 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:39 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:39 2014] [debug] 200 OK (0.117127s, 8.538/s).
+[Wed Feb  5 06:52:45 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:45 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:45 2014] [debug] 200 OK (0.067626s, 14.787/s).
+[Wed Feb  5 06:52:47 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:52:47 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:52:47 2014] [debug] 200 OK (0.051953s, 19.248/s).
+[Wed Feb  5 06:53:21 2014] [debug] GET "/spot/2c01f3fdfd6f7ef8".
+[Wed Feb  5 06:53:21 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 06:53:21 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 06:53:21 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:53:21 2014] [debug] 200 OK (0.066496s, 15.038/s).
+[Wed Feb  5 06:54:18 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:54:18 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:54:18 2014] [debug] 200 OK (0.075298s, 13.281/s).
+[Wed Feb  5 06:54:18 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:54:18 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:54:18 2014] [debug] 200 OK (0.012176s, 82.129/s).
+[Wed Feb  5 06:54:29 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:54:29 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:54:29 2014] [debug] 200 OK (0.013853s, 72.187/s).
+[Wed Feb  5 06:54:29 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:54:29 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:54:29 2014] [debug] 200 OK (0.010216s, 97.886/s).
+[Wed Feb  5 06:54:36 2014] [debug] GET "/spot/0f012e63ac701448".
+[Wed Feb  5 06:54:36 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 06:54:37 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 06:54:37 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:54:37 2014] [debug] 200 OK (0.761844s, 1.313/s).
+[Wed Feb  5 06:55:07 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 06:55:07 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 06:55:07 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 06:55:07 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:55:07 2014] [debug] 200 OK (0.006718s, 148.854/s).
+[Wed Feb  5 06:55:26 2014] [debug] GET "/about".
+[Wed Feb  5 06:55:26 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 06:55:27 2014] [debug] Rendering template "common/about.html.ep".
+[Wed Feb  5 06:55:27 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 06:55:27 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:55:27 2014] [debug] 200 OK (0.767041s, 1.304/s).
+[Wed Feb  5 06:55:31 2014] [debug] GET "/contact".
+[Wed Feb  5 06:55:31 2014] [debug] Routing to controller "Wifind::Web::Contact" and action "contact".
+[Wed Feb  5 06:55:31 2014] [debug] Rendering template "common/contact.html.ep".
+[Wed Feb  5 06:55:31 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 06:55:31 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:55:31 2014] [debug] 200 OK (0.016728s, 59.780/s).
+[Wed Feb  5 06:55:40 2014] [debug] GET "/wifi".
+[Wed Feb  5 06:55:40 2014] [debug] Routing to controller "Wifind::Web::Common" and action "wifi".
+[Wed Feb  5 06:55:40 2014] [debug] Rendering template "common/wifi.html.ep".
+[Wed Feb  5 06:55:40 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 06:55:40 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:55:40 2014] [debug] 200 OK (0.017240s, 58.005/s).
+[Wed Feb  5 06:55:45 2014] [debug] GET "/wifi/fukuoka_city_wifi".
+[Wed Feb  5 06:55:45 2014] [debug] Routing to controller "Wifind::Web::Common" and action "service".
+[Wed Feb  5 06:55:45 2014] [debug] Rendering template "common/service/fukuoka_city_wifi.html.ep".
+[Wed Feb  5 06:55:45 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 06:55:45 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 06:55:45 2014] [debug] 200 OK (0.090473s, 11.053/s).
+[Wed Feb  5 06:55:55 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:55:55 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:55:55 2014] [debug] 200 OK (0.013140s, 76.104/s).
+[Wed Feb  5 06:56:11 2014] [debug] GET "/".
+[Wed Feb  5 06:56:11 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:56:11 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:56:11 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:56:11 2014] [debug] 200 OK (0.001593s, 627.746/s).
+[Wed Feb  5 06:56:12 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:56:12 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:56:12 2014] [debug] 200 OK (0.009812s, 101.916/s).
+[Wed Feb  5 06:56:17 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:56:17 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:56:17 2014] [debug] 200 OK (0.007204s, 138.812/s).
+[Wed Feb  5 06:56:21 2014] [debug] GET "/".
+[Wed Feb  5 06:56:21 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:56:21 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:56:21 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:56:21 2014] [debug] 200 OK (0.001223s, 817.661/s).
+[Wed Feb  5 06:56:22 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:56:22 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:56:22 2014] [debug] 200 OK (0.008173s, 122.354/s).
+[Wed Feb  5 06:56:31 2014] [debug] GET "/spot/3101f362a02209b7".
+[Wed Feb  5 06:56:31 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 06:56:31 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 06:56:31 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:56:31 2014] [debug] 200 OK (0.010910s, 91.659/s).
+[Wed Feb  5 06:57:02 2014] [debug] GET "/".
+[Wed Feb  5 06:57:02 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:57:02 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:57:02 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:57:02 2014] [debug] 200 OK (0.001075s, 930.233/s).
+[Wed Feb  5 06:57:02 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:57:02 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:57:02 2014] [debug] 200 OK (0.015587s, 64.156/s).
+[Wed Feb  5 06:57:24 2014] [debug] GET "/map".
+[Wed Feb  5 06:57:24 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:57:24 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:57:24 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:57:24 2014] [debug] 200 OK (0.000981s, 1019.368/s).
+[Wed Feb  5 06:57:26 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:57:26 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:57:26 2014] [debug] 200 OK (0.014475s, 69.085/s).
+[Wed Feb  5 06:57:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:57:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:57:31 2014] [debug] 200 OK (0.017248s, 57.978/s).
+[Wed Feb  5 06:57:35 2014] [debug] GET "/spot/31014d709468ab99".
+[Wed Feb  5 06:57:35 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 06:57:35 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 06:57:35 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:57:35 2014] [debug] 200 OK (0.007353s, 135.999/s).
+[Wed Feb  5 06:57:50 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:57:50 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:57:50 2014] [debug] 200 OK (0.019598s, 51.026/s).
+[Wed Feb  5 06:58:15 2014] [debug] GET "/".
+[Wed Feb  5 06:58:15 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 06:58:15 2014] [debug] Rendering cached template "map/map.html.ep".
+[Wed Feb  5 06:58:15 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 06:58:15 2014] [debug] 200 OK (0.001067s, 937.207/s).
+[Wed Feb  5 06:58:16 2014] [debug] GET "/api/find".
+[Wed Feb  5 06:58:16 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 06:58:16 2014] [debug] 200 OK (0.013123s, 76.202/s).
+[Wed Feb  5 07:02:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:02:00 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:02:01 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:02:01 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:02:01 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:02:01 2014] [debug] 200 OK (0.676369s, 1.478/s).
+[Wed Feb  5 07:17:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:17:06 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:17:06 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:17:06 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:17:06 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:17:06 2014] [debug] 200 OK (0.563287s, 1.775/s).
+[Wed Feb  5 07:18:11 2014] [debug] GET "/about".
+[Wed Feb  5 07:18:11 2014] [debug] Routing to controller "Wifind::Web::Common" and action "about".
+[Wed Feb  5 07:18:11 2014] [debug] Rendering template "common/about.html.ep".
+[Wed Feb  5 07:18:11 2014] [debug] Rendering template "layouts/common.html.ep".
+[Wed Feb  5 07:18:11 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:18:11 2014] [debug] 200 OK (0.016118s, 62.042/s).
+[Wed Feb  5 07:18:52 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:18:52 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:18:53 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:18:53 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:18:53 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:18:53 2014] [debug] 200 OK (0.520418s, 1.922/s).
+[Wed Feb  5 07:18:56 2014] [debug] GET "/spot/310258e12dd40afd".
+[Wed Feb  5 07:18:56 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:18:56 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 07:18:56 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 07:18:56 2014] [debug] 200 OK (0.009737s, 102.701/s).
+[Wed Feb  5 07:20:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:20:53 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:20:53 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:20:53 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:20:53 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:20:53 2014] [debug] 200 OK (0.459759s, 2.175/s).
+[Wed Feb  5 07:20:56 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:20:56 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:20:56 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 07:20:56 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 07:20:56 2014] [debug] 200 OK (0.006088s, 164.258/s).
+[Wed Feb  5 07:21:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:21:08 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:21:09 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:21:09 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:21:09 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:21:09 2014] [debug] 200 OK (0.461141s, 2.169/s).
+[Wed Feb  5 07:23:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:23:21 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:23:21 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:23:21 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:23:21 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:23:21 2014] [debug] 200 OK (0.454705s, 2.199/s).
+[Wed Feb  5 07:23:28 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:23:28 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:23:28 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 07:23:28 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 07:23:28 2014] [debug] 200 OK (0.005820s, 171.821/s).
+[Wed Feb  5 07:23:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:23:36 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:23:37 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:23:37 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:23:37 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:23:37 2014] [debug] 200 OK (0.471543s, 2.121/s).
+[Wed Feb  5 07:23:39 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:23:39 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:23:39 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 07:23:39 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 07:23:39 2014] [debug] 200 OK (0.005751s, 173.883/s).
+[Wed Feb  5 07:23:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:23:48 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:23:48 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:23:48 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:23:48 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:23:48 2014] [debug] 200 OK (0.533308s, 1.875/s).
+[Wed Feb  5 07:24:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:24:01 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:24:01 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:24:01 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:24:01 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:24:01 2014] [debug] 200 OK (0.484684s, 2.063/s).
+[Wed Feb  5 07:24:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:24:22 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:24:23 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:24:23 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:24:23 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:24:23 2014] [debug] 200 OK (0.488875s, 2.046/s).
+[Wed Feb  5 07:24:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:24:51 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:24:52 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:24:52 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:24:52 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:24:52 2014] [debug] 200 OK (0.457865s, 2.184/s).
+[Wed Feb  5 07:26:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 07:26:20 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 07:26:21 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 07:26:21 2014] [debug] Rendering template "spot/spot.html.ep".
+[Wed Feb  5 07:26:21 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:26:21 2014] [debug] 200 OK (0.445820s, 2.243/s).
+[Wed Feb  5 07:50:28 2014] [debug] GET "/map".
+[Wed Feb  5 07:50:28 2014] [debug] Routing to controller "Wifind::Web::Map" and action "map".
+[Wed Feb  5 07:50:28 2014] [debug] Rendering template "map/map.html.ep".
+[Wed Feb  5 07:50:28 2014] [debug] Rendering template "layouts/navbar.html.ep".
+[Wed Feb  5 07:50:28 2014] [debug] 200 OK (0.012311s, 81.228/s).
+[Wed Feb  5 07:50:31 2014] [debug] GET "/api/find".
+[Wed Feb  5 07:50:31 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 07:50:32 2014] [debug] 200 OK (0.093872s, 10.653/s).
+[Wed Feb  5 07:50:34 2014] [debug] GET "/api/find".
+[Wed Feb  5 07:50:34 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 07:50:34 2014] [debug] 200 OK (0.082247s, 12.158/s).
+[Wed Feb  5 07:50:35 2014] [debug] GET "/api/find".
+[Wed Feb  5 07:50:35 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 07:50:35 2014] [debug] 200 OK (0.061188s, 16.343/s).
+[Wed Feb  5 07:50:37 2014] [debug] GET "/api/find".
+[Wed Feb  5 07:50:37 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 07:50:37 2014] [debug] 200 OK (0.041443s, 24.130/s).
+[Wed Feb  5 07:50:40 2014] [debug] GET "/api/find".
+[Wed Feb  5 07:50:40 2014] [debug] Routing to controller "Wifind::Web::API" and action "find".
+[Wed Feb  5 07:50:40 2014] [debug] 200 OK (0.024038s, 41.601/s).
+[Wed Feb  5 22:05:23 2014] [debug] GET "/spot/3101b1bacf9a03ce".
+[Wed Feb  5 22:05:23 2014] [debug] Routing to controller "Wifind::Web::Spot" and action "spot".
+[Wed Feb  5 22:05:23 2014] [debug] Rendering cached template "spot/spot.html.ep".
+[Wed Feb  5 22:05:23 2014] [debug] Rendering cached template "layouts/navbar.html.ep".
+[Wed Feb  5 22:05:23 2014] [debug] 200 OK (0.048361s, 20.678/s).

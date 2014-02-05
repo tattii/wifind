@@ -1,8 +1,33 @@
 % layout 'common',
 %		title => 'news',
-%		style => '<link rel="stylesheet" href="" />';
+%		style => '<link rel="stylesheet" href="/css/news.css" />';
 
 <h1>news</h1>
 
 更新履歴<br>
+
+<table class="uk-table uk-table-hover">
+
+	<thead>
+		<tr>
+			<th width="40px">date</th>
+			<th width="300px"></th>
+		</tr>
+	</thead>
+
+	<tbody>
+
+		<tr>
+			<td>2014.02.05</td>
+			<td>公開</td>
+		</tr>
+
+		<tr>
+			<td>2014.01.01</td>
+			<td><a href="/wifi/kyoto_wifi">KYOTO_WiFi</a> を追加（390spot）</td>
+		</tr>
+
+	</tbody>
+
+</table>
 

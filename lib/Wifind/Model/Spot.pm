@@ -3,8 +3,8 @@ package Wifind::Model::Spot;
 use MongoDB;
 
 
-my $DB = "test";
-my $COLLECTION = "wifind04";
+my $DB = "wifind";
+my $COLLECTION = "spot04";
 
 
 # idから検索

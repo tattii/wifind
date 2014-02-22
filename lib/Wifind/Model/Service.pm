@@ -3,8 +3,8 @@ package Wifind::Model::Service;
 use MongoDB;
 
 
-my $DB = "test";
-my $COLLECTION = "wifind_service";
+my $DB = "wifind";
+my $COLLECTION = "service";
 
 
 

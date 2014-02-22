@@ -2,8 +2,8 @@ package Wifind::Model::Tip;
 
 use MongoDB;
 
-my $DB = "test";
-my $COLLECTION = "wifind_tip";
+my $DB = "wifind";
+my $COLLECTION = "tip";
 
 
 

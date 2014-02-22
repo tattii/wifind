@@ -2,8 +2,8 @@ package Wifind::Model::Contact;
 
 use MongoDB;
 
-my $DB = "test";
-my $COLLECTION = "wifind_contact";
+my $DB = "wifind";
+my $COLLECTION = "contact";
 
 
 sub add

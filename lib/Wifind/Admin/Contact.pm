@@ -7,6 +7,7 @@ use Wifind::Model::Contact;
 sub show
 {
 	my $self = shift;
+	return unless $self->digest_auth;
 
 	my $all = Wifind::Model::Contact::getAll();
 	$self->stash( contacts => $all );

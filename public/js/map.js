@@ -27,20 +27,23 @@ $(document).ready(function(){
 		var position = new google.maps.LatLng(query.lat, query.lng);
 		initializeMap(position);
 
-	// 現在地
-	}else if ( navigator.geolocation ){
-		navigator.geolocation.getCurrentPosition(
-			function (position){
-				var position = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
-				initializeMap(position);
-			},
-			function (error){
-				initializeMap();
-			},
-			{ timeOut: 1000 }
-		);
 	}else{
 		initializeMap();
+
+		// 現在地
+		if ( navigator.geolocation ){
+			$("#message").html("現在地を読込中...");
+			navigator.geolocation.getCurrentPosition(
+				function (position){
+					var position = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+					map.panTo(position);
+					map.setZoom(15);
+					getSpotBounds();
+				},
+				function (error){},
+				{ timeOut: 1000 }
+			);
+		}
 	}
 
 
@@ -276,7 +279,9 @@ function addSpot(spot) {
 	google.maps.event.addListener(marker, "click", function() {
 
 		if ( id == display_spot_id ){
-			map.setZoom(17);
+			if ( map.zoom < 17 ){
+				map.setZoom(17);
+			}
 			map.panTo(location);
 		}
 

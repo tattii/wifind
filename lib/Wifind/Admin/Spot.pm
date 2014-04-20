@@ -8,8 +8,9 @@ use Wifind::Model::Spot;
 sub edit
 {
 	my $self = shift;
-	my $method = $self->req->method;
+	return unless $self->digest_auth;
 
+	my $method = $self->req->method;
 	if ( lc $method eq "post" ){
 		$self->post_edit();
 

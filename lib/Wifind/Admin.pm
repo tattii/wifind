@@ -8,8 +8,11 @@ sub startup
 {
 	my $self = shift;
 
+	$self->plugin('digest_auth', allow => { wifind => 'snopy7374' } );
+
  	# Router
 	my $r = $self->routes;
+
 	$r->namespaces(['Wifind::Admin']);
 	
 	$r->route('/edit/spot/:id', id => qr/[0-9a-f]{1,20}/)->to('Spot#edit');

@@ -7,6 +7,7 @@ use Wifind::Model::Tip;
 sub show
 {
 	my $self = shift;
+	return unless $self->digest_auth;
 
 	my $all = Wifind::Model::Tip::getAll();
 	$self->stash( tips => $all );

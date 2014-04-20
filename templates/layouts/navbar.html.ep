@@ -6,7 +6,7 @@
 	</ul>
 
 	<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-	<h2 class="uk-visible-small" id="nav-brand"><img src="/img/logo-w.png" width="120px" height="40px"></h2>
+	<h2 class="uk-visible-small" id="nav-brand"><img src="/img/logo-o.png" width="120px" height="40px"></h2>
 
 	<%== $plus %>
 </nav>

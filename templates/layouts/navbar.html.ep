@@ -1,6 +1,6 @@
 <nav class="navbar">
 	<ul class="uk-navbar-nav uk-hidden-small">
-		<li><img src="/img/logo-w.png" width="120px" height="40px"></li>
+		<li><img src="/img/logo-o.png" width="120px" height="40px"></li>
 		<li><a href="/map">map</a></li>
 		<li><a href="/about">about</a></li>
 	</ul>

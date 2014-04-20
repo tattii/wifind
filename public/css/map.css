@@ -200,7 +200,7 @@ div { display: block; }
 /* info window */
 a.info-a { text-decoration: none; }
 .info-span {
-	font-size: 20px;
+	font-size: 14px;
 	color: #666;
 }
 i.info-detail {

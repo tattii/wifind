@@ -2,7 +2,7 @@
 	<ul class="uk-navbar-nav uk-hidden-small">
 		<li><img src="/img/logo-o.png" width="120px" height="40px"></li>
 		<li><a href="/map">map</a></li>
-		<li><a href="/about">about</a></li>
+		<li><a href="/wp/">home</a></li>
 	</ul>
 
 	<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
@@ -15,7 +15,7 @@
 	<div class="uk-offcanvas-bar">
 		<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon">
 			<li><a href="/map"><i class="uk-icon-map-marker"></i>map</a></li>
-			<li><a href="/about"><i class="uk-icon-smile"></i>about</a></li>
+			<li><a href="/wp/"><i class="uk-icon-home"></i>home</a></li>
 		</ul>
 	</div>
 </div>

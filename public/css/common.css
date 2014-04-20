@@ -27,6 +27,7 @@ a:hover {
 .navbar li a {
 	color: #fff;
 	font-weight: lighter;
+	letter-spacing: 1px;
 	text-shadow: none;
 }
 .navbar a {

@@ -518,6 +518,7 @@ var created = {
 	"e-nexco": 1,
 	"fukuoka_city_wifi": 1,
 	"hikari_station": 1,
+	"azumino_wifi": 1
 };
 
 function iconImage(name) {

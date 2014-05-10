@@ -249,14 +249,17 @@ function addSpot(spot) {
 	num_spot++;
 	
 	var location = new google.maps.LatLng(spot.location.lat, spot.location.lng);
+	var icon;
 
-	var icon = {
-		url: markerImage(spot.wifi.service),
-		size: new google.maps.Size(90, 120),
-		scaledSize: new google.maps.Size(45, 60),
-		origin: new google.maps.Point(0,0),
-		anchor: new google.maps.Point(23, 60)
-	};
+	if ( markerImage(spot.wifi.service) ){
+		icon = {
+			url: markerImage(spot.wifi.service),
+			size: new google.maps.Size(90, 120),
+			scaledSize: new google.maps.Size(45, 60),
+			origin: new google.maps.Point(0,0),
+			anchor: new google.maps.Point(23, 60)
+		};
+	}
 
 	//marker
 	var marker = new google.maps.Marker({

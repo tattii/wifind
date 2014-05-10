@@ -6,6 +6,7 @@ var display_spot_id = null;
 var display_detail_main = null;
 
 var marker_list = new Object;
+var service;
 
 var breakpoint = 480;
 var mobile_device = false;
@@ -23,9 +24,13 @@ $(document).ready(function(){
 
 	var query = getURLQuery();
 
+	if ( query.service ){
+		service = query.service;
+	}
+
 	if ( query.lat && query.lng ){
 		var position = new google.maps.LatLng(query.lat, query.lng);
-		initializeMap(position);
+		initializeMap(position, query.zoom);
 
 	}else{
 		initializeMap();
@@ -114,10 +119,10 @@ function onSearchMini(){
 /**
 * map初期化
 */
-function initializeMap(position) {
+function initializeMap(position, z) {
 	google.maps.visualRefresh = true;
 
-	var zoom = 15;
+	var zoom = (z) ? parseInt(z) : 15;
 
 	if (! position ){ 
 		position = new google.maps.LatLng(36.204824 , 138.252924); // japan
@@ -205,18 +210,32 @@ function getSpotBounds() {
 	if ( currentRequest ){
 		currentRequest.abort();
 	}
-	currentRequest = $.ajax({
-		url: "/api/find?" +
-			"bounds=" + bounds.toUrlValue() + 
-			"&zoom=" + zoom +
-			"&limit=" + limit,
-		cache: false,
-		dataType: "json",
-		success: function(json) {
-			loadWifindAPI(json);
-		}
-	});
 
+	if ( service ){
+		currentRequest = $.ajax({
+			url: "/api/find?" +
+				"bounds=" + bounds.toUrlValue() + 
+				"&service=" + service +
+				"&limit=" + limit,
+			cache: false,
+			dataType: "json",
+			success: function(json) {
+				loadWifindAPI(json);
+			}
+		});
+	}else{
+		currentRequest = $.ajax({
+			url: "/api/find?" +
+				"bounds=" + bounds.toUrlValue() + 
+				"&zoom=" + zoom +
+				"&limit=" + limit,
+			cache: false,
+			dataType: "json",
+			success: function(json) {
+				loadWifindAPI(json);
+			}
+		});
+	}
 }
 
 
@@ -304,15 +323,18 @@ function addSpot(spot) {
 // 間引き
 function thinOut() {
 	var intensity = 17-map.zoom;
-	if ( intensity > 13 ){
-		intensity = 13;
-	}
-	for (var id in marker_list) {
-		var marker = marker_list[id];
-		if ( marker.intensity < intensity ){
-			marker.marker.setMap(null);
-		}else if ( marker.intensity >= intensity ){
-			marker.marker.setMap(map);
+
+	if ( !service ){
+		if ( intensity > 13 ){
+			intensity = 13;
+		}
+		for (var id in marker_list) {
+			var marker = marker_list[id];
+			if ( marker.intensity < intensity ){
+				marker.marker.setMap(null);
+			}else if ( marker.intensity >= intensity ){
+				marker.marker.setMap(map);
+			}
 		}
 	}
 }

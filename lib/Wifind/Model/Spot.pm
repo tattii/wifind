@@ -89,6 +89,43 @@ sub findBounds
 }
 
 
+# 領域内検索 - service
+sub findBoundsService
+{
+	my %param = @_;
+
+	my @corner = split(/,/, $param{bounds}); # lat_sw, lng_sw, lat_ne, lng_ne
+
+	if ( @corner < 4 || !defined $param{service}){
+		return { status => 'INVALID_REQUEST' };
+	}
+
+	my $coll = MongoDB::MongoClient->new->get_database($DB)->get_collection($COLLECTION);
+	my $result = $coll->find({
+			'wifi.service' => $param{service},
+			loc => { 
+				'$within' =>	{
+					'$box' => [
+						[ $corner[1] +=0, $corner[0] +=0 ],
+						[ $corner[3] +=0, $corner[2] +=0 ],
+					]
+				} 
+			}
+	})->limit($param{limit});
+
+	my $spots = [];
+	while (my $spot = $result->next){
+		push @$spots, $spot;
+	}
+	return {
+		status => 'OK',
+		results => $spots,
+	};
+}
+
+
+
+
 sub count
 {
 	my $coll = MongoDB::MongoClient->new->get_database($DB)->get_collection($COLLECTION);

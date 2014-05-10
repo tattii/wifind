@@ -8,7 +8,7 @@ use Wifind::Model::Tip;
 
 #----------------------------------------------------------
 # find spot API
-# /api/find?lat=35.135&lng=135.67&radius=500
+# /api/find?lat=35.135&lng=135.67
 #
 # parameters
 # 	required
@@ -18,7 +18,8 @@ use Wifind::Model::Tip;
 #
 #	optional
 #		limit: 100
-#		zoom: !!!
+#		zoom: 17
+#		service: all
 #
 #----------------------------------------------------------
 sub find
@@ -33,13 +34,25 @@ sub find
 	my $zoom = $self->param('zoom') || 17;
 	my $limit = $self->param('limit') || 100;
 
+	my $service = $self->param('service');
+
 	my $result;
 	if ( defined $bounds ){
-		$result = Wifind::Model::Spot::findBounds(
-			bounds => $bounds,
-			zoom => $zoom,
-			limit => $limit,
-		);
+		if ( defined $service ){
+			$result = Wifind::Model::Spot::findBoundsService(
+				bounds => $bounds,
+				zoom => $zoom,
+				limit => $limit,
+				service => $service,
+			);
+
+		}else{
+			$result = Wifind::Model::Spot::findBounds(
+				bounds => $bounds,
+				zoom => $zoom,
+				limit => $limit,
+			);
+		}
 
 	}else{
 		$result = Wifind::Model::Spot::findCenter(

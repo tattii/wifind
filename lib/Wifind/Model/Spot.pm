@@ -4,7 +4,7 @@ use MongoDB;
 
 
 my $DB = "wifind";
-my $COLLECTION = "spot04";
+my $COLLECTION = "spot05";
 
 
 # idから検索

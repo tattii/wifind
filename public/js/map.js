@@ -43,6 +43,36 @@ $(document).ready(function(){
 					var position = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 					map.panTo(position);
 					map.setZoom(15);
+
+					var circle = {
+						path: google.maps.SymbolPath.CIRCLE,
+						fillColor: "#40AAEF",
+						fillOpacity: 1,
+						scale: 6,
+						strokeColor: "#ECEEF1",
+						strokeWeight: 1
+					};					
+
+					var arround = {
+						path: google.maps.SymbolPath.CIRCLE,
+						fillColor: "#40AAEF",
+						fillOpacity: 0.3,
+						scale: 20,
+						strokeColor: "#40AAEF",
+						strokeWeight: 1
+					};					
+
+					//marker
+					var marker = new google.maps.Marker({
+						position: position,
+						map: map,
+						icon: circle,
+					});
+					var marker = new google.maps.Marker({
+						position: position,
+						map: map,
+						icon: arround,
+					});
 					getSpotBounds();
 				},
 				function (error){},
@@ -285,6 +315,7 @@ function addSpot(spot) {
 		position: location,
 		map: map,
 		icon: icon,
+		zIndex: 1,
 		anchorPoint: new google.maps.Point(0, -60)
 	});
 	var infoWindow = new google.maps.InfoWindow({

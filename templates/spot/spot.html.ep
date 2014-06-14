@@ -141,6 +141,7 @@
 								</table> 
 								<div class="clear-both"></div>
 
+
 							</div>
 						</div>
 
@@ -151,6 +152,11 @@
 
 						<div id="description" class="box">
 							<%== $service->{description} %>
+
+							% if ( $spot->{description} ){
+								<br><br>
+								<div><%= $spot->{description} %></div>
+							% }
 						</div>
 
 

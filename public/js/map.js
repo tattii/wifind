@@ -315,7 +315,6 @@ function addSpot(spot) {
 		position: location,
 		map: map,
 		icon: icon,
-		zIndex: 1,
 		anchorPoint: new google.maps.Point(0, -60)
 	});
 	var infoWindow = new google.maps.InfoWindow({
